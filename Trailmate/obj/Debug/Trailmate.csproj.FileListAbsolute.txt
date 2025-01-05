@@ -1,0 +1,12 @@
+D:\Work\Uni\3o etos\AAKY\erg1\Trailmate\bin\Debug\Trailmate.exe.config
+D:\Work\Uni\3o etos\AAKY\erg1\Trailmate\bin\Debug\Trailmate.exe
+D:\Work\Uni\3o etos\AAKY\erg1\Trailmate\bin\Debug\Trailmate.pdb
+D:\Work\Uni\3o etos\AAKY\erg1\Trailmate\bin\Debug\MaterialSkin.dll
+D:\Work\Uni\3o etos\AAKY\erg1\Trailmate\obj\Debug\Trailmate.csproj.AssemblyReference.cache
+D:\Work\Uni\3o etos\AAKY\erg1\Trailmate\obj\Debug\Trailmate.Form1.resources
+D:\Work\Uni\3o etos\AAKY\erg1\Trailmate\obj\Debug\Trailmate.Properties.Resources.resources
+D:\Work\Uni\3o etos\AAKY\erg1\Trailmate\obj\Debug\Trailmate.csproj.GenerateResource.cache
+D:\Work\Uni\3o etos\AAKY\erg1\Trailmate\obj\Debug\Trailmate.csproj.CoreCompileInputs.cache
+D:\Work\Uni\3o etos\AAKY\erg1\Trailmate\obj\Debug\Trailmate.csproj.CopyComplete
+D:\Work\Uni\3o etos\AAKY\erg1\Trailmate\obj\Debug\Trailmate.exe
+D:\Work\Uni\3o etos\AAKY\erg1\Trailmate\obj\Debug\Trailmate.pdb
