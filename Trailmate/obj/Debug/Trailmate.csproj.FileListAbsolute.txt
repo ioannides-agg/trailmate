@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:\Work\Uni\3o etos\AAKY\erg1\Trailmate\bin\Debug\Trailmate.exe.config
 D:\Work\Uni\3o etos\AAKY\erg1\Trailmate\bin\Debug\Trailmate.exe
 D:\Work\Uni\3o etos\AAKY\erg1\Trailmate\bin\Debug\Trailmate.pdb
@@ -10,3 +11,17 @@ D:\Work\Uni\3o etos\AAKY\erg1\Trailmate\obj\Debug\Trailmate.csproj.CoreCompileIn
 D:\Work\Uni\3o etos\AAKY\erg1\Trailmate\obj\Debug\Trailmate.csproj.CopyComplete
 D:\Work\Uni\3o etos\AAKY\erg1\Trailmate\obj\Debug\Trailmate.exe
 D:\Work\Uni\3o etos\AAKY\erg1\Trailmate\obj\Debug\Trailmate.pdb
+=======
+C:\Users\elia1\OneDrive\Documents\ergasia allhlepidrash\trailmate\Trailmate\bin\Debug\Trailmate.exe.config
+C:\Users\elia1\OneDrive\Documents\ergasia allhlepidrash\trailmate\Trailmate\bin\Debug\Trailmate.exe
+C:\Users\elia1\OneDrive\Documents\ergasia allhlepidrash\trailmate\Trailmate\bin\Debug\Trailmate.pdb
+C:\Users\elia1\OneDrive\Documents\ergasia allhlepidrash\trailmate\Trailmate\bin\Debug\MaterialSkin.dll
+C:\Users\elia1\OneDrive\Documents\ergasia allhlepidrash\trailmate\Trailmate\obj\Debug\Trailmate.csproj.AssemblyReference.cache
+C:\Users\elia1\OneDrive\Documents\ergasia allhlepidrash\trailmate\Trailmate\obj\Debug\Trailmate.Form1.resources
+C:\Users\elia1\OneDrive\Documents\ergasia allhlepidrash\trailmate\Trailmate\obj\Debug\Trailmate.Properties.Resources.resources
+C:\Users\elia1\OneDrive\Documents\ergasia allhlepidrash\trailmate\Trailmate\obj\Debug\Trailmate.csproj.GenerateResource.cache
+C:\Users\elia1\OneDrive\Documents\ergasia allhlepidrash\trailmate\Trailmate\obj\Debug\Trailmate.csproj.CoreCompileInputs.cache
+C:\Users\elia1\OneDrive\Documents\ergasia allhlepidrash\trailmate\Trailmate\obj\Debug\Trailmate.csproj.CopyComplete
+C:\Users\elia1\OneDrive\Documents\ergasia allhlepidrash\trailmate\Trailmate\obj\Debug\Trailmate.exe
+C:\Users\elia1\OneDrive\Documents\ergasia allhlepidrash\trailmate\Trailmate\obj\Debug\Trailmate.pdb
+>>>>>>> ee0617956b73b7673d9f4f30b6707fda0813c78b
