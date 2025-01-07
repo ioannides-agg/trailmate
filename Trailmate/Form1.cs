@@ -16,17 +16,11 @@ namespace Trailmate
         {
 
             InitializeComponent();
-            var skin = MaterialSkinManager.Instance;
-            skin.AddFormToManage(this);
 
-            skin.Theme = MaterialSkinManager.Themes.LIGHT;
-            skin.ColorScheme = new ColorScheme(
-                    Primary.Blue400,
-                    Primary.Blue300,
-                    Primary.Blue300,
-                    Accent.Blue100,
-                    TextShade.WHITE
-                );
+            var materialSkinManager = MaterialSkinManager.Instance;
+            materialSkinManager.AddFormToManage(this);
+            materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
+            materialSkinManager.ColorScheme = new ColorScheme(Primary.Teal900, Primary.Teal800, Primary.Teal700, Accent.Teal700, TextShade.WHITE);
 
             map Map = new map(setupPage);
         }
