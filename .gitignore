@@ -2,4 +2,6 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/Trailmate/.vs/Trailmate
+/Trailmate/.vs
+/Trailmate/bin/Debug
+/Trailmate/obj/Debug
