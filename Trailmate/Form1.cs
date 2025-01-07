@@ -5,12 +5,13 @@ using MaterialSkin;
 using MaterialSkin.Controls;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
+using GMap.NET.WindowsForms.Markers;
+using Trailmate.Classes;
 
 namespace Trailmate
 {
     public partial class Form1 : MaterialForm
     {
-        GMapControl mapControl;
         public Form1()
         {
 
@@ -27,25 +28,7 @@ namespace Trailmate
                     TextShade.WHITE
                 );
 
-            //setup map
-            mapControl = new GMapControl
-            {
-                Dock = DockStyle.Fill,
-                MapProvider = GMapProviders.GoogleMap,
-                MinZoom = 2,
-                MaxZoom = 18,
-                Zoom = 10
-            };
-
-            mapControl.MapProvider = GMapProviders.GoogleMap; // Or OpenStreetMap, Bing, etc.
-            mapControl.Position = new PointLatLng(37.9838, 23.7275); // Example: Athens, Greece
-            mapControl.MinZoom = 2;
-            mapControl.MaxZoom = 18;
-            mapControl.Zoom = 10;
-            mapControl.ShowCenter = false;
-            mapControl.DragButton = MouseButtons.Left;
-
-            setupPage.Controls.Add(mapControl);
+            map Map = new map(setupPage);
         }
     }
 }
