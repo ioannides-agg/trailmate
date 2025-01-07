@@ -86,6 +86,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\map.cs" />
+    <Compile Include="Classes\Marker.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
