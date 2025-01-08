@@ -159,6 +159,12 @@
             this.discardChangesButton = new MaterialSkin.Controls.MaterialButton();
             this.submitOrderButton = new MaterialSkin.Controls.MaterialButton();
             this.materialLabel7 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel10 = new MaterialSkin.Controls.MaterialLabel();
+            this.upcomingEventsCard = new MaterialSkin.Controls.MaterialCard();
+            this.upcomingEventsLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.materialCard2 = new MaterialSkin.Controls.MaterialCard();
+            this.materialCard4 = new MaterialSkin.Controls.MaterialCard();
+            this.materialCard5 = new MaterialSkin.Controls.MaterialCard();
             this.TabMaster.SuspendLayout();
             this.setupPage.SuspendLayout();
             this.groundInfoCard.SuspendLayout();
@@ -199,6 +205,8 @@
             this.cartCard.SuspendLayout();
             this.cartCard2.SuspendLayout();
             this.cartInsideCartCard.SuspendLayout();
+            this.eventsPage.SuspendLayout();
+            this.upcomingEventsCard.SuspendLayout();
             this.SuspendLayout();
             // 
             // TabMaster
@@ -1956,6 +1964,11 @@
             // 
             // eventsPage
             // 
+            this.eventsPage.Controls.Add(this.materialCard5);
+            this.eventsPage.Controls.Add(this.materialCard4);
+            this.eventsPage.Controls.Add(this.materialCard2);
+            this.eventsPage.Controls.Add(this.upcomingEventsCard);
+            this.eventsPage.Controls.Add(this.materialLabel10);
             this.eventsPage.ImageKey = "icons8-schedule-26.png";
             this.eventsPage.Location = new System.Drawing.Point(4, 31);
             this.eventsPage.Margin = new System.Windows.Forms.Padding(2);
@@ -2030,6 +2043,85 @@
             this.materialLabel7.Size = new System.Drawing.Size(116, 19);
             this.materialLabel7.TabIndex = 0;
             this.materialLabel7.Text = "No items in cart.";
+            // 
+            // materialLabel10
+            // 
+            this.materialLabel10.AutoSize = true;
+            this.materialLabel10.Depth = 0;
+            this.materialLabel10.Font = new System.Drawing.Font("Roboto", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel10.FontType = MaterialSkin.MaterialSkinManager.fontType.H5;
+            this.materialLabel10.Location = new System.Drawing.Point(20, 20);
+            this.materialLabel10.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel10.Name = "materialLabel10";
+            this.materialLabel10.Size = new System.Drawing.Size(73, 29);
+            this.materialLabel10.TabIndex = 0;
+            this.materialLabel10.Text = "Events";
+            // 
+            // upcomingEventsCard
+            // 
+            this.upcomingEventsCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.upcomingEventsCard.Controls.Add(this.upcomingEventsLabel);
+            this.upcomingEventsCard.Depth = 0;
+            this.upcomingEventsCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.upcomingEventsCard.Location = new System.Drawing.Point(14, 53);
+            this.upcomingEventsCard.Margin = new System.Windows.Forms.Padding(14);
+            this.upcomingEventsCard.MouseState = MaterialSkin.MouseState.HOVER;
+            this.upcomingEventsCard.Name = "upcomingEventsCard";
+            this.upcomingEventsCard.Padding = new System.Windows.Forms.Padding(14);
+            this.upcomingEventsCard.Size = new System.Drawing.Size(277, 44);
+            this.upcomingEventsCard.TabIndex = 1;
+            // 
+            // upcomingEventsLabel
+            // 
+            this.upcomingEventsLabel.AutoSize = true;
+            this.upcomingEventsLabel.Depth = 0;
+            this.upcomingEventsLabel.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.upcomingEventsLabel.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.upcomingEventsLabel.Location = new System.Drawing.Point(51, 8);
+            this.upcomingEventsLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.upcomingEventsLabel.Name = "upcomingEventsLabel";
+            this.upcomingEventsLabel.Size = new System.Drawing.Size(155, 24);
+            this.upcomingEventsLabel.TabIndex = 0;
+            this.upcomingEventsLabel.Text = "Upcoming Events";
+            // 
+            // materialCard2
+            // 
+            this.materialCard2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCard2.Depth = 0;
+            this.materialCard2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialCard2.Location = new System.Drawing.Point(14, 116);
+            this.materialCard2.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCard2.Name = "materialCard2";
+            this.materialCard2.Padding = new System.Windows.Forms.Padding(14);
+            this.materialCard2.Size = new System.Drawing.Size(277, 332);
+            this.materialCard2.TabIndex = 2;
+            // 
+            // materialCard4
+            // 
+            this.materialCard4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCard4.Depth = 0;
+            this.materialCard4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialCard4.Location = new System.Drawing.Point(319, 53);
+            this.materialCard4.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard4.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCard4.Name = "materialCard4";
+            this.materialCard4.Padding = new System.Windows.Forms.Padding(14);
+            this.materialCard4.Size = new System.Drawing.Size(581, 287);
+            this.materialCard4.TabIndex = 3;
+            // 
+            // materialCard5
+            // 
+            this.materialCard5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCard5.Depth = 0;
+            this.materialCard5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialCard5.Location = new System.Drawing.Point(319, 368);
+            this.materialCard5.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard5.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCard5.Name = "materialCard5";
+            this.materialCard5.Padding = new System.Windows.Forms.Padding(14);
+            this.materialCard5.Size = new System.Drawing.Size(581, 100);
+            this.materialCard5.TabIndex = 4;
             // 
             // Form1
             // 
@@ -2106,6 +2198,10 @@
             this.cartCard2.PerformLayout();
             this.cartInsideCartCard.ResumeLayout(false);
             this.cartInsideCartCard.PerformLayout();
+            this.eventsPage.ResumeLayout(false);
+            this.eventsPage.PerformLayout();
+            this.upcomingEventsCard.ResumeLayout(false);
+            this.upcomingEventsCard.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -2241,6 +2337,12 @@
         private MaterialSkin.Controls.MaterialButton discardChangesButton;
         private MaterialSkin.Controls.MaterialButton submitOrderButton;
         private MaterialSkin.Controls.MaterialLabel materialLabel7;
+        private MaterialSkin.Controls.MaterialCard materialCard5;
+        private MaterialSkin.Controls.MaterialCard materialCard4;
+        private MaterialSkin.Controls.MaterialCard materialCard2;
+        private MaterialSkin.Controls.MaterialCard upcomingEventsCard;
+        private MaterialSkin.Controls.MaterialLabel upcomingEventsLabel;
+        private MaterialSkin.Controls.MaterialLabel materialLabel10;
     }
 }
 
