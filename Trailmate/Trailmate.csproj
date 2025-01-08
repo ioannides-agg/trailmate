@@ -53,7 +53,7 @@
       <HintPath>packages\MaterialSkin.2.2.3.1\lib\net48\MaterialSkin.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <HintPath>packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -137,6 +137,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-air-conditioner-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_1800.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_1799.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_1798.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_1797.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Task Analysis Diagram-4.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

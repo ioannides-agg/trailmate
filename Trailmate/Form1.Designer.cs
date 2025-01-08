@@ -33,6 +33,20 @@
             this.TabMaster = new MaterialSkin.Controls.MaterialTabControl();
             this.homePage = new System.Windows.Forms.TabPage();
             this.setupPage = new System.Windows.Forms.TabPage();
+            this.groundInfoCard = new MaterialSkin.Controls.MaterialCard();
+            this.groundInformationContinueBtn = new MaterialSkin.Controls.MaterialButton();
+            this.setHumidity = new MaterialSkin.Controls.MaterialLabel();
+            this.setDensity = new MaterialSkin.Controls.MaterialLabel();
+            this.setTexture = new MaterialSkin.Controls.MaterialLabel();
+            this.setAltitude = new MaterialSkin.Controls.MaterialLabel();
+            this.setFlatness = new MaterialSkin.Controls.MaterialLabel();
+            this.groundInfoHumidity = new MaterialSkin.Controls.MaterialLabel();
+            this.groundInfoDensity = new MaterialSkin.Controls.MaterialLabel();
+            this.groundInfoTexture = new MaterialSkin.Controls.MaterialLabel();
+            this.groundInfoAltitude = new MaterialSkin.Controls.MaterialLabel();
+            this.groundInfoFlatness = new MaterialSkin.Controls.MaterialLabel();
+            this.groundInfoMainLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.finalSetupCard = new MaterialSkin.Controls.MaterialCard();
             this.tentControlPage = new System.Windows.Forms.TabPage();
             this.lightControlPage = new System.Windows.Forms.TabPage();
             this.energyPage = new System.Windows.Forms.TabPage();
@@ -72,31 +86,82 @@
             this.ecoEffCard = new MaterialSkin.Controls.MaterialCard();
             this.materialLabel8 = new MaterialSkin.Controls.MaterialLabel();
             this.energyTodayCard = new MaterialSkin.Controls.MaterialCard();
+            this.energyProgressBar = new MaterialSkin.Controls.MaterialProgressBar();
             this.energyWeekLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.energyLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.energyIcon1 = new System.Windows.Forms.PictureBox();
             this.emergencyPage = new System.Windows.Forms.TabPage();
             this.explorePage = new System.Windows.Forms.TabPage();
             this.orderPage = new System.Windows.Forms.TabPage();
+            this.foodPanel = new System.Windows.Forms.Panel();
+            this.frenchFriesCard = new MaterialSkin.Controls.MaterialCard();
+            this.frenchFriesAddButton = new MaterialSkin.Controls.MaterialButton();
+            this.frenchFriesPriceLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.frenchFriesLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.sandwichCard = new MaterialSkin.Controls.MaterialCard();
+            this.sandwichAdButton = new MaterialSkin.Controls.MaterialButton();
+            this.SandwichPriceLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.sandwichLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.pizzaCard = new MaterialSkin.Controls.MaterialCard();
+            this.pizzaAddButton = new MaterialSkin.Controls.MaterialButton();
+            this.pizzaPriceLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.pizzaLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.burgerCard = new MaterialSkin.Controls.MaterialCard();
+            this.burgerAddButton = new MaterialSkin.Controls.MaterialButton();
+            this.burgerPriceLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.burgerLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.drinksPanel = new System.Windows.Forms.Panel();
+            this.cocktailCard = new MaterialSkin.Controls.MaterialCard();
+            this.cocktailAddButton = new MaterialSkin.Controls.MaterialButton();
+            this.cocktailPriceLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel13 = new MaterialSkin.Controls.MaterialLabel();
+            this.orangadeCard = new MaterialSkin.Controls.MaterialCard();
+            this.orangadeAddButton = new MaterialSkin.Controls.MaterialButton();
+            this.orangadePriceLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel11 = new MaterialSkin.Controls.MaterialLabel();
+            this.lemonadeCard = new MaterialSkin.Controls.MaterialCard();
+            this.lemonadeAddButton = new MaterialSkin.Controls.MaterialButton();
+            this.lemonadePriceLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel9 = new MaterialSkin.Controls.MaterialLabel();
+            this.waterCard = new MaterialSkin.Controls.MaterialCard();
+            this.waterAddButton = new MaterialSkin.Controls.MaterialButton();
+            this.waterPriceLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel6 = new MaterialSkin.Controls.MaterialLabel();
+            this.coffeePanel = new System.Windows.Forms.Panel();
+            this.materialCard3 = new MaterialSkin.Controls.MaterialCard();
+            this.americanoAddButton = new MaterialSkin.Controls.MaterialButton();
+            this.americanoPriceLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.americanoLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.espressoCard = new MaterialSkin.Controls.MaterialCard();
+            this.materialButton2 = new MaterialSkin.Controls.MaterialButton();
+            this.espressoPriceLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.espressoLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.cappuccinoCard = new MaterialSkin.Controls.MaterialCard();
+            this.cappuccinoAddButton = new MaterialSkin.Controls.MaterialButton();
+            this.cappuccinoPriceLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.cappuccinoLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.latteCard = new MaterialSkin.Controls.MaterialCard();
+            this.latteAddButton = new MaterialSkin.Controls.MaterialButton();
+            this.lattePriceLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.latteLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.foodLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.drinksLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.coffeeLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.questionsCard = new MaterialSkin.Controls.MaterialCard();
+            this.materialButton1 = new MaterialSkin.Controls.MaterialButton();
+            this.materialLabel5 = new MaterialSkin.Controls.MaterialLabel();
+            this.cartCard = new MaterialSkin.Controls.MaterialCard();
+            this.cartCard2 = new MaterialSkin.Controls.MaterialCard();
+            this.cartInsideCartCard = new MaterialSkin.Controls.MaterialCard();
+            this.cartLabel = new MaterialSkin.Controls.MaterialLabel();
             this.eventsPage = new System.Windows.Forms.TabPage();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.energyProgressBar = new MaterialSkin.Controls.MaterialProgressBar();
-            this.groundInfoCard = new MaterialSkin.Controls.MaterialCard();
-            this.groundInfoMainLabel = new MaterialSkin.Controls.MaterialLabel();
-            this.groundInfoFlatness = new MaterialSkin.Controls.MaterialLabel();
-            this.groundInfoAltitude = new MaterialSkin.Controls.MaterialLabel();
-            this.groundInfoTexture = new MaterialSkin.Controls.MaterialLabel();
-            this.groundInfoDensity = new MaterialSkin.Controls.MaterialLabel();
-            this.groundInfoHumidity = new MaterialSkin.Controls.MaterialLabel();
-            this.setHumidity = new MaterialSkin.Controls.MaterialLabel();
-            this.setDensity = new MaterialSkin.Controls.MaterialLabel();
-            this.setTexture = new MaterialSkin.Controls.MaterialLabel();
-            this.setAltitude = new MaterialSkin.Controls.MaterialLabel();
-            this.setFlatness = new MaterialSkin.Controls.MaterialLabel();
-            this.finalSetupCard = new MaterialSkin.Controls.MaterialCard();
-            this.groundInformationContinueBtn = new MaterialSkin.Controls.MaterialButton();
+            this.discardChangesButton = new MaterialSkin.Controls.MaterialButton();
+            this.submitOrderButton = new MaterialSkin.Controls.MaterialButton();
+            this.materialLabel7 = new MaterialSkin.Controls.MaterialLabel();
             this.TabMaster.SuspendLayout();
             this.setupPage.SuspendLayout();
+            this.groundInfoCard.SuspendLayout();
             this.energyPage.SuspendLayout();
             this.devicesPanel.SuspendLayout();
             this.devicesCard4.SuspendLayout();
@@ -114,7 +179,26 @@
             this.ecoEffCard.SuspendLayout();
             this.energyTodayCard.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.energyIcon1)).BeginInit();
-            this.groundInfoCard.SuspendLayout();
+            this.orderPage.SuspendLayout();
+            this.foodPanel.SuspendLayout();
+            this.frenchFriesCard.SuspendLayout();
+            this.sandwichCard.SuspendLayout();
+            this.pizzaCard.SuspendLayout();
+            this.burgerCard.SuspendLayout();
+            this.drinksPanel.SuspendLayout();
+            this.cocktailCard.SuspendLayout();
+            this.orangadeCard.SuspendLayout();
+            this.lemonadeCard.SuspendLayout();
+            this.waterCard.SuspendLayout();
+            this.coffeePanel.SuspendLayout();
+            this.materialCard3.SuspendLayout();
+            this.espressoCard.SuspendLayout();
+            this.cappuccinoCard.SuspendLayout();
+            this.latteCard.SuspendLayout();
+            this.questionsCard.SuspendLayout();
+            this.cartCard.SuspendLayout();
+            this.cartCard2.SuspendLayout();
+            this.cartInsideCartCard.SuspendLayout();
             this.SuspendLayout();
             // 
             // TabMaster
@@ -136,7 +220,7 @@
             this.TabMaster.Multiline = true;
             this.TabMaster.Name = "TabMaster";
             this.TabMaster.SelectedIndex = 0;
-            this.TabMaster.Size = new System.Drawing.Size(947, 483);
+            this.TabMaster.Size = new System.Drawing.Size(944, 483);
             this.TabMaster.TabIndex = 0;
             // 
             // homePage
@@ -145,7 +229,7 @@
             this.homePage.Location = new System.Drawing.Point(4, 31);
             this.homePage.Margin = new System.Windows.Forms.Padding(2);
             this.homePage.Name = "homePage";
-            this.homePage.Size = new System.Drawing.Size(939, 448);
+            this.homePage.Size = new System.Drawing.Size(936, 448);
             this.homePage.TabIndex = 1;
             this.homePage.Text = "Home";
             this.homePage.UseVisualStyleBackColor = true;
@@ -158,10 +242,225 @@
             this.setupPage.Location = new System.Drawing.Point(4, 31);
             this.setupPage.Name = "setupPage";
             this.setupPage.Padding = new System.Windows.Forms.Padding(3);
-            this.setupPage.Size = new System.Drawing.Size(939, 448);
+            this.setupPage.Size = new System.Drawing.Size(936, 448);
             this.setupPage.TabIndex = 0;
             this.setupPage.Text = "Setup";
             this.setupPage.UseVisualStyleBackColor = true;
+            // 
+            // groundInfoCard
+            // 
+            this.groundInfoCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.groundInfoCard.Controls.Add(this.groundInformationContinueBtn);
+            this.groundInfoCard.Controls.Add(this.setHumidity);
+            this.groundInfoCard.Controls.Add(this.setDensity);
+            this.groundInfoCard.Controls.Add(this.setTexture);
+            this.groundInfoCard.Controls.Add(this.setAltitude);
+            this.groundInfoCard.Controls.Add(this.setFlatness);
+            this.groundInfoCard.Controls.Add(this.groundInfoHumidity);
+            this.groundInfoCard.Controls.Add(this.groundInfoDensity);
+            this.groundInfoCard.Controls.Add(this.groundInfoTexture);
+            this.groundInfoCard.Controls.Add(this.groundInfoAltitude);
+            this.groundInfoCard.Controls.Add(this.groundInfoFlatness);
+            this.groundInfoCard.Controls.Add(this.groundInfoMainLabel);
+            this.groundInfoCard.Depth = 0;
+            this.groundInfoCard.Dock = System.Windows.Forms.DockStyle.Right;
+            this.groundInfoCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.groundInfoCard.Location = new System.Drawing.Point(668, 3);
+            this.groundInfoCard.Margin = new System.Windows.Forms.Padding(14);
+            this.groundInfoCard.MouseState = MaterialSkin.MouseState.HOVER;
+            this.groundInfoCard.Name = "groundInfoCard";
+            this.groundInfoCard.Padding = new System.Windows.Forms.Padding(14);
+            this.groundInfoCard.Size = new System.Drawing.Size(265, 442);
+            this.groundInfoCard.TabIndex = 0;
+            this.groundInfoCard.Visible = false;
+            // 
+            // groundInformationContinueBtn
+            // 
+            this.groundInformationContinueBtn.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.groundInformationContinueBtn.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.groundInformationContinueBtn.Depth = 0;
+            this.groundInformationContinueBtn.HighEmphasis = true;
+            this.groundInformationContinueBtn.Icon = null;
+            this.groundInformationContinueBtn.Location = new System.Drawing.Point(60, 386);
+            this.groundInformationContinueBtn.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.groundInformationContinueBtn.MouseState = MaterialSkin.MouseState.HOVER;
+            this.groundInformationContinueBtn.Name = "groundInformationContinueBtn";
+            this.groundInformationContinueBtn.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.groundInformationContinueBtn.Size = new System.Drawing.Size(93, 36);
+            this.groundInformationContinueBtn.TabIndex = 11;
+            this.groundInformationContinueBtn.Text = "Continue";
+            this.groundInformationContinueBtn.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.groundInformationContinueBtn.UseAccentColor = false;
+            this.groundInformationContinueBtn.UseVisualStyleBackColor = true;
+            this.groundInformationContinueBtn.Click += new System.EventHandler(this.groundInformationContinueBtn_Click);
+            // 
+            // setHumidity
+            // 
+            this.setHumidity.AutoSize = true;
+            this.setHumidity.Depth = 0;
+            this.setHumidity.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.setHumidity.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.setHumidity.Location = new System.Drawing.Point(128, 178);
+            this.setHumidity.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.setHumidity.MouseState = MaterialSkin.MouseState.HOVER;
+            this.setHumidity.Name = "setHumidity";
+            this.setHumidity.Size = new System.Drawing.Size(36, 24);
+            this.setHumidity.TabIndex = 10;
+            this.setHumidity.Text = "test";
+            // 
+            // setDensity
+            // 
+            this.setDensity.AutoSize = true;
+            this.setDensity.Depth = 0;
+            this.setDensity.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.setDensity.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.setDensity.Location = new System.Drawing.Point(128, 146);
+            this.setDensity.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.setDensity.MouseState = MaterialSkin.MouseState.HOVER;
+            this.setDensity.Name = "setDensity";
+            this.setDensity.Size = new System.Drawing.Size(36, 24);
+            this.setDensity.TabIndex = 9;
+            this.setDensity.Text = "test";
+            // 
+            // setTexture
+            // 
+            this.setTexture.AutoSize = true;
+            this.setTexture.Depth = 0;
+            this.setTexture.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.setTexture.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.setTexture.Location = new System.Drawing.Point(128, 82);
+            this.setTexture.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.setTexture.MouseState = MaterialSkin.MouseState.HOVER;
+            this.setTexture.Name = "setTexture";
+            this.setTexture.Size = new System.Drawing.Size(36, 24);
+            this.setTexture.TabIndex = 8;
+            this.setTexture.Text = "test";
+            // 
+            // setAltitude
+            // 
+            this.setAltitude.AutoSize = true;
+            this.setAltitude.Depth = 0;
+            this.setAltitude.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.setAltitude.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.setAltitude.Location = new System.Drawing.Point(128, 52);
+            this.setAltitude.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.setAltitude.MouseState = MaterialSkin.MouseState.HOVER;
+            this.setAltitude.Name = "setAltitude";
+            this.setAltitude.Size = new System.Drawing.Size(36, 24);
+            this.setAltitude.TabIndex = 7;
+            this.setAltitude.Text = "test";
+            // 
+            // setFlatness
+            // 
+            this.setFlatness.AutoSize = true;
+            this.setFlatness.Depth = 0;
+            this.setFlatness.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.setFlatness.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.setFlatness.Location = new System.Drawing.Point(128, 114);
+            this.setFlatness.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.setFlatness.MouseState = MaterialSkin.MouseState.HOVER;
+            this.setFlatness.Name = "setFlatness";
+            this.setFlatness.Size = new System.Drawing.Size(36, 24);
+            this.setFlatness.TabIndex = 6;
+            this.setFlatness.Text = "test";
+            // 
+            // groundInfoHumidity
+            // 
+            this.groundInfoHumidity.AutoSize = true;
+            this.groundInfoHumidity.Depth = 0;
+            this.groundInfoHumidity.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.groundInfoHumidity.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.groundInfoHumidity.Location = new System.Drawing.Point(32, 178);
+            this.groundInfoHumidity.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groundInfoHumidity.MouseState = MaterialSkin.MouseState.HOVER;
+            this.groundInfoHumidity.Name = "groundInfoHumidity";
+            this.groundInfoHumidity.Size = new System.Drawing.Size(86, 24);
+            this.groundInfoHumidity.TabIndex = 5;
+            this.groundInfoHumidity.Text = "Humidity:";
+            // 
+            // groundInfoDensity
+            // 
+            this.groundInfoDensity.AutoSize = true;
+            this.groundInfoDensity.Depth = 0;
+            this.groundInfoDensity.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.groundInfoDensity.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.groundInfoDensity.Location = new System.Drawing.Point(32, 146);
+            this.groundInfoDensity.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groundInfoDensity.MouseState = MaterialSkin.MouseState.HOVER;
+            this.groundInfoDensity.Name = "groundInfoDensity";
+            this.groundInfoDensity.Size = new System.Drawing.Size(73, 24);
+            this.groundInfoDensity.TabIndex = 4;
+            this.groundInfoDensity.Text = "Density:";
+            // 
+            // groundInfoTexture
+            // 
+            this.groundInfoTexture.AutoSize = true;
+            this.groundInfoTexture.Depth = 0;
+            this.groundInfoTexture.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.groundInfoTexture.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.groundInfoTexture.Location = new System.Drawing.Point(32, 82);
+            this.groundInfoTexture.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groundInfoTexture.MouseState = MaterialSkin.MouseState.HOVER;
+            this.groundInfoTexture.Name = "groundInfoTexture";
+            this.groundInfoTexture.Size = new System.Drawing.Size(75, 24);
+            this.groundInfoTexture.TabIndex = 3;
+            this.groundInfoTexture.Text = "Texture:";
+            // 
+            // groundInfoAltitude
+            // 
+            this.groundInfoAltitude.AutoSize = true;
+            this.groundInfoAltitude.Depth = 0;
+            this.groundInfoAltitude.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.groundInfoAltitude.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.groundInfoAltitude.Location = new System.Drawing.Point(32, 52);
+            this.groundInfoAltitude.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groundInfoAltitude.MouseState = MaterialSkin.MouseState.HOVER;
+            this.groundInfoAltitude.Name = "groundInfoAltitude";
+            this.groundInfoAltitude.Size = new System.Drawing.Size(76, 24);
+            this.groundInfoAltitude.TabIndex = 2;
+            this.groundInfoAltitude.Text = "Altitude:";
+            // 
+            // groundInfoFlatness
+            // 
+            this.groundInfoFlatness.AutoSize = true;
+            this.groundInfoFlatness.Depth = 0;
+            this.groundInfoFlatness.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.groundInfoFlatness.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.groundInfoFlatness.Location = new System.Drawing.Point(32, 114);
+            this.groundInfoFlatness.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groundInfoFlatness.MouseState = MaterialSkin.MouseState.HOVER;
+            this.groundInfoFlatness.Name = "groundInfoFlatness";
+            this.groundInfoFlatness.Size = new System.Drawing.Size(82, 24);
+            this.groundInfoFlatness.TabIndex = 1;
+            this.groundInfoFlatness.Text = "Flatness:";
+            // 
+            // groundInfoMainLabel
+            // 
+            this.groundInfoMainLabel.AutoSize = true;
+            this.groundInfoMainLabel.Depth = 0;
+            this.groundInfoMainLabel.Font = new System.Drawing.Font("Roboto", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.groundInfoMainLabel.FontType = MaterialSkin.MaterialSkinManager.fontType.H5;
+            this.groundInfoMainLabel.Location = new System.Drawing.Point(17, 14);
+            this.groundInfoMainLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.groundInfoMainLabel.Name = "groundInfoMainLabel";
+            this.groundInfoMainLabel.Size = new System.Drawing.Size(210, 29);
+            this.groundInfoMainLabel.TabIndex = 0;
+            this.groundInfoMainLabel.Text = "Ground Information";
+            // 
+            // finalSetupCard
+            // 
+            this.finalSetupCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.finalSetupCard.Depth = 0;
+            this.finalSetupCard.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.finalSetupCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.finalSetupCard.Location = new System.Drawing.Point(3, 3);
+            this.finalSetupCard.Margin = new System.Windows.Forms.Padding(14);
+            this.finalSetupCard.MouseState = MaterialSkin.MouseState.HOVER;
+            this.finalSetupCard.Name = "finalSetupCard";
+            this.finalSetupCard.Padding = new System.Windows.Forms.Padding(14);
+            this.finalSetupCard.Size = new System.Drawing.Size(930, 442);
+            this.finalSetupCard.TabIndex = 1;
+            this.finalSetupCard.Visible = false;
             // 
             // tentControlPage
             // 
@@ -169,7 +468,7 @@
             this.tentControlPage.Location = new System.Drawing.Point(4, 31);
             this.tentControlPage.Margin = new System.Windows.Forms.Padding(2);
             this.tentControlPage.Name = "tentControlPage";
-            this.tentControlPage.Size = new System.Drawing.Size(939, 448);
+            this.tentControlPage.Size = new System.Drawing.Size(936, 448);
             this.tentControlPage.TabIndex = 2;
             this.tentControlPage.Text = "Tent Control";
             this.tentControlPage.UseVisualStyleBackColor = true;
@@ -180,7 +479,7 @@
             this.lightControlPage.Location = new System.Drawing.Point(4, 31);
             this.lightControlPage.Margin = new System.Windows.Forms.Padding(2);
             this.lightControlPage.Name = "lightControlPage";
-            this.lightControlPage.Size = new System.Drawing.Size(939, 448);
+            this.lightControlPage.Size = new System.Drawing.Size(936, 448);
             this.lightControlPage.TabIndex = 3;
             this.lightControlPage.Text = "Light Control";
             this.lightControlPage.UseVisualStyleBackColor = true;
@@ -196,7 +495,7 @@
             this.energyPage.Location = new System.Drawing.Point(4, 31);
             this.energyPage.Margin = new System.Windows.Forms.Padding(2);
             this.energyPage.Name = "energyPage";
-            this.energyPage.Size = new System.Drawing.Size(939, 448);
+            this.energyPage.Size = new System.Drawing.Size(936, 448);
             this.energyPage.TabIndex = 4;
             this.energyPage.Text = "Energy";
             this.energyPage.UseVisualStyleBackColor = true;
@@ -207,7 +506,7 @@
             this.devicesLabel.Depth = 0;
             this.devicesLabel.Font = new System.Drawing.Font("Roboto", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
             this.devicesLabel.FontType = MaterialSkin.MaterialSkinManager.fontType.H5;
-            this.devicesLabel.Location = new System.Drawing.Point(29, 228);
+            this.devicesLabel.Location = new System.Drawing.Point(27, 238);
             this.devicesLabel.MouseState = MaterialSkin.MouseState.HOVER;
             this.devicesLabel.Name = "devicesLabel";
             this.devicesLabel.Size = new System.Drawing.Size(86, 29);
@@ -223,7 +522,7 @@
             this.devicesPanel.Controls.Add(this.devicesCard1);
             this.devicesPanel.Location = new System.Drawing.Point(32, 270);
             this.devicesPanel.Name = "devicesPanel";
-            this.devicesPanel.Size = new System.Drawing.Size(608, 165);
+            this.devicesPanel.Size = new System.Drawing.Size(608, 175);
             this.devicesPanel.TabIndex = 4;
             // 
             // devicesCard4
@@ -235,7 +534,7 @@
             this.devicesCard4.Controls.Add(this.fridgeSwitch);
             this.devicesCard4.Depth = 0;
             this.devicesCard4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.devicesCard4.Location = new System.Drawing.Point(497, 14);
+            this.devicesCard4.Location = new System.Drawing.Point(497, 24);
             this.devicesCard4.Margin = new System.Windows.Forms.Padding(14);
             this.devicesCard4.MouseState = MaterialSkin.MouseState.HOVER;
             this.devicesCard4.Name = "devicesCard4";
@@ -299,7 +598,7 @@
             this.devicesCard3.Controls.Add(this.coffeeMachineSwitch);
             this.devicesCard3.Depth = 0;
             this.devicesCard3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.devicesCard3.Location = new System.Drawing.Point(336, 14);
+            this.devicesCard3.Location = new System.Drawing.Point(336, 24);
             this.devicesCard3.Margin = new System.Windows.Forms.Padding(14);
             this.devicesCard3.MouseState = MaterialSkin.MouseState.HOVER;
             this.devicesCard3.Name = "devicesCard3";
@@ -363,7 +662,7 @@
             this.devicesCard2.Controls.Add(this.smartTVSwitch);
             this.devicesCard2.Depth = 0;
             this.devicesCard2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.devicesCard2.Location = new System.Drawing.Point(175, 14);
+            this.devicesCard2.Location = new System.Drawing.Point(175, 24);
             this.devicesCard2.Margin = new System.Windows.Forms.Padding(14);
             this.devicesCard2.MouseState = MaterialSkin.MouseState.HOVER;
             this.devicesCard2.Name = "devicesCard2";
@@ -427,7 +726,7 @@
             this.devicesCard1.Controls.Add(this.acSwitch);
             this.devicesCard1.Depth = 0;
             this.devicesCard1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.devicesCard1.Location = new System.Drawing.Point(14, 14);
+            this.devicesCard1.Location = new System.Drawing.Point(14, 24);
             this.devicesCard1.Margin = new System.Windows.Forms.Padding(14);
             this.devicesCard1.MouseState = MaterialSkin.MouseState.HOVER;
             this.devicesCard1.Name = "devicesCard1";
@@ -670,6 +969,15 @@
             this.energyTodayCard.Size = new System.Drawing.Size(288, 161);
             this.energyTodayCard.TabIndex = 0;
             // 
+            // energyProgressBar
+            // 
+            this.energyProgressBar.Depth = 0;
+            this.energyProgressBar.Location = new System.Drawing.Point(18, 71);
+            this.energyProgressBar.MouseState = MaterialSkin.MouseState.HOVER;
+            this.energyProgressBar.Name = "energyProgressBar";
+            this.energyProgressBar.Size = new System.Drawing.Size(249, 5);
+            this.energyProgressBar.TabIndex = 3;
+            // 
             // energyWeekLabel1
             // 
             this.energyWeekLabel1.AutoSize = true;
@@ -705,66 +1013,13 @@
             this.energyIcon1.TabIndex = 0;
             this.energyIcon1.TabStop = false;
             // 
-            // energyPage
-            // 
-            this.energyPage.Controls.Add(this.energyWeekCard);
-            this.energyPage.Controls.Add(this.EcoEffHubCard);
-            this.energyPage.Controls.Add(this.energyTodayCard);
-            this.energyPage.ImageKey = "icons8-leaf-26.png";
-            this.energyPage.Location = new System.Drawing.Point(4, 31);
-            this.energyPage.Margin = new System.Windows.Forms.Padding(2);
-            this.energyPage.Name = "energyPage";
-            this.energyPage.Size = new System.Drawing.Size(939, 448);
-            this.energyPage.TabIndex = 4;
-            this.energyPage.Text = "Energy";
-            this.energyPage.UseVisualStyleBackColor = true;
-            // 
-            // energyWeekCard
-            // 
-            this.energyWeekCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.energyWeekCard.Depth = 0;
-            this.energyWeekCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.energyWeekCard.Location = new System.Drawing.Point(352, 39);
-            this.energyWeekCard.Margin = new System.Windows.Forms.Padding(14);
-            this.energyWeekCard.MouseState = MaterialSkin.MouseState.HOVER;
-            this.energyWeekCard.Name = "energyWeekCard";
-            this.energyWeekCard.Padding = new System.Windows.Forms.Padding(14);
-            this.energyWeekCard.Size = new System.Drawing.Size(288, 161);
-            this.energyWeekCard.TabIndex = 2;
-            // 
-            // EcoEffHubCard
-            // 
-            this.EcoEffHubCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.EcoEffHubCard.Depth = 0;
-            this.EcoEffHubCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.EcoEffHubCard.Location = new System.Drawing.Point(668, 14);
-            this.EcoEffHubCard.Margin = new System.Windows.Forms.Padding(14);
-            this.EcoEffHubCard.MouseState = MaterialSkin.MouseState.HOVER;
-            this.EcoEffHubCard.Name = "EcoEffHubCard";
-            this.EcoEffHubCard.Padding = new System.Windows.Forms.Padding(14);
-            this.EcoEffHubCard.Size = new System.Drawing.Size(204, 455);
-            this.EcoEffHubCard.TabIndex = 1;
-            // 
-            // energyTodayCard
-            // 
-            this.energyTodayCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.energyTodayCard.Depth = 0;
-            this.energyTodayCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.energyTodayCard.Location = new System.Drawing.Point(32, 39);
-            this.energyTodayCard.Margin = new System.Windows.Forms.Padding(14);
-            this.energyTodayCard.MouseState = MaterialSkin.MouseState.HOVER;
-            this.energyTodayCard.Name = "energyTodayCard";
-            this.energyTodayCard.Padding = new System.Windows.Forms.Padding(14);
-            this.energyTodayCard.Size = new System.Drawing.Size(288, 161);
-            this.energyTodayCard.TabIndex = 0;
-            // 
             // emergencyPage
             // 
             this.emergencyPage.ImageKey = "icons8-siren-26.png";
             this.emergencyPage.Location = new System.Drawing.Point(4, 31);
             this.emergencyPage.Margin = new System.Windows.Forms.Padding(2);
             this.emergencyPage.Name = "emergencyPage";
-            this.emergencyPage.Size = new System.Drawing.Size(939, 448);
+            this.emergencyPage.Size = new System.Drawing.Size(936, 448);
             this.emergencyPage.TabIndex = 5;
             this.emergencyPage.Text = "Emergency";
             this.emergencyPage.UseVisualStyleBackColor = true;
@@ -775,21 +1030,929 @@
             this.explorePage.Location = new System.Drawing.Point(4, 31);
             this.explorePage.Margin = new System.Windows.Forms.Padding(2);
             this.explorePage.Name = "explorePage";
-            this.explorePage.Size = new System.Drawing.Size(939, 448);
+            this.explorePage.Size = new System.Drawing.Size(936, 448);
             this.explorePage.TabIndex = 6;
             this.explorePage.Text = "Explore";
             this.explorePage.UseVisualStyleBackColor = true;
             // 
             // orderPage
             // 
+            this.orderPage.Controls.Add(this.foodPanel);
+            this.orderPage.Controls.Add(this.drinksPanel);
+            this.orderPage.Controls.Add(this.coffeePanel);
+            this.orderPage.Controls.Add(this.foodLabel);
+            this.orderPage.Controls.Add(this.drinksLabel);
+            this.orderPage.Controls.Add(this.coffeeLabel);
+            this.orderPage.Controls.Add(this.questionsCard);
+            this.orderPage.Controls.Add(this.cartCard);
             this.orderPage.ImageKey = "icons8-restaurant-26.png";
             this.orderPage.Location = new System.Drawing.Point(4, 31);
             this.orderPage.Margin = new System.Windows.Forms.Padding(2);
             this.orderPage.Name = "orderPage";
-            this.orderPage.Size = new System.Drawing.Size(939, 448);
+            this.orderPage.Size = new System.Drawing.Size(936, 448);
             this.orderPage.TabIndex = 7;
             this.orderPage.Text = "Order";
             this.orderPage.UseVisualStyleBackColor = true;
+            // 
+            // foodPanel
+            // 
+            this.foodPanel.AutoScroll = true;
+            this.foodPanel.Controls.Add(this.frenchFriesCard);
+            this.foodPanel.Controls.Add(this.sandwichCard);
+            this.foodPanel.Controls.Add(this.pizzaCard);
+            this.foodPanel.Controls.Add(this.burgerCard);
+            this.foodPanel.Location = new System.Drawing.Point(13, 316);
+            this.foodPanel.Name = "foodPanel";
+            this.foodPanel.Size = new System.Drawing.Size(613, 100);
+            this.foodPanel.TabIndex = 7;
+            // 
+            // frenchFriesCard
+            // 
+            this.frenchFriesCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.frenchFriesCard.Controls.Add(this.frenchFriesAddButton);
+            this.frenchFriesCard.Controls.Add(this.frenchFriesPriceLabel);
+            this.frenchFriesCard.Controls.Add(this.frenchFriesLabel);
+            this.frenchFriesCard.Depth = 0;
+            this.frenchFriesCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.frenchFriesCard.Location = new System.Drawing.Point(587, 11);
+            this.frenchFriesCard.Margin = new System.Windows.Forms.Padding(14);
+            this.frenchFriesCard.MouseState = MaterialSkin.MouseState.HOVER;
+            this.frenchFriesCard.Name = "frenchFriesCard";
+            this.frenchFriesCard.Padding = new System.Windows.Forms.Padding(14);
+            this.frenchFriesCard.Size = new System.Drawing.Size(163, 70);
+            this.frenchFriesCard.TabIndex = 4;
+            // 
+            // frenchFriesAddButton
+            // 
+            this.frenchFriesAddButton.AutoSize = false;
+            this.frenchFriesAddButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.frenchFriesAddButton.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.frenchFriesAddButton.Depth = 0;
+            this.frenchFriesAddButton.HighEmphasis = true;
+            this.frenchFriesAddButton.Icon = null;
+            this.frenchFriesAddButton.Location = new System.Drawing.Point(82, 37);
+            this.frenchFriesAddButton.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.frenchFriesAddButton.MouseState = MaterialSkin.MouseState.HOVER;
+            this.frenchFriesAddButton.Name = "frenchFriesAddButton";
+            this.frenchFriesAddButton.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.frenchFriesAddButton.Size = new System.Drawing.Size(63, 21);
+            this.frenchFriesAddButton.TabIndex = 2;
+            this.frenchFriesAddButton.Text = "Add";
+            this.frenchFriesAddButton.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.frenchFriesAddButton.UseAccentColor = false;
+            this.frenchFriesAddButton.UseVisualStyleBackColor = true;
+            // 
+            // frenchFriesPriceLabel
+            // 
+            this.frenchFriesPriceLabel.AutoSize = true;
+            this.frenchFriesPriceLabel.Depth = 0;
+            this.frenchFriesPriceLabel.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.frenchFriesPriceLabel.Location = new System.Drawing.Point(17, 37);
+            this.frenchFriesPriceLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.frenchFriesPriceLabel.Name = "frenchFriesPriceLabel";
+            this.frenchFriesPriceLabel.Size = new System.Drawing.Size(40, 19);
+            this.frenchFriesPriceLabel.TabIndex = 1;
+            this.frenchFriesPriceLabel.Text = "5,00$";
+            // 
+            // frenchFriesLabel
+            // 
+            this.frenchFriesLabel.AutoSize = true;
+            this.frenchFriesLabel.Depth = 0;
+            this.frenchFriesLabel.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.frenchFriesLabel.Location = new System.Drawing.Point(17, 14);
+            this.frenchFriesLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.frenchFriesLabel.Name = "frenchFriesLabel";
+            this.frenchFriesLabel.Size = new System.Drawing.Size(87, 19);
+            this.frenchFriesLabel.TabIndex = 0;
+            this.frenchFriesLabel.Text = "French Fries";
+            // 
+            // sandwichCard
+            // 
+            this.sandwichCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.sandwichCard.Controls.Add(this.sandwichAdButton);
+            this.sandwichCard.Controls.Add(this.SandwichPriceLabel);
+            this.sandwichCard.Controls.Add(this.sandwichLabel);
+            this.sandwichCard.Depth = 0;
+            this.sandwichCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.sandwichCard.Location = new System.Drawing.Point(396, 11);
+            this.sandwichCard.Margin = new System.Windows.Forms.Padding(14);
+            this.sandwichCard.MouseState = MaterialSkin.MouseState.HOVER;
+            this.sandwichCard.Name = "sandwichCard";
+            this.sandwichCard.Padding = new System.Windows.Forms.Padding(14);
+            this.sandwichCard.Size = new System.Drawing.Size(163, 70);
+            this.sandwichCard.TabIndex = 3;
+            // 
+            // sandwichAdButton
+            // 
+            this.sandwichAdButton.AutoSize = false;
+            this.sandwichAdButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.sandwichAdButton.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.sandwichAdButton.Depth = 0;
+            this.sandwichAdButton.HighEmphasis = true;
+            this.sandwichAdButton.Icon = null;
+            this.sandwichAdButton.Location = new System.Drawing.Point(82, 37);
+            this.sandwichAdButton.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.sandwichAdButton.MouseState = MaterialSkin.MouseState.HOVER;
+            this.sandwichAdButton.Name = "sandwichAdButton";
+            this.sandwichAdButton.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.sandwichAdButton.Size = new System.Drawing.Size(63, 21);
+            this.sandwichAdButton.TabIndex = 2;
+            this.sandwichAdButton.Text = "Add";
+            this.sandwichAdButton.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.sandwichAdButton.UseAccentColor = false;
+            this.sandwichAdButton.UseVisualStyleBackColor = true;
+            // 
+            // SandwichPriceLabel
+            // 
+            this.SandwichPriceLabel.AutoSize = true;
+            this.SandwichPriceLabel.Depth = 0;
+            this.SandwichPriceLabel.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.SandwichPriceLabel.Location = new System.Drawing.Point(17, 37);
+            this.SandwichPriceLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.SandwichPriceLabel.Name = "SandwichPriceLabel";
+            this.SandwichPriceLabel.Size = new System.Drawing.Size(40, 19);
+            this.SandwichPriceLabel.TabIndex = 1;
+            this.SandwichPriceLabel.Text = "6,50$";
+            // 
+            // sandwichLabel
+            // 
+            this.sandwichLabel.AutoSize = true;
+            this.sandwichLabel.Depth = 0;
+            this.sandwichLabel.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.sandwichLabel.Location = new System.Drawing.Point(17, 14);
+            this.sandwichLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.sandwichLabel.Name = "sandwichLabel";
+            this.sandwichLabel.Size = new System.Drawing.Size(71, 19);
+            this.sandwichLabel.TabIndex = 0;
+            this.sandwichLabel.Text = "Sandwich";
+            // 
+            // pizzaCard
+            // 
+            this.pizzaCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.pizzaCard.Controls.Add(this.pizzaAddButton);
+            this.pizzaCard.Controls.Add(this.pizzaPriceLabel);
+            this.pizzaCard.Controls.Add(this.pizzaLabel);
+            this.pizzaCard.Depth = 0;
+            this.pizzaCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.pizzaCard.Location = new System.Drawing.Point(205, 11);
+            this.pizzaCard.Margin = new System.Windows.Forms.Padding(14);
+            this.pizzaCard.MouseState = MaterialSkin.MouseState.HOVER;
+            this.pizzaCard.Name = "pizzaCard";
+            this.pizzaCard.Padding = new System.Windows.Forms.Padding(14);
+            this.pizzaCard.Size = new System.Drawing.Size(163, 70);
+            this.pizzaCard.TabIndex = 2;
+            // 
+            // pizzaAddButton
+            // 
+            this.pizzaAddButton.AutoSize = false;
+            this.pizzaAddButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.pizzaAddButton.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.pizzaAddButton.Depth = 0;
+            this.pizzaAddButton.HighEmphasis = true;
+            this.pizzaAddButton.Icon = null;
+            this.pizzaAddButton.Location = new System.Drawing.Point(82, 37);
+            this.pizzaAddButton.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.pizzaAddButton.MouseState = MaterialSkin.MouseState.HOVER;
+            this.pizzaAddButton.Name = "pizzaAddButton";
+            this.pizzaAddButton.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.pizzaAddButton.Size = new System.Drawing.Size(63, 21);
+            this.pizzaAddButton.TabIndex = 2;
+            this.pizzaAddButton.Text = "Add";
+            this.pizzaAddButton.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.pizzaAddButton.UseAccentColor = false;
+            this.pizzaAddButton.UseVisualStyleBackColor = true;
+            // 
+            // pizzaPriceLabel
+            // 
+            this.pizzaPriceLabel.AutoSize = true;
+            this.pizzaPriceLabel.Depth = 0;
+            this.pizzaPriceLabel.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.pizzaPriceLabel.Location = new System.Drawing.Point(17, 37);
+            this.pizzaPriceLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.pizzaPriceLabel.Name = "pizzaPriceLabel";
+            this.pizzaPriceLabel.Size = new System.Drawing.Size(49, 19);
+            this.pizzaPriceLabel.TabIndex = 1;
+            this.pizzaPriceLabel.Text = "12,00$";
+            // 
+            // pizzaLabel
+            // 
+            this.pizzaLabel.AutoSize = true;
+            this.pizzaLabel.Depth = 0;
+            this.pizzaLabel.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.pizzaLabel.Location = new System.Drawing.Point(17, 14);
+            this.pizzaLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.pizzaLabel.Name = "pizzaLabel";
+            this.pizzaLabel.Size = new System.Drawing.Size(40, 19);
+            this.pizzaLabel.TabIndex = 0;
+            this.pizzaLabel.Text = "Pizza";
+            // 
+            // burgerCard
+            // 
+            this.burgerCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.burgerCard.Controls.Add(this.burgerAddButton);
+            this.burgerCard.Controls.Add(this.burgerPriceLabel);
+            this.burgerCard.Controls.Add(this.burgerLabel);
+            this.burgerCard.Depth = 0;
+            this.burgerCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.burgerCard.Location = new System.Drawing.Point(14, 11);
+            this.burgerCard.Margin = new System.Windows.Forms.Padding(14);
+            this.burgerCard.MouseState = MaterialSkin.MouseState.HOVER;
+            this.burgerCard.Name = "burgerCard";
+            this.burgerCard.Padding = new System.Windows.Forms.Padding(14);
+            this.burgerCard.Size = new System.Drawing.Size(163, 70);
+            this.burgerCard.TabIndex = 1;
+            // 
+            // burgerAddButton
+            // 
+            this.burgerAddButton.AutoSize = false;
+            this.burgerAddButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.burgerAddButton.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.burgerAddButton.Depth = 0;
+            this.burgerAddButton.HighEmphasis = true;
+            this.burgerAddButton.Icon = null;
+            this.burgerAddButton.Location = new System.Drawing.Point(82, 37);
+            this.burgerAddButton.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.burgerAddButton.MouseState = MaterialSkin.MouseState.HOVER;
+            this.burgerAddButton.Name = "burgerAddButton";
+            this.burgerAddButton.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.burgerAddButton.Size = new System.Drawing.Size(63, 21);
+            this.burgerAddButton.TabIndex = 2;
+            this.burgerAddButton.Text = "Add";
+            this.burgerAddButton.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.burgerAddButton.UseAccentColor = false;
+            this.burgerAddButton.UseVisualStyleBackColor = true;
+            // 
+            // burgerPriceLabel
+            // 
+            this.burgerPriceLabel.AutoSize = true;
+            this.burgerPriceLabel.Depth = 0;
+            this.burgerPriceLabel.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.burgerPriceLabel.Location = new System.Drawing.Point(17, 37);
+            this.burgerPriceLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.burgerPriceLabel.Name = "burgerPriceLabel";
+            this.burgerPriceLabel.Size = new System.Drawing.Size(49, 19);
+            this.burgerPriceLabel.TabIndex = 1;
+            this.burgerPriceLabel.Text = "13,00$";
+            // 
+            // burgerLabel
+            // 
+            this.burgerLabel.AutoSize = true;
+            this.burgerLabel.Depth = 0;
+            this.burgerLabel.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.burgerLabel.Location = new System.Drawing.Point(17, 14);
+            this.burgerLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.burgerLabel.Name = "burgerLabel";
+            this.burgerLabel.Size = new System.Drawing.Size(47, 19);
+            this.burgerLabel.TabIndex = 0;
+            this.burgerLabel.Text = "Burger";
+            // 
+            // drinksPanel
+            // 
+            this.drinksPanel.AutoScroll = true;
+            this.drinksPanel.Controls.Add(this.cocktailCard);
+            this.drinksPanel.Controls.Add(this.orangadeCard);
+            this.drinksPanel.Controls.Add(this.lemonadeCard);
+            this.drinksPanel.Controls.Add(this.waterCard);
+            this.drinksPanel.Location = new System.Drawing.Point(13, 178);
+            this.drinksPanel.Name = "drinksPanel";
+            this.drinksPanel.Size = new System.Drawing.Size(613, 100);
+            this.drinksPanel.TabIndex = 6;
+            // 
+            // cocktailCard
+            // 
+            this.cocktailCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.cocktailCard.Controls.Add(this.cocktailAddButton);
+            this.cocktailCard.Controls.Add(this.cocktailPriceLabel);
+            this.cocktailCard.Controls.Add(this.materialLabel13);
+            this.cocktailCard.Depth = 0;
+            this.cocktailCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.cocktailCard.Location = new System.Drawing.Point(587, 4);
+            this.cocktailCard.Margin = new System.Windows.Forms.Padding(14);
+            this.cocktailCard.MouseState = MaterialSkin.MouseState.HOVER;
+            this.cocktailCard.Name = "cocktailCard";
+            this.cocktailCard.Padding = new System.Windows.Forms.Padding(14);
+            this.cocktailCard.Size = new System.Drawing.Size(163, 70);
+            this.cocktailCard.TabIndex = 4;
+            // 
+            // cocktailAddButton
+            // 
+            this.cocktailAddButton.AutoSize = false;
+            this.cocktailAddButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.cocktailAddButton.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.cocktailAddButton.Depth = 0;
+            this.cocktailAddButton.HighEmphasis = true;
+            this.cocktailAddButton.Icon = null;
+            this.cocktailAddButton.Location = new System.Drawing.Point(82, 37);
+            this.cocktailAddButton.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.cocktailAddButton.MouseState = MaterialSkin.MouseState.HOVER;
+            this.cocktailAddButton.Name = "cocktailAddButton";
+            this.cocktailAddButton.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.cocktailAddButton.Size = new System.Drawing.Size(63, 21);
+            this.cocktailAddButton.TabIndex = 2;
+            this.cocktailAddButton.Text = "Add";
+            this.cocktailAddButton.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.cocktailAddButton.UseAccentColor = false;
+            this.cocktailAddButton.UseVisualStyleBackColor = true;
+            // 
+            // cocktailPriceLabel
+            // 
+            this.cocktailPriceLabel.AutoSize = true;
+            this.cocktailPriceLabel.Depth = 0;
+            this.cocktailPriceLabel.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.cocktailPriceLabel.Location = new System.Drawing.Point(17, 37);
+            this.cocktailPriceLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.cocktailPriceLabel.Name = "cocktailPriceLabel";
+            this.cocktailPriceLabel.Size = new System.Drawing.Size(49, 19);
+            this.cocktailPriceLabel.TabIndex = 1;
+            this.cocktailPriceLabel.Text = "10,50$";
+            // 
+            // materialLabel13
+            // 
+            this.materialLabel13.AutoSize = true;
+            this.materialLabel13.Depth = 0;
+            this.materialLabel13.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel13.Location = new System.Drawing.Point(17, 14);
+            this.materialLabel13.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel13.Name = "materialLabel13";
+            this.materialLabel13.Size = new System.Drawing.Size(58, 19);
+            this.materialLabel13.TabIndex = 0;
+            this.materialLabel13.Text = "Cocktail";
+            // 
+            // orangadeCard
+            // 
+            this.orangadeCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.orangadeCard.Controls.Add(this.orangadeAddButton);
+            this.orangadeCard.Controls.Add(this.orangadePriceLabel);
+            this.orangadeCard.Controls.Add(this.materialLabel11);
+            this.orangadeCard.Depth = 0;
+            this.orangadeCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.orangadeCard.Location = new System.Drawing.Point(396, 4);
+            this.orangadeCard.Margin = new System.Windows.Forms.Padding(14);
+            this.orangadeCard.MouseState = MaterialSkin.MouseState.HOVER;
+            this.orangadeCard.Name = "orangadeCard";
+            this.orangadeCard.Padding = new System.Windows.Forms.Padding(14);
+            this.orangadeCard.Size = new System.Drawing.Size(163, 70);
+            this.orangadeCard.TabIndex = 3;
+            // 
+            // orangadeAddButton
+            // 
+            this.orangadeAddButton.AutoSize = false;
+            this.orangadeAddButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.orangadeAddButton.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.orangadeAddButton.Depth = 0;
+            this.orangadeAddButton.HighEmphasis = true;
+            this.orangadeAddButton.Icon = null;
+            this.orangadeAddButton.Location = new System.Drawing.Point(82, 37);
+            this.orangadeAddButton.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.orangadeAddButton.MouseState = MaterialSkin.MouseState.HOVER;
+            this.orangadeAddButton.Name = "orangadeAddButton";
+            this.orangadeAddButton.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.orangadeAddButton.Size = new System.Drawing.Size(63, 21);
+            this.orangadeAddButton.TabIndex = 2;
+            this.orangadeAddButton.Text = "Add";
+            this.orangadeAddButton.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.orangadeAddButton.UseAccentColor = false;
+            this.orangadeAddButton.UseVisualStyleBackColor = true;
+            // 
+            // orangadePriceLabel
+            // 
+            this.orangadePriceLabel.AutoSize = true;
+            this.orangadePriceLabel.Depth = 0;
+            this.orangadePriceLabel.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.orangadePriceLabel.Location = new System.Drawing.Point(17, 37);
+            this.orangadePriceLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.orangadePriceLabel.Name = "orangadePriceLabel";
+            this.orangadePriceLabel.Size = new System.Drawing.Size(40, 19);
+            this.orangadePriceLabel.TabIndex = 1;
+            this.orangadePriceLabel.Text = "2,50$";
+            // 
+            // materialLabel11
+            // 
+            this.materialLabel11.AutoSize = true;
+            this.materialLabel11.Depth = 0;
+            this.materialLabel11.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel11.Location = new System.Drawing.Point(17, 14);
+            this.materialLabel11.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel11.Name = "materialLabel11";
+            this.materialLabel11.Size = new System.Drawing.Size(70, 19);
+            this.materialLabel11.TabIndex = 0;
+            this.materialLabel11.Text = "Orangade";
+            // 
+            // lemonadeCard
+            // 
+            this.lemonadeCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.lemonadeCard.Controls.Add(this.lemonadeAddButton);
+            this.lemonadeCard.Controls.Add(this.lemonadePriceLabel);
+            this.lemonadeCard.Controls.Add(this.materialLabel9);
+            this.lemonadeCard.Depth = 0;
+            this.lemonadeCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.lemonadeCard.Location = new System.Drawing.Point(205, 4);
+            this.lemonadeCard.Margin = new System.Windows.Forms.Padding(14);
+            this.lemonadeCard.MouseState = MaterialSkin.MouseState.HOVER;
+            this.lemonadeCard.Name = "lemonadeCard";
+            this.lemonadeCard.Padding = new System.Windows.Forms.Padding(14);
+            this.lemonadeCard.Size = new System.Drawing.Size(163, 70);
+            this.lemonadeCard.TabIndex = 2;
+            // 
+            // lemonadeAddButton
+            // 
+            this.lemonadeAddButton.AutoSize = false;
+            this.lemonadeAddButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.lemonadeAddButton.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.lemonadeAddButton.Depth = 0;
+            this.lemonadeAddButton.HighEmphasis = true;
+            this.lemonadeAddButton.Icon = null;
+            this.lemonadeAddButton.Location = new System.Drawing.Point(82, 37);
+            this.lemonadeAddButton.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.lemonadeAddButton.MouseState = MaterialSkin.MouseState.HOVER;
+            this.lemonadeAddButton.Name = "lemonadeAddButton";
+            this.lemonadeAddButton.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.lemonadeAddButton.Size = new System.Drawing.Size(63, 21);
+            this.lemonadeAddButton.TabIndex = 2;
+            this.lemonadeAddButton.Text = "Add";
+            this.lemonadeAddButton.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.lemonadeAddButton.UseAccentColor = false;
+            this.lemonadeAddButton.UseVisualStyleBackColor = true;
+            // 
+            // lemonadePriceLabel
+            // 
+            this.lemonadePriceLabel.AutoSize = true;
+            this.lemonadePriceLabel.Depth = 0;
+            this.lemonadePriceLabel.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.lemonadePriceLabel.Location = new System.Drawing.Point(17, 37);
+            this.lemonadePriceLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.lemonadePriceLabel.Name = "lemonadePriceLabel";
+            this.lemonadePriceLabel.Size = new System.Drawing.Size(40, 19);
+            this.lemonadePriceLabel.TabIndex = 1;
+            this.lemonadePriceLabel.Text = "2,50$";
+            // 
+            // materialLabel9
+            // 
+            this.materialLabel9.AutoSize = true;
+            this.materialLabel9.Depth = 0;
+            this.materialLabel9.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel9.Location = new System.Drawing.Point(17, 14);
+            this.materialLabel9.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel9.Name = "materialLabel9";
+            this.materialLabel9.Size = new System.Drawing.Size(76, 19);
+            this.materialLabel9.TabIndex = 0;
+            this.materialLabel9.Text = "Lemonade";
+            // 
+            // waterCard
+            // 
+            this.waterCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.waterCard.Controls.Add(this.waterAddButton);
+            this.waterCard.Controls.Add(this.waterPriceLabel);
+            this.waterCard.Controls.Add(this.materialLabel6);
+            this.waterCard.Depth = 0;
+            this.waterCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.waterCard.Location = new System.Drawing.Point(14, 4);
+            this.waterCard.Margin = new System.Windows.Forms.Padding(14);
+            this.waterCard.MouseState = MaterialSkin.MouseState.HOVER;
+            this.waterCard.Name = "waterCard";
+            this.waterCard.Padding = new System.Windows.Forms.Padding(14);
+            this.waterCard.Size = new System.Drawing.Size(163, 70);
+            this.waterCard.TabIndex = 1;
+            // 
+            // waterAddButton
+            // 
+            this.waterAddButton.AutoSize = false;
+            this.waterAddButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.waterAddButton.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.waterAddButton.Depth = 0;
+            this.waterAddButton.HighEmphasis = true;
+            this.waterAddButton.Icon = null;
+            this.waterAddButton.Location = new System.Drawing.Point(82, 37);
+            this.waterAddButton.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.waterAddButton.MouseState = MaterialSkin.MouseState.HOVER;
+            this.waterAddButton.Name = "waterAddButton";
+            this.waterAddButton.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.waterAddButton.Size = new System.Drawing.Size(63, 21);
+            this.waterAddButton.TabIndex = 2;
+            this.waterAddButton.Text = "Add";
+            this.waterAddButton.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.waterAddButton.UseAccentColor = false;
+            this.waterAddButton.UseVisualStyleBackColor = true;
+            // 
+            // waterPriceLabel
+            // 
+            this.waterPriceLabel.AutoSize = true;
+            this.waterPriceLabel.Depth = 0;
+            this.waterPriceLabel.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.waterPriceLabel.Location = new System.Drawing.Point(17, 37);
+            this.waterPriceLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.waterPriceLabel.Name = "waterPriceLabel";
+            this.waterPriceLabel.Size = new System.Drawing.Size(40, 19);
+            this.waterPriceLabel.TabIndex = 1;
+            this.waterPriceLabel.Text = "0,50$";
+            // 
+            // materialLabel6
+            // 
+            this.materialLabel6.AutoSize = true;
+            this.materialLabel6.Depth = 0;
+            this.materialLabel6.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel6.Location = new System.Drawing.Point(17, 14);
+            this.materialLabel6.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel6.Name = "materialLabel6";
+            this.materialLabel6.Size = new System.Drawing.Size(42, 19);
+            this.materialLabel6.TabIndex = 0;
+            this.materialLabel6.Text = "Water";
+            // 
+            // coffeePanel
+            // 
+            this.coffeePanel.AutoScroll = true;
+            this.coffeePanel.Controls.Add(this.materialCard3);
+            this.coffeePanel.Controls.Add(this.espressoCard);
+            this.coffeePanel.Controls.Add(this.cappuccinoCard);
+            this.coffeePanel.Controls.Add(this.latteCard);
+            this.coffeePanel.Location = new System.Drawing.Point(13, 37);
+            this.coffeePanel.Name = "coffeePanel";
+            this.coffeePanel.Size = new System.Drawing.Size(613, 100);
+            this.coffeePanel.TabIndex = 5;
+            // 
+            // materialCard3
+            // 
+            this.materialCard3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCard3.Controls.Add(this.americanoAddButton);
+            this.materialCard3.Controls.Add(this.americanoPriceLabel);
+            this.materialCard3.Controls.Add(this.americanoLabel);
+            this.materialCard3.Depth = 0;
+            this.materialCard3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialCard3.Location = new System.Drawing.Point(587, 4);
+            this.materialCard3.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard3.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCard3.Name = "materialCard3";
+            this.materialCard3.Padding = new System.Windows.Forms.Padding(14);
+            this.materialCard3.Size = new System.Drawing.Size(163, 70);
+            this.materialCard3.TabIndex = 3;
+            // 
+            // americanoAddButton
+            // 
+            this.americanoAddButton.AutoSize = false;
+            this.americanoAddButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.americanoAddButton.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.americanoAddButton.Depth = 0;
+            this.americanoAddButton.HighEmphasis = true;
+            this.americanoAddButton.Icon = null;
+            this.americanoAddButton.Location = new System.Drawing.Point(82, 37);
+            this.americanoAddButton.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.americanoAddButton.MouseState = MaterialSkin.MouseState.HOVER;
+            this.americanoAddButton.Name = "americanoAddButton";
+            this.americanoAddButton.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.americanoAddButton.Size = new System.Drawing.Size(63, 21);
+            this.americanoAddButton.TabIndex = 2;
+            this.americanoAddButton.Text = "Add";
+            this.americanoAddButton.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.americanoAddButton.UseAccentColor = false;
+            this.americanoAddButton.UseVisualStyleBackColor = true;
+            // 
+            // americanoPriceLabel
+            // 
+            this.americanoPriceLabel.AutoSize = true;
+            this.americanoPriceLabel.Depth = 0;
+            this.americanoPriceLabel.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.americanoPriceLabel.Location = new System.Drawing.Point(17, 37);
+            this.americanoPriceLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.americanoPriceLabel.Name = "americanoPriceLabel";
+            this.americanoPriceLabel.Size = new System.Drawing.Size(40, 19);
+            this.americanoPriceLabel.TabIndex = 1;
+            this.americanoPriceLabel.Text = "4,50$";
+            // 
+            // americanoLabel
+            // 
+            this.americanoLabel.AutoSize = true;
+            this.americanoLabel.Depth = 0;
+            this.americanoLabel.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.americanoLabel.Location = new System.Drawing.Point(17, 14);
+            this.americanoLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.americanoLabel.Name = "americanoLabel";
+            this.americanoLabel.Size = new System.Drawing.Size(77, 19);
+            this.americanoLabel.TabIndex = 0;
+            this.americanoLabel.Text = "Americano";
+            // 
+            // espressoCard
+            // 
+            this.espressoCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.espressoCard.Controls.Add(this.materialButton2);
+            this.espressoCard.Controls.Add(this.espressoPriceLabel);
+            this.espressoCard.Controls.Add(this.espressoLabel);
+            this.espressoCard.Depth = 0;
+            this.espressoCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.espressoCard.Location = new System.Drawing.Point(396, 4);
+            this.espressoCard.Margin = new System.Windows.Forms.Padding(14);
+            this.espressoCard.MouseState = MaterialSkin.MouseState.HOVER;
+            this.espressoCard.Name = "espressoCard";
+            this.espressoCard.Padding = new System.Windows.Forms.Padding(14);
+            this.espressoCard.Size = new System.Drawing.Size(163, 70);
+            this.espressoCard.TabIndex = 2;
+            // 
+            // materialButton2
+            // 
+            this.materialButton2.AutoSize = false;
+            this.materialButton2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton2.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton2.Depth = 0;
+            this.materialButton2.HighEmphasis = true;
+            this.materialButton2.Icon = null;
+            this.materialButton2.Location = new System.Drawing.Point(82, 37);
+            this.materialButton2.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton2.Name = "materialButton2";
+            this.materialButton2.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.materialButton2.Size = new System.Drawing.Size(63, 21);
+            this.materialButton2.TabIndex = 2;
+            this.materialButton2.Text = "Add";
+            this.materialButton2.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.materialButton2.UseAccentColor = false;
+            this.materialButton2.UseVisualStyleBackColor = true;
+            // 
+            // espressoPriceLabel
+            // 
+            this.espressoPriceLabel.AutoSize = true;
+            this.espressoPriceLabel.Depth = 0;
+            this.espressoPriceLabel.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.espressoPriceLabel.Location = new System.Drawing.Point(17, 37);
+            this.espressoPriceLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.espressoPriceLabel.Name = "espressoPriceLabel";
+            this.espressoPriceLabel.Size = new System.Drawing.Size(40, 19);
+            this.espressoPriceLabel.TabIndex = 1;
+            this.espressoPriceLabel.Text = "3,50$";
+            // 
+            // espressoLabel
+            // 
+            this.espressoLabel.AutoSize = true;
+            this.espressoLabel.Depth = 0;
+            this.espressoLabel.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.espressoLabel.Location = new System.Drawing.Point(17, 14);
+            this.espressoLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.espressoLabel.Name = "espressoLabel";
+            this.espressoLabel.Size = new System.Drawing.Size(65, 19);
+            this.espressoLabel.TabIndex = 0;
+            this.espressoLabel.Text = "Espresso";
+            // 
+            // cappuccinoCard
+            // 
+            this.cappuccinoCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.cappuccinoCard.Controls.Add(this.cappuccinoAddButton);
+            this.cappuccinoCard.Controls.Add(this.cappuccinoPriceLabel);
+            this.cappuccinoCard.Controls.Add(this.cappuccinoLabel);
+            this.cappuccinoCard.Depth = 0;
+            this.cappuccinoCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.cappuccinoCard.Location = new System.Drawing.Point(205, 4);
+            this.cappuccinoCard.Margin = new System.Windows.Forms.Padding(14);
+            this.cappuccinoCard.MouseState = MaterialSkin.MouseState.HOVER;
+            this.cappuccinoCard.Name = "cappuccinoCard";
+            this.cappuccinoCard.Padding = new System.Windows.Forms.Padding(14);
+            this.cappuccinoCard.Size = new System.Drawing.Size(163, 70);
+            this.cappuccinoCard.TabIndex = 1;
+            // 
+            // cappuccinoAddButton
+            // 
+            this.cappuccinoAddButton.AutoSize = false;
+            this.cappuccinoAddButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.cappuccinoAddButton.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.cappuccinoAddButton.Depth = 0;
+            this.cappuccinoAddButton.HighEmphasis = true;
+            this.cappuccinoAddButton.Icon = null;
+            this.cappuccinoAddButton.Location = new System.Drawing.Point(82, 37);
+            this.cappuccinoAddButton.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.cappuccinoAddButton.MouseState = MaterialSkin.MouseState.HOVER;
+            this.cappuccinoAddButton.Name = "cappuccinoAddButton";
+            this.cappuccinoAddButton.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.cappuccinoAddButton.Size = new System.Drawing.Size(63, 21);
+            this.cappuccinoAddButton.TabIndex = 2;
+            this.cappuccinoAddButton.Text = "Add";
+            this.cappuccinoAddButton.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.cappuccinoAddButton.UseAccentColor = false;
+            this.cappuccinoAddButton.UseVisualStyleBackColor = true;
+            // 
+            // cappuccinoPriceLabel
+            // 
+            this.cappuccinoPriceLabel.AutoSize = true;
+            this.cappuccinoPriceLabel.Depth = 0;
+            this.cappuccinoPriceLabel.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.cappuccinoPriceLabel.Location = new System.Drawing.Point(17, 37);
+            this.cappuccinoPriceLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.cappuccinoPriceLabel.Name = "cappuccinoPriceLabel";
+            this.cappuccinoPriceLabel.Size = new System.Drawing.Size(40, 19);
+            this.cappuccinoPriceLabel.TabIndex = 1;
+            this.cappuccinoPriceLabel.Text = "4,00$";
+            // 
+            // cappuccinoLabel
+            // 
+            this.cappuccinoLabel.AutoSize = true;
+            this.cappuccinoLabel.Depth = 0;
+            this.cappuccinoLabel.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.cappuccinoLabel.Location = new System.Drawing.Point(17, 14);
+            this.cappuccinoLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.cappuccinoLabel.Name = "cappuccinoLabel";
+            this.cappuccinoLabel.Size = new System.Drawing.Size(85, 19);
+            this.cappuccinoLabel.TabIndex = 0;
+            this.cappuccinoLabel.Text = "Cappuccino";
+            // 
+            // latteCard
+            // 
+            this.latteCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.latteCard.Controls.Add(this.latteAddButton);
+            this.latteCard.Controls.Add(this.lattePriceLabel);
+            this.latteCard.Controls.Add(this.latteLabel);
+            this.latteCard.Depth = 0;
+            this.latteCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.latteCard.Location = new System.Drawing.Point(14, 4);
+            this.latteCard.Margin = new System.Windows.Forms.Padding(14);
+            this.latteCard.MouseState = MaterialSkin.MouseState.HOVER;
+            this.latteCard.Name = "latteCard";
+            this.latteCard.Padding = new System.Windows.Forms.Padding(14);
+            this.latteCard.Size = new System.Drawing.Size(163, 70);
+            this.latteCard.TabIndex = 0;
+            // 
+            // latteAddButton
+            // 
+            this.latteAddButton.AutoSize = false;
+            this.latteAddButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.latteAddButton.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.latteAddButton.Depth = 0;
+            this.latteAddButton.HighEmphasis = true;
+            this.latteAddButton.Icon = null;
+            this.latteAddButton.Location = new System.Drawing.Point(82, 37);
+            this.latteAddButton.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.latteAddButton.MouseState = MaterialSkin.MouseState.HOVER;
+            this.latteAddButton.Name = "latteAddButton";
+            this.latteAddButton.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.latteAddButton.Size = new System.Drawing.Size(63, 21);
+            this.latteAddButton.TabIndex = 2;
+            this.latteAddButton.Text = "Add";
+            this.latteAddButton.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.latteAddButton.UseAccentColor = false;
+            this.latteAddButton.UseVisualStyleBackColor = true;
+            // 
+            // lattePriceLabel
+            // 
+            this.lattePriceLabel.AutoSize = true;
+            this.lattePriceLabel.Depth = 0;
+            this.lattePriceLabel.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.lattePriceLabel.Location = new System.Drawing.Point(17, 37);
+            this.lattePriceLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.lattePriceLabel.Name = "lattePriceLabel";
+            this.lattePriceLabel.Size = new System.Drawing.Size(40, 19);
+            this.lattePriceLabel.TabIndex = 1;
+            this.lattePriceLabel.Text = "4,50$";
+            // 
+            // latteLabel
+            // 
+            this.latteLabel.AutoSize = true;
+            this.latteLabel.Depth = 0;
+            this.latteLabel.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.latteLabel.Location = new System.Drawing.Point(17, 14);
+            this.latteLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.latteLabel.Name = "latteLabel";
+            this.latteLabel.Size = new System.Drawing.Size(37, 19);
+            this.latteLabel.TabIndex = 0;
+            this.latteLabel.Text = "Latte";
+            // 
+            // foodLabel
+            // 
+            this.foodLabel.AutoSize = true;
+            this.foodLabel.Depth = 0;
+            this.foodLabel.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.foodLabel.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.foodLabel.Location = new System.Drawing.Point(17, 289);
+            this.foodLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.foodLabel.Name = "foodLabel";
+            this.foodLabel.Size = new System.Drawing.Size(45, 24);
+            this.foodLabel.TabIndex = 4;
+            this.foodLabel.Text = "Food";
+            // 
+            // drinksLabel
+            // 
+            this.drinksLabel.AutoSize = true;
+            this.drinksLabel.Depth = 0;
+            this.drinksLabel.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.drinksLabel.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.drinksLabel.Location = new System.Drawing.Point(17, 151);
+            this.drinksLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.drinksLabel.Name = "drinksLabel";
+            this.drinksLabel.Size = new System.Drawing.Size(57, 24);
+            this.drinksLabel.TabIndex = 3;
+            this.drinksLabel.Text = "Drinks";
+            // 
+            // coffeeLabel
+            // 
+            this.coffeeLabel.AutoSize = true;
+            this.coffeeLabel.Depth = 0;
+            this.coffeeLabel.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.coffeeLabel.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.coffeeLabel.Location = new System.Drawing.Point(17, 10);
+            this.coffeeLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.coffeeLabel.Name = "coffeeLabel";
+            this.coffeeLabel.Size = new System.Drawing.Size(61, 24);
+            this.coffeeLabel.TabIndex = 2;
+            this.coffeeLabel.Text = "Coffee";
+            // 
+            // questionsCard
+            // 
+            this.questionsCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.questionsCard.Controls.Add(this.materialButton1);
+            this.questionsCard.Controls.Add(this.materialLabel5);
+            this.questionsCard.Depth = 0;
+            this.questionsCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.questionsCard.Location = new System.Drawing.Point(0, 431);
+            this.questionsCard.Margin = new System.Windows.Forms.Padding(14);
+            this.questionsCard.MouseState = MaterialSkin.MouseState.HOVER;
+            this.questionsCard.Name = "questionsCard";
+            this.questionsCard.Padding = new System.Windows.Forms.Padding(14);
+            this.questionsCard.Size = new System.Drawing.Size(638, 48);
+            this.questionsCard.TabIndex = 1;
+            // 
+            // materialButton1
+            // 
+            this.materialButton1.AutoSize = false;
+            this.materialButton1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton1.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton1.Depth = 0;
+            this.materialButton1.HighEmphasis = true;
+            this.materialButton1.Icon = null;
+            this.materialButton1.Location = new System.Drawing.Point(523, 11);
+            this.materialButton1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton1.Name = "materialButton1";
+            this.materialButton1.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.materialButton1.Size = new System.Drawing.Size(101, 21);
+            this.materialButton1.TabIndex = 1;
+            this.materialButton1.Text = "chat now";
+            this.materialButton1.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.materialButton1.UseAccentColor = false;
+            this.materialButton1.UseVisualStyleBackColor = true;
+            // 
+            // materialLabel5
+            // 
+            this.materialLabel5.Depth = 0;
+            this.materialLabel5.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel5.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.materialLabel5.Location = new System.Drawing.Point(13, 11);
+            this.materialLabel5.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel5.Name = "materialLabel5";
+            this.materialLabel5.Size = new System.Drawing.Size(518, 23);
+            this.materialLabel5.TabIndex = 0;
+            this.materialLabel5.Text = "Have a question about your order? Please ask our staff!";
+            // 
+            // cartCard
+            // 
+            this.cartCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.cartCard.Controls.Add(this.submitOrderButton);
+            this.cartCard.Controls.Add(this.discardChangesButton);
+            this.cartCard.Controls.Add(this.cartCard2);
+            this.cartCard.Controls.Add(this.cartInsideCartCard);
+            this.cartCard.Depth = 0;
+            this.cartCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.cartCard.Location = new System.Drawing.Point(643, 0);
+            this.cartCard.Margin = new System.Windows.Forms.Padding(14);
+            this.cartCard.MouseState = MaterialSkin.MouseState.HOVER;
+            this.cartCard.Name = "cartCard";
+            this.cartCard.Padding = new System.Windows.Forms.Padding(14);
+            this.cartCard.Size = new System.Drawing.Size(296, 479);
+            this.cartCard.TabIndex = 0;
+            // 
+            // cartCard2
+            // 
+            this.cartCard2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.cartCard2.Controls.Add(this.materialLabel7);
+            this.cartCard2.Depth = 0;
+            this.cartCard2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.cartCard2.Location = new System.Drawing.Point(15, 55);
+            this.cartCard2.Margin = new System.Windows.Forms.Padding(14);
+            this.cartCard2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.cartCard2.Name = "cartCard2";
+            this.cartCard2.Padding = new System.Windows.Forms.Padding(14);
+            this.cartCard2.Size = new System.Drawing.Size(220, 370);
+            this.cartCard2.TabIndex = 2;
+            // 
+            // cartInsideCartCard
+            // 
+            this.cartInsideCartCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.cartInsideCartCard.Controls.Add(this.cartLabel);
+            this.cartInsideCartCard.Depth = 0;
+            this.cartInsideCartCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.cartInsideCartCard.Location = new System.Drawing.Point(39, 14);
+            this.cartInsideCartCard.Margin = new System.Windows.Forms.Padding(14);
+            this.cartInsideCartCard.MouseState = MaterialSkin.MouseState.HOVER;
+            this.cartInsideCartCard.Name = "cartInsideCartCard";
+            this.cartInsideCartCard.Padding = new System.Windows.Forms.Padding(14);
+            this.cartInsideCartCard.Size = new System.Drawing.Size(148, 27);
+            this.cartInsideCartCard.TabIndex = 1;
+            // 
+            // cartLabel
+            // 
+            this.cartLabel.AutoSize = true;
+            this.cartLabel.Depth = 0;
+            this.cartLabel.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.cartLabel.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.cartLabel.Location = new System.Drawing.Point(48, 0);
+            this.cartLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.cartLabel.Name = "cartLabel";
+            this.cartLabel.Size = new System.Drawing.Size(39, 24);
+            this.cartLabel.TabIndex = 0;
+            this.cartLabel.Text = "Cart";
             // 
             // eventsPage
             // 
@@ -797,7 +1960,7 @@
             this.eventsPage.Location = new System.Drawing.Point(4, 31);
             this.eventsPage.Margin = new System.Windows.Forms.Padding(2);
             this.eventsPage.Name = "eventsPage";
-            this.eventsPage.Size = new System.Drawing.Size(939, 448);
+            this.eventsPage.Size = new System.Drawing.Size(936, 448);
             this.eventsPage.TabIndex = 8;
             this.eventsPage.Text = "Events";
             this.eventsPage.UseVisualStyleBackColor = true;
@@ -816,233 +1979,63 @@
             this.imageList1.Images.SetKeyName(7, "icons8-camping-tent-26.png");
             this.imageList1.Images.SetKeyName(8, "icons8-home-26.png");
             // 
-            // energyProgressBar
-            // groundInfoCard
+            // discardChangesButton
             // 
-            this.groundInfoCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.groundInfoCard.Controls.Add(this.groundInformationContinueBtn);
-            this.groundInfoCard.Controls.Add(this.setHumidity);
-            this.groundInfoCard.Controls.Add(this.setDensity);
-            this.groundInfoCard.Controls.Add(this.setTexture);
-            this.groundInfoCard.Controls.Add(this.setAltitude);
-            this.groundInfoCard.Controls.Add(this.setFlatness);
-            this.groundInfoCard.Controls.Add(this.groundInfoHumidity);
-            this.groundInfoCard.Controls.Add(this.groundInfoDensity);
-            this.groundInfoCard.Controls.Add(this.groundInfoTexture);
-            this.groundInfoCard.Controls.Add(this.groundInfoAltitude);
-            this.groundInfoCard.Controls.Add(this.groundInfoFlatness);
-            this.groundInfoCard.Controls.Add(this.groundInfoMainLabel);
-            this.groundInfoCard.Depth = 0;
-            this.groundInfoCard.Dock = System.Windows.Forms.DockStyle.Right;
-            this.groundInfoCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.groundInfoCard.Location = new System.Drawing.Point(671, 3);
-            this.groundInfoCard.Margin = new System.Windows.Forms.Padding(14);
-            this.groundInfoCard.MouseState = MaterialSkin.MouseState.HOVER;
-            this.groundInfoCard.Name = "groundInfoCard";
-            this.groundInfoCard.Padding = new System.Windows.Forms.Padding(14);
-            this.groundInfoCard.Size = new System.Drawing.Size(265, 442);
-            this.groundInfoCard.TabIndex = 0;
-            this.groundInfoCard.Visible = false;
+            this.discardChangesButton.AutoSize = false;
+            this.discardChangesButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.discardChangesButton.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.discardChangesButton.Depth = 0;
+            this.discardChangesButton.HighEmphasis = true;
+            this.discardChangesButton.Icon = null;
+            this.discardChangesButton.Location = new System.Drawing.Point(13, 438);
+            this.discardChangesButton.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.discardChangesButton.MouseState = MaterialSkin.MouseState.HOVER;
+            this.discardChangesButton.Name = "discardChangesButton";
+            this.discardChangesButton.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.discardChangesButton.Size = new System.Drawing.Size(107, 36);
+            this.discardChangesButton.TabIndex = 3;
+            this.discardChangesButton.Text = "discard changes";
+            this.discardChangesButton.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.discardChangesButton.UseAccentColor = false;
+            this.discardChangesButton.UseVisualStyleBackColor = true;
             // 
-            // groundInfoMainLabel
+            // submitOrderButton
             // 
-            this.groundInfoMainLabel.AutoSize = true;
-            this.groundInfoMainLabel.Depth = 0;
-            this.groundInfoMainLabel.Font = new System.Drawing.Font("Roboto", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.groundInfoMainLabel.FontType = MaterialSkin.MaterialSkinManager.fontType.H5;
-            this.groundInfoMainLabel.Location = new System.Drawing.Point(17, 14);
-            this.groundInfoMainLabel.MouseState = MaterialSkin.MouseState.HOVER;
-            this.groundInfoMainLabel.Name = "groundInfoMainLabel";
-            this.groundInfoMainLabel.Size = new System.Drawing.Size(210, 29);
-            this.groundInfoMainLabel.TabIndex = 0;
-            this.groundInfoMainLabel.Text = "Ground Information";
+            this.submitOrderButton.AutoSize = false;
+            this.submitOrderButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.submitOrderButton.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.submitOrderButton.Depth = 0;
+            this.submitOrderButton.HighEmphasis = true;
+            this.submitOrderButton.Icon = null;
+            this.submitOrderButton.Location = new System.Drawing.Point(128, 438);
+            this.submitOrderButton.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.submitOrderButton.MouseState = MaterialSkin.MouseState.HOVER;
+            this.submitOrderButton.Name = "submitOrderButton";
+            this.submitOrderButton.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.submitOrderButton.Size = new System.Drawing.Size(107, 36);
+            this.submitOrderButton.TabIndex = 4;
+            this.submitOrderButton.Text = "sumbit order";
+            this.submitOrderButton.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.submitOrderButton.UseAccentColor = false;
+            this.submitOrderButton.UseVisualStyleBackColor = true;
             // 
-            // groundInfoFlatness
+            // materialLabel7
             // 
-            this.groundInfoFlatness.AutoSize = true;
-            this.groundInfoFlatness.Depth = 0;
-            this.groundInfoFlatness.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.groundInfoFlatness.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
-            this.groundInfoFlatness.Location = new System.Drawing.Point(32, 114);
-            this.groundInfoFlatness.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.groundInfoFlatness.MouseState = MaterialSkin.MouseState.HOVER;
-            this.groundInfoFlatness.Name = "groundInfoFlatness";
-            this.groundInfoFlatness.Size = new System.Drawing.Size(82, 24);
-            this.groundInfoFlatness.TabIndex = 1;
-            this.groundInfoFlatness.Text = "Flatness:";
-            // 
-            // groundInfoAltitude
-            // 
-            this.groundInfoAltitude.AutoSize = true;
-            this.groundInfoAltitude.Depth = 0;
-            this.groundInfoAltitude.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.groundInfoAltitude.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
-            this.groundInfoAltitude.Location = new System.Drawing.Point(32, 52);
-            this.groundInfoAltitude.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.groundInfoAltitude.MouseState = MaterialSkin.MouseState.HOVER;
-            this.groundInfoAltitude.Name = "groundInfoAltitude";
-            this.groundInfoAltitude.Size = new System.Drawing.Size(76, 24);
-            this.groundInfoAltitude.TabIndex = 2;
-            this.groundInfoAltitude.Text = "Altitude:";
-            // 
-            // groundInfoTexture
-            // 
-            this.groundInfoTexture.AutoSize = true;
-            this.groundInfoTexture.Depth = 0;
-            this.groundInfoTexture.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.groundInfoTexture.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
-            this.groundInfoTexture.Location = new System.Drawing.Point(32, 82);
-            this.groundInfoTexture.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.groundInfoTexture.MouseState = MaterialSkin.MouseState.HOVER;
-            this.groundInfoTexture.Name = "groundInfoTexture";
-            this.groundInfoTexture.Size = new System.Drawing.Size(75, 24);
-            this.groundInfoTexture.TabIndex = 3;
-            this.groundInfoTexture.Text = "Texture:";
-            // 
-            // groundInfoDensity
-            // 
-            this.groundInfoDensity.AutoSize = true;
-            this.groundInfoDensity.Depth = 0;
-            this.groundInfoDensity.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.groundInfoDensity.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
-            this.groundInfoDensity.Location = new System.Drawing.Point(32, 146);
-            this.groundInfoDensity.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.groundInfoDensity.MouseState = MaterialSkin.MouseState.HOVER;
-            this.groundInfoDensity.Name = "groundInfoDensity";
-            this.groundInfoDensity.Size = new System.Drawing.Size(73, 24);
-            this.groundInfoDensity.TabIndex = 4;
-            this.groundInfoDensity.Text = "Density:";
-            // 
-            // groundInfoHumidity
-            // 
-            this.groundInfoHumidity.AutoSize = true;
-            this.groundInfoHumidity.Depth = 0;
-            this.groundInfoHumidity.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.groundInfoHumidity.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
-            this.groundInfoHumidity.Location = new System.Drawing.Point(32, 178);
-            this.groundInfoHumidity.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.groundInfoHumidity.MouseState = MaterialSkin.MouseState.HOVER;
-            this.groundInfoHumidity.Name = "groundInfoHumidity";
-            this.groundInfoHumidity.Size = new System.Drawing.Size(86, 24);
-            this.groundInfoHumidity.TabIndex = 5;
-            this.groundInfoHumidity.Text = "Humidity:";
-            // 
-            // setHumidity
-            // 
-            this.setHumidity.AutoSize = true;
-            this.setHumidity.Depth = 0;
-            this.setHumidity.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.setHumidity.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
-            this.setHumidity.Location = new System.Drawing.Point(128, 178);
-            this.setHumidity.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.setHumidity.MouseState = MaterialSkin.MouseState.HOVER;
-            this.setHumidity.Name = "setHumidity";
-            this.setHumidity.Size = new System.Drawing.Size(36, 24);
-            this.setHumidity.TabIndex = 10;
-            this.setHumidity.Text = "test";
-            // 
-            // setDensity
-            // 
-            this.setDensity.AutoSize = true;
-            this.setDensity.Depth = 0;
-            this.setDensity.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.setDensity.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
-            this.setDensity.Location = new System.Drawing.Point(128, 146);
-            this.setDensity.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.setDensity.MouseState = MaterialSkin.MouseState.HOVER;
-            this.setDensity.Name = "setDensity";
-            this.setDensity.Size = new System.Drawing.Size(36, 24);
-            this.setDensity.TabIndex = 9;
-            this.setDensity.Text = "test";
-            // 
-            // setTexture
-            // 
-            this.setTexture.AutoSize = true;
-            this.setTexture.Depth = 0;
-            this.setTexture.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.setTexture.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
-            this.setTexture.Location = new System.Drawing.Point(128, 82);
-            this.setTexture.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.setTexture.MouseState = MaterialSkin.MouseState.HOVER;
-            this.setTexture.Name = "setTexture";
-            this.setTexture.Size = new System.Drawing.Size(36, 24);
-            this.setTexture.TabIndex = 8;
-            this.setTexture.Text = "test";
-            // 
-            // setAltitude
-            // 
-            this.setAltitude.AutoSize = true;
-            this.setAltitude.Depth = 0;
-            this.setAltitude.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.setAltitude.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
-            this.setAltitude.Location = new System.Drawing.Point(128, 52);
-            this.setAltitude.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.setAltitude.MouseState = MaterialSkin.MouseState.HOVER;
-            this.setAltitude.Name = "setAltitude";
-            this.setAltitude.Size = new System.Drawing.Size(36, 24);
-            this.setAltitude.TabIndex = 7;
-            this.setAltitude.Text = "test";
-            // 
-            // setFlatness
-            // 
-            this.energyProgressBar.Depth = 0;
-            this.energyProgressBar.Location = new System.Drawing.Point(18, 71);
-            this.energyProgressBar.MouseState = MaterialSkin.MouseState.HOVER;
-            this.energyProgressBar.Name = "energyProgressBar";
-            this.energyProgressBar.Size = new System.Drawing.Size(249, 5);
-            this.energyProgressBar.TabIndex = 3;
-            this.setFlatness.AutoSize = true;
-            this.setFlatness.Depth = 0;
-            this.setFlatness.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.setFlatness.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
-            this.setFlatness.Location = new System.Drawing.Point(128, 114);
-            this.setFlatness.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.setFlatness.MouseState = MaterialSkin.MouseState.HOVER;
-            this.setFlatness.Name = "setFlatness";
-            this.setFlatness.Size = new System.Drawing.Size(36, 24);
-            this.setFlatness.TabIndex = 6;
-            this.setFlatness.Text = "test";
-            // 
-            // finalSetupCard
-            // 
-            this.finalSetupCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.finalSetupCard.Depth = 0;
-            this.finalSetupCard.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.finalSetupCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.finalSetupCard.Location = new System.Drawing.Point(3, 3);
-            this.finalSetupCard.Margin = new System.Windows.Forms.Padding(14);
-            this.finalSetupCard.MouseState = MaterialSkin.MouseState.HOVER;
-            this.finalSetupCard.Name = "finalSetupCard";
-            this.finalSetupCard.Padding = new System.Windows.Forms.Padding(14);
-            this.finalSetupCard.Size = new System.Drawing.Size(933, 442);
-            this.finalSetupCard.TabIndex = 1;
-            this.finalSetupCard.Visible = false;
-            // 
-            // groundInformationContinueBtn
-            // 
-            this.groundInformationContinueBtn.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.groundInformationContinueBtn.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.groundInformationContinueBtn.Depth = 0;
-            this.groundInformationContinueBtn.HighEmphasis = true;
-            this.groundInformationContinueBtn.Icon = null;
-            this.groundInformationContinueBtn.Location = new System.Drawing.Point(60, 386);
-            this.groundInformationContinueBtn.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.groundInformationContinueBtn.MouseState = MaterialSkin.MouseState.HOVER;
-            this.groundInformationContinueBtn.Name = "groundInformationContinueBtn";
-            this.groundInformationContinueBtn.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.groundInformationContinueBtn.Size = new System.Drawing.Size(158, 36);
-            this.groundInformationContinueBtn.TabIndex = 11;
-            this.groundInformationContinueBtn.Text = "Continue";
-            this.groundInformationContinueBtn.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.groundInformationContinueBtn.UseAccentColor = false;
-            this.groundInformationContinueBtn.UseVisualStyleBackColor = true;
-            this.groundInformationContinueBtn.Click += new System.EventHandler(this.groundInformationContinueBtn_Click);
+            this.materialLabel7.AutoSize = true;
+            this.materialLabel7.Depth = 0;
+            this.materialLabel7.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel7.Location = new System.Drawing.Point(42, 14);
+            this.materialLabel7.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel7.Name = "materialLabel7";
+            this.materialLabel7.Size = new System.Drawing.Size(116, 19);
+            this.materialLabel7.TabIndex = 0;
+            this.materialLabel7.Text = "No items in cart.";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(953, 550);
+            this.ClientSize = new System.Drawing.Size(950, 550);
             this.Controls.Add(this.TabMaster);
             this.DrawerShowIconsWhenHidden = true;
             this.DrawerTabControl = this.TabMaster;
@@ -1051,6 +2044,8 @@
             this.Text = "TrailMate";
             this.TabMaster.ResumeLayout(false);
             this.setupPage.ResumeLayout(false);
+            this.groundInfoCard.ResumeLayout(false);
+            this.groundInfoCard.PerformLayout();
             this.energyPage.ResumeLayout(false);
             this.energyPage.PerformLayout();
             this.devicesPanel.ResumeLayout(false);
@@ -1076,8 +2071,41 @@
             this.energyTodayCard.ResumeLayout(false);
             this.energyTodayCard.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.energyIcon1)).EndInit();
-            this.groundInfoCard.ResumeLayout(false);
-            this.groundInfoCard.PerformLayout();
+            this.orderPage.ResumeLayout(false);
+            this.orderPage.PerformLayout();
+            this.foodPanel.ResumeLayout(false);
+            this.frenchFriesCard.ResumeLayout(false);
+            this.frenchFriesCard.PerformLayout();
+            this.sandwichCard.ResumeLayout(false);
+            this.sandwichCard.PerformLayout();
+            this.pizzaCard.ResumeLayout(false);
+            this.pizzaCard.PerformLayout();
+            this.burgerCard.ResumeLayout(false);
+            this.burgerCard.PerformLayout();
+            this.drinksPanel.ResumeLayout(false);
+            this.cocktailCard.ResumeLayout(false);
+            this.cocktailCard.PerformLayout();
+            this.orangadeCard.ResumeLayout(false);
+            this.orangadeCard.PerformLayout();
+            this.lemonadeCard.ResumeLayout(false);
+            this.lemonadeCard.PerformLayout();
+            this.waterCard.ResumeLayout(false);
+            this.waterCard.PerformLayout();
+            this.coffeePanel.ResumeLayout(false);
+            this.materialCard3.ResumeLayout(false);
+            this.materialCard3.PerformLayout();
+            this.espressoCard.ResumeLayout(false);
+            this.espressoCard.PerformLayout();
+            this.cappuccinoCard.ResumeLayout(false);
+            this.cappuccinoCard.PerformLayout();
+            this.latteCard.ResumeLayout(false);
+            this.latteCard.PerformLayout();
+            this.questionsCard.ResumeLayout(false);
+            this.cartCard.ResumeLayout(false);
+            this.cartCard2.ResumeLayout(false);
+            this.cartCard2.PerformLayout();
+            this.cartInsideCartCard.ResumeLayout(false);
+            this.cartInsideCartCard.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1149,6 +2177,70 @@
         private MaterialSkin.Controls.MaterialLabel setFlatness;
         private MaterialSkin.Controls.MaterialCard finalSetupCard;
         private MaterialSkin.Controls.MaterialButton groundInformationContinueBtn;
+        private MaterialSkin.Controls.MaterialCard cartCard;
+        private MaterialSkin.Controls.MaterialCard questionsCard;
+        private MaterialSkin.Controls.MaterialLabel foodLabel;
+        private MaterialSkin.Controls.MaterialLabel drinksLabel;
+        private MaterialSkin.Controls.MaterialLabel coffeeLabel;
+        private System.Windows.Forms.Panel foodPanel;
+        private System.Windows.Forms.Panel drinksPanel;
+        private System.Windows.Forms.Panel coffeePanel;
+        private MaterialSkin.Controls.MaterialCard latteCard;
+        private MaterialSkin.Controls.MaterialCard materialCard3;
+        private MaterialSkin.Controls.MaterialButton americanoAddButton;
+        private MaterialSkin.Controls.MaterialLabel americanoPriceLabel;
+        private MaterialSkin.Controls.MaterialLabel americanoLabel;
+        private MaterialSkin.Controls.MaterialCard espressoCard;
+        private MaterialSkin.Controls.MaterialButton materialButton2;
+        private MaterialSkin.Controls.MaterialLabel espressoPriceLabel;
+        private MaterialSkin.Controls.MaterialLabel espressoLabel;
+        private MaterialSkin.Controls.MaterialCard cappuccinoCard;
+        private MaterialSkin.Controls.MaterialButton cappuccinoAddButton;
+        private MaterialSkin.Controls.MaterialLabel cappuccinoPriceLabel;
+        private MaterialSkin.Controls.MaterialLabel cappuccinoLabel;
+        private MaterialSkin.Controls.MaterialButton latteAddButton;
+        private MaterialSkin.Controls.MaterialLabel lattePriceLabel;
+        private MaterialSkin.Controls.MaterialLabel latteLabel;
+        private MaterialSkin.Controls.MaterialCard frenchFriesCard;
+        private MaterialSkin.Controls.MaterialButton frenchFriesAddButton;
+        private MaterialSkin.Controls.MaterialLabel frenchFriesPriceLabel;
+        private MaterialSkin.Controls.MaterialLabel frenchFriesLabel;
+        private MaterialSkin.Controls.MaterialCard sandwichCard;
+        private MaterialSkin.Controls.MaterialButton sandwichAdButton;
+        private MaterialSkin.Controls.MaterialLabel SandwichPriceLabel;
+        private MaterialSkin.Controls.MaterialLabel sandwichLabel;
+        private MaterialSkin.Controls.MaterialCard pizzaCard;
+        private MaterialSkin.Controls.MaterialButton pizzaAddButton;
+        private MaterialSkin.Controls.MaterialLabel pizzaPriceLabel;
+        private MaterialSkin.Controls.MaterialLabel pizzaLabel;
+        private MaterialSkin.Controls.MaterialCard burgerCard;
+        private MaterialSkin.Controls.MaterialButton burgerAddButton;
+        private MaterialSkin.Controls.MaterialLabel burgerPriceLabel;
+        private MaterialSkin.Controls.MaterialLabel burgerLabel;
+        private MaterialSkin.Controls.MaterialCard cocktailCard;
+        private MaterialSkin.Controls.MaterialButton cocktailAddButton;
+        private MaterialSkin.Controls.MaterialLabel cocktailPriceLabel;
+        private MaterialSkin.Controls.MaterialLabel materialLabel13;
+        private MaterialSkin.Controls.MaterialCard orangadeCard;
+        private MaterialSkin.Controls.MaterialButton orangadeAddButton;
+        private MaterialSkin.Controls.MaterialLabel orangadePriceLabel;
+        private MaterialSkin.Controls.MaterialLabel materialLabel11;
+        private MaterialSkin.Controls.MaterialCard lemonadeCard;
+        private MaterialSkin.Controls.MaterialButton lemonadeAddButton;
+        private MaterialSkin.Controls.MaterialLabel lemonadePriceLabel;
+        private MaterialSkin.Controls.MaterialLabel materialLabel9;
+        private MaterialSkin.Controls.MaterialCard waterCard;
+        private MaterialSkin.Controls.MaterialButton waterAddButton;
+        private MaterialSkin.Controls.MaterialLabel waterPriceLabel;
+        private MaterialSkin.Controls.MaterialLabel materialLabel6;
+        private MaterialSkin.Controls.MaterialLabel materialLabel5;
+        private MaterialSkin.Controls.MaterialButton materialButton1;
+        private MaterialSkin.Controls.MaterialCard cartInsideCartCard;
+        private MaterialSkin.Controls.MaterialLabel cartLabel;
+        private MaterialSkin.Controls.MaterialCard cartCard2;
+        private MaterialSkin.Controls.MaterialButton discardChangesButton;
+        private MaterialSkin.Controls.MaterialButton submitOrderButton;
+        private MaterialSkin.Controls.MaterialLabel materialLabel7;
     }
 }
 
