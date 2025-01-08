@@ -75,11 +75,6 @@
             this.energyWeekLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.energyLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.energyIcon1 = new System.Windows.Forms.PictureBox();
-            this.energyPage = new System.Windows.Forms.TabPage();
-            this.devicesLabel1 = new MaterialSkin.Controls.MaterialLabel();
-            this.energyWeekCard = new MaterialSkin.Controls.MaterialCard();
-            this.EcoEffHubCard = new MaterialSkin.Controls.MaterialCard();
-            this.energyTodayCard = new MaterialSkin.Controls.MaterialCard();
             this.emergencyPage = new System.Windows.Forms.TabPage();
             this.explorePage = new System.Windows.Forms.TabPage();
             this.orderPage = new System.Windows.Forms.TabPage();
@@ -712,7 +707,6 @@
             // 
             // energyPage
             // 
-            this.energyPage.Controls.Add(this.devicesLabel1);
             this.energyPage.Controls.Add(this.energyWeekCard);
             this.energyPage.Controls.Add(this.EcoEffHubCard);
             this.energyPage.Controls.Add(this.energyTodayCard);
@@ -724,17 +718,6 @@
             this.energyPage.TabIndex = 4;
             this.energyPage.Text = "Energy";
             this.energyPage.UseVisualStyleBackColor = true;
-            // 
-            // devicesLabel1
-            // 
-            this.devicesLabel1.Depth = 0;
-            this.devicesLabel1.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.devicesLabel1.Location = new System.Drawing.Point(29, 236);
-            this.devicesLabel1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.devicesLabel1.Name = "devicesLabel1";
-            this.devicesLabel1.Size = new System.Drawing.Size(184, 44);
-            this.devicesLabel1.TabIndex = 3;
-            this.devicesLabel1.Text = "Devices";
             // 
             // energyWeekCard
             // 
