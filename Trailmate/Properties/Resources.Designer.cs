@@ -478,6 +478,16 @@ namespace Trailmate.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap stake {
+            get {
+                object obj = ResourceManager.GetObject("stake", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap summer_garden_flowers_and_insects_landscape_vector_50973240 {
             get {
                 object obj = ResourceManager.GetObject("summer-garden-flowers-and-insects-landscape-vector-50973240", resourceCulture);
@@ -521,16 +531,6 @@ namespace Trailmate.Properties {
         internal static System.Drawing.Bitmap summer_garden_flowers_and_insects_landscape_vector_509732404 {
             get {
                 object obj = ResourceManager.GetObject("summer-garden-flowers-and-insects-landscape-vector-509732404", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap stake {
-            get {
-                object obj = ResourceManager.GetObject("stake", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

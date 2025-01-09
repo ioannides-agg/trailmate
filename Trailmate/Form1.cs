@@ -189,7 +189,6 @@ namespace Trailmate
             return status;
         }
 
-
         private void finalizeButton_Click(object sender, EventArgs e)
         {
             finalSetupCard.Visible = false;
