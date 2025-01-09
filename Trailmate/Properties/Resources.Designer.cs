@@ -183,6 +183,56 @@ namespace Trailmate.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2025_01_09_181705 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot 2025-01-09 181705", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2025_01_09_1817051 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot 2025-01-09 1817051", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2025_01_09_1817052 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot 2025-01-09 1817052", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2025_01_09_181714 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot 2025-01-09 181714", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2025_01_09_1817141 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot 2025-01-09 1817141", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Task_Analysis_Diagram_4 {
             get {
                 object obj = ResourceManager.GetObject("Task Analysis Diagram-4", resourceCulture);
