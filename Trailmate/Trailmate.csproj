@@ -153,6 +153,15 @@
   <ItemGroup>
     <None Include="Resources\Task Analysis Diagram-4.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-information-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-notification-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-check-26.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

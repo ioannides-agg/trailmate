@@ -73,6 +73,16 @@ namespace Trailmate.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_check_26 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-check-26", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_coffee_maker_26 {
             get {
                 object obj = ResourceManager.GetObject("icons8-coffee-maker-26", resourceCulture);
@@ -86,6 +96,26 @@ namespace Trailmate.Properties {
         internal static System.Drawing.Bitmap icons8_fridge_26 {
             get {
                 object obj = ResourceManager.GetObject("icons8-fridge-26", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_information_26 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-information-26", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_notification_26 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-notification-26", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

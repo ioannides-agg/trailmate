@@ -130,6 +130,15 @@
   <data name="icons8-air-conditioner-26" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-air-conditioner-26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="IMG_1800" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_1800.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-notification-26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-notification-26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-information-26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-information-26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icons8-coffee-maker-26" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-coffee-maker-26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -139,13 +148,13 @@
   <data name="IMG_1797" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IMG_1797.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="IMG_1800" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IMG_1800.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Task Analysis Diagram-4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Task Analysis Diagram-4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-fridge-26" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-fridge-26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Task Analysis Diagram-4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Task Analysis Diagram-4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-check-26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-check-26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
