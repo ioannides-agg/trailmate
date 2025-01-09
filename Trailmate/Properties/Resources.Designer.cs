@@ -63,6 +63,17 @@ namespace Trailmate.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _200188395_mountains_with_a_river_green_trees_and_a_beautiful_sky_in_the_background {
+            get {
+                object obj = ResourceManager.GetObject("200188395-mountains-with-a-river-green-trees-and-a-beautiful-sky-in-the-backgroun" +
+                        "d", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_air_conditioner_26 {
             get {
                 object obj = ResourceManager.GetObject("icons8-air-conditioner-26", resourceCulture);
@@ -136,6 +147,16 @@ namespace Trailmate.Properties {
         internal static System.Drawing.Bitmap icons8_retro_tv_26 {
             get {
                 object obj = ResourceManager.GetObject("icons8-retro-tv-26", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_umbrella_26 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-umbrella-26", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

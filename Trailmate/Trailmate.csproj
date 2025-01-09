@@ -177,6 +177,12 @@
   <ItemGroup>
     <None Include="Resources\Screenshot 2025-01-09 1817141.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-umbrella-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\200188395-mountains-with-a-river-green-trees-and-a-beautiful-sky-in-the-background.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
