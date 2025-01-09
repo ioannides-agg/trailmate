@@ -32,6 +32,75 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.TabMaster = new MaterialSkin.Controls.MaterialTabControl();
             this.homePage = new System.Windows.Forms.TabPage();
+            this.forrestPictureCard = new MaterialSkin.Controls.MaterialCard();
+            this.forrestPictureBox = new System.Windows.Forms.PictureBox();
+            this.lightsHomePictureBox2 = new System.Windows.Forms.PictureBox();
+            this.upcomingEventsHomeCard = new MaterialSkin.Controls.MaterialCard();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.upcomingEventsSeeMoreButton = new MaterialSkin.Controls.MaterialButton();
+            this.firstUpcomingEventLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.upcomingEventsHomeLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.mapPictureHomeCard = new MaterialSkin.Controls.MaterialCard();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.energyUseHomeCard = new MaterialSkin.Controls.MaterialCard();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.energySeeMoreButton = new MaterialSkin.Controls.MaterialButton();
+            this.energyHomeChangeLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.energyHomeLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.orderHomeCard = new MaterialSkin.Controls.MaterialCard();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.orderNowHomeButton = new MaterialSkin.Controls.MaterialButton();
+            this.orderHomeLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.lightsHomeCard = new MaterialSkin.Controls.MaterialCard();
+            this.lightsHomePictureBox1 = new System.Windows.Forms.PictureBox();
+            this.materialSwitch1 = new MaterialSkin.Controls.MaterialSwitch();
+            this.lightsHomeLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.stakesStatusHomeCard = new MaterialSkin.Controls.MaterialCard();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.stakesStatusSeeMoreButton = new MaterialSkin.Controls.MaterialButton();
+            this.stakesStatusChanging = new MaterialSkin.Controls.MaterialLabel();
+            this.stakesStatusLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.todaysSuggestionsHomeCard = new MaterialSkin.Controls.MaterialCard();
+            this.tempLabel6 = new MaterialSkin.Controls.MaterialLabel();
+            this.TodaysSuggestionsHomeLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.tempLabel5 = new MaterialSkin.Controls.MaterialLabel();
+            this.weatherWeekCard = new MaterialSkin.Controls.MaterialCard();
+            this.dayLabel6 = new MaterialSkin.Controls.MaterialLabel();
+            this.dayLabel5 = new MaterialSkin.Controls.MaterialLabel();
+            this.dayLabel4 = new MaterialSkin.Controls.MaterialLabel();
+            this.dayLabel3 = new MaterialSkin.Controls.MaterialLabel();
+            this.dayLabel2 = new MaterialSkin.Controls.MaterialLabel();
+            this.dayLabel1 = new MaterialSkin.Controls.MaterialLabel();
+            this.todayWeekLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.tempLabelWeek7 = new MaterialSkin.Controls.MaterialLabel();
+            this.tempLabelWeek6 = new MaterialSkin.Controls.MaterialLabel();
+            this.tempLabelWeek5 = new MaterialSkin.Controls.MaterialLabel();
+            this.tempLabelWeek4 = new MaterialSkin.Controls.MaterialLabel();
+            this.tempLabelWeek3 = new MaterialSkin.Controls.MaterialLabel();
+            this.tempLabelWeek2 = new MaterialSkin.Controls.MaterialLabel();
+            this.tempLabelWeek1 = new MaterialSkin.Controls.MaterialLabel();
+            this.weatherWeekPictureBox7 = new System.Windows.Forms.PictureBox();
+            this.weatherWeekPictureBox3 = new System.Windows.Forms.PictureBox();
+            this.weatherWeekPictureBox6 = new System.Windows.Forms.PictureBox();
+            this.weatherWeekPictureBox5 = new System.Windows.Forms.PictureBox();
+            this.weatherWeekPictureBox4 = new System.Windows.Forms.PictureBox();
+            this.weatherWeekPictureBox2 = new System.Windows.Forms.PictureBox();
+            this.weatherWeekPictureBox1 = new System.Windows.Forms.PictureBox();
+            this.WeatherWeekLabelSmall = new MaterialSkin.Controls.MaterialLabel();
+            this.weatherWeekLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.weatherWeekPictureBox = new System.Windows.Forms.PictureBox();
+            this.temperatureTodayCard = new MaterialSkin.Controls.MaterialCard();
+            this.temperatureTodayPanel = new System.Windows.Forms.Panel();
+            this.todaysDateCard = new MaterialSkin.Controls.MaterialCard();
+            this.todaysDateLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.tempLabel1 = new MaterialSkin.Controls.MaterialLabel();
+            this.tempLabel2 = new MaterialSkin.Controls.MaterialLabel();
+            this.tempLabel4 = new MaterialSkin.Controls.MaterialLabel();
+            this.tempLabel3 = new MaterialSkin.Controls.MaterialLabel();
+            this.todayTempLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.temperatureTodayLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.tempTodayPictureBox = new System.Windows.Forms.PictureBox();
+            this.homeLabel = new MaterialSkin.Controls.MaterialLabel();
             this.setupPage = new System.Windows.Forms.TabPage();
             this.groundInfoCard = new MaterialSkin.Controls.MaterialCard();
             this.groundInformationContinueBtn = new MaterialSkin.Controls.MaterialButton();
@@ -55,22 +124,27 @@
             this.devicesCard4 = new MaterialSkin.Controls.MaterialCard();
             this.fridgeLabel = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel4 = new MaterialSkin.Controls.MaterialLabel();
+            this.fridgePictureBox = new System.Windows.Forms.PictureBox();
             this.fridgeSwitch = new MaterialSkin.Controls.MaterialSwitch();
             this.devicesCard3 = new MaterialSkin.Controls.MaterialCard();
             this.coffeeMachineLabel = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
+            this.coffeeMachinePictureBox = new System.Windows.Forms.PictureBox();
             this.coffeeMachineSwitch = new MaterialSkin.Controls.MaterialSwitch();
             this.devicesCard2 = new MaterialSkin.Controls.MaterialCard();
             this.smartTvLabel = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
+            this.smartTvPictureBox = new System.Windows.Forms.PictureBox();
             this.smartTVSwitch = new MaterialSkin.Controls.MaterialSwitch();
             this.devicesCard1 = new MaterialSkin.Controls.MaterialCard();
             this.acLabel = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
+            this.acPictureBox = new System.Windows.Forms.PictureBox();
             this.acSwitch = new MaterialSkin.Controls.MaterialSwitch();
             this.energyWeekCard = new MaterialSkin.Controls.MaterialCard();
             this.energyWeekLabel2 = new MaterialSkin.Controls.MaterialLabel();
             this.energyLabel2 = new MaterialSkin.Controls.MaterialLabel();
+            this.energyIcon2 = new System.Windows.Forms.PictureBox();
             this.EcoEffHubCard = new MaterialSkin.Controls.MaterialCard();
             this.panel1 = new System.Windows.Forms.Panel();
             this.ecoLabel2 = new MaterialSkin.Controls.MaterialLabel();
@@ -84,6 +158,7 @@
             this.energyProgressBar = new MaterialSkin.Controls.MaterialProgressBar();
             this.energyWeekLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.energyLabel1 = new MaterialSkin.Controls.MaterialLabel();
+            this.energyIcon1 = new System.Windows.Forms.PictureBox();
             this.emergencyPage = new System.Windows.Forms.TabPage();
             this.explorePage = new System.Windows.Forms.TabPage();
             this.orderPage = new System.Windows.Forms.TabPage();
@@ -153,6 +228,11 @@
             this.cartLabel = new MaterialSkin.Controls.MaterialLabel();
             this.eventsPage = new System.Windows.Forms.TabPage();
             this.buttonsCard = new MaterialSkin.Controls.MaterialCard();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.infoForCheckLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.infoForNotifLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.infoForCheckPictureBox = new System.Windows.Forms.PictureBox();
+            this.infoForInfoPictureBox = new System.Windows.Forms.PictureBox();
             this.infoCard = new MaterialSkin.Controls.MaterialCard();
             this.infoInsideInfoCard = new MaterialSkin.Controls.MaterialCard();
             this.eventVenueLabel1 = new MaterialSkin.Controls.MaterialLabel();
@@ -160,26 +240,35 @@
             this.eventTimeLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.celineDionLabel = new MaterialSkin.Controls.MaterialLabel();
             this.infoEventsLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.eventsPictureBox = new System.Windows.Forms.PictureBox();
             this.upcomingEventsCard2 = new MaterialSkin.Controls.MaterialCard();
             this.upcomingEventsPanel = new System.Windows.Forms.Panel();
             this.dayTripCard = new MaterialSkin.Controls.MaterialCard();
+            this.dayTripCheckPictureBox = new System.Windows.Forms.PictureBox();
             this.dayTripInfoButton = new MaterialSkin.Controls.MaterialButton();
             this.notifsSwitch2 = new MaterialSkin.Controls.MaterialSwitch();
+            this.notifsPictureBox2 = new System.Windows.Forms.PictureBox();
             this.imGoingDayTripButton = new MaterialSkin.Controls.MaterialButton();
             this.dayTripLabel = new MaterialSkin.Controls.MaterialLabel();
             this.hikeTourCard = new MaterialSkin.Controls.MaterialCard();
+            this.hikeTourCheckPictureBox = new System.Windows.Forms.PictureBox();
             this.hikeTourInfoButton = new MaterialSkin.Controls.MaterialButton();
             this.hikeTourSwtch = new MaterialSkin.Controls.MaterialSwitch();
+            this.hikeTourNotifPictureBox = new System.Windows.Forms.PictureBox();
             this.hikeTourImGoingButton = new MaterialSkin.Controls.MaterialButton();
             this.hikeTourLabel = new MaterialSkin.Controls.MaterialLabel();
             this.workshopCard = new MaterialSkin.Controls.MaterialCard();
+            this.workshopCheckPictureBox = new System.Windows.Forms.PictureBox();
             this.workshopInfoButton = new MaterialSkin.Controls.MaterialButton();
             this.workshopSwitch = new MaterialSkin.Controls.MaterialSwitch();
+            this.workshopNotifsPictureBox = new System.Windows.Forms.PictureBox();
             this.workshopImGoingButton = new MaterialSkin.Controls.MaterialButton();
             this.workshopLabel = new MaterialSkin.Controls.MaterialLabel();
             this.concertCard = new MaterialSkin.Controls.MaterialCard();
+            this.concertCheckPictureBox = new System.Windows.Forms.PictureBox();
             this.concertInfoButton = new MaterialSkin.Controls.MaterialButton();
             this.concertNotifSwitch = new MaterialSkin.Controls.MaterialSwitch();
+            this.concertNotifPictureBox = new System.Windows.Forms.PictureBox();
             this.concertGoingButton = new MaterialSkin.Controls.MaterialButton();
             this.concertLabel = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel12 = new MaterialSkin.Controls.MaterialLabel();
@@ -187,58 +276,56 @@
             this.upcomingEventsLabel = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel10 = new MaterialSkin.Controls.MaterialLabel();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.infoForNotifLabel = new MaterialSkin.Controls.MaterialLabel();
-            this.infoForCheckLabel = new MaterialSkin.Controls.MaterialLabel();
-            this.homeLabel = new MaterialSkin.Controls.MaterialLabel();
-            this.materialCard1 = new MaterialSkin.Controls.MaterialCard();
-            this.materialLabel14 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel15 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialCard2 = new MaterialSkin.Controls.MaterialCard();
-            this.materialLabel16 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel17 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialCard4 = new MaterialSkin.Controls.MaterialCard();
-            this.materialCard5 = new MaterialSkin.Controls.MaterialCard();
-            this.materialCard6 = new MaterialSkin.Controls.MaterialCard();
-            this.materialCard7 = new MaterialSkin.Controls.MaterialCard();
-            this.materialCard8 = new MaterialSkin.Controls.MaterialCard();
-            this.materialCard9 = new MaterialSkin.Controls.MaterialCard();
-            this.materialCard10 = new MaterialSkin.Controls.MaterialCard();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.fridgePictureBox = new System.Windows.Forms.PictureBox();
-            this.coffeeMachinePictureBox = new System.Windows.Forms.PictureBox();
-            this.smartTvPictureBox = new System.Windows.Forms.PictureBox();
-            this.acPictureBox = new System.Windows.Forms.PictureBox();
-            this.energyIcon2 = new System.Windows.Forms.PictureBox();
-            this.energyIcon1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.infoForCheckPictureBox = new System.Windows.Forms.PictureBox();
-            this.infoForInfoPictureBox = new System.Windows.Forms.PictureBox();
-            this.eventsPictureBox = new System.Windows.Forms.PictureBox();
-            this.dayTripCheckPictureBox = new System.Windows.Forms.PictureBox();
-            this.notifsPictureBox2 = new System.Windows.Forms.PictureBox();
-            this.hikeTourCheckPictureBox = new System.Windows.Forms.PictureBox();
-            this.hikeTourNotifPictureBox = new System.Windows.Forms.PictureBox();
-            this.workshopCheckPictureBox = new System.Windows.Forms.PictureBox();
-            this.workshopNotifsPictureBox = new System.Windows.Forms.PictureBox();
-            this.concertCheckPictureBox = new System.Windows.Forms.PictureBox();
-            this.concertNotifPictureBox = new System.Windows.Forms.PictureBox();
             this.TabMaster.SuspendLayout();
             this.homePage.SuspendLayout();
+            this.forrestPictureCard.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.forrestPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lightsHomePictureBox2)).BeginInit();
+            this.upcomingEventsHomeCard.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.mapPictureHomeCard.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            this.energyUseHomeCard.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.orderHomeCard.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.lightsHomeCard.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.lightsHomePictureBox1)).BeginInit();
+            this.stakesStatusHomeCard.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            this.todaysSuggestionsHomeCard.SuspendLayout();
+            this.weatherWeekCard.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.weatherWeekPictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.weatherWeekPictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.weatherWeekPictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.weatherWeekPictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.weatherWeekPictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.weatherWeekPictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.weatherWeekPictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.weatherWeekPictureBox)).BeginInit();
+            this.temperatureTodayCard.SuspendLayout();
+            this.temperatureTodayPanel.SuspendLayout();
+            this.todaysDateCard.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tempTodayPictureBox)).BeginInit();
             this.setupPage.SuspendLayout();
             this.groundInfoCard.SuspendLayout();
             this.energyPage.SuspendLayout();
             this.devicesPanel.SuspendLayout();
             this.devicesCard4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.fridgePictureBox)).BeginInit();
             this.devicesCard3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.coffeeMachinePictureBox)).BeginInit();
             this.devicesCard2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.smartTvPictureBox)).BeginInit();
             this.devicesCard1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.acPictureBox)).BeginInit();
             this.energyWeekCard.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.energyIcon2)).BeginInit();
             this.EcoEffHubCard.SuspendLayout();
             this.panel1.SuspendLayout();
             this.ecoEffCard.SuspendLayout();
             this.energyTodayCard.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.energyIcon1)).BeginInit();
             this.orderPage.SuspendLayout();
             this.foodPanel.SuspendLayout();
             this.frenchFriesCard.SuspendLayout();
@@ -261,38 +348,27 @@
             this.cartInsideCartCard.SuspendLayout();
             this.eventsPage.SuspendLayout();
             this.buttonsCard.SuspendLayout();
-            this.infoCard.SuspendLayout();
-            this.infoInsideInfoCard.SuspendLayout();
-            this.upcomingEventsCard2.SuspendLayout();
-            this.upcomingEventsPanel.SuspendLayout();
-            this.dayTripCard.SuspendLayout();
-            this.hikeTourCard.SuspendLayout();
-            this.workshopCard.SuspendLayout();
-            this.concertCard.SuspendLayout();
-            this.upcomingEventsCard.SuspendLayout();
-            this.materialCard1.SuspendLayout();
-            this.materialCard2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.fridgePictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.coffeeMachinePictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.smartTvPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.acPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.energyIcon2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.energyIcon1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.infoForCheckPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.infoForInfoPictureBox)).BeginInit();
+            this.infoCard.SuspendLayout();
+            this.infoInsideInfoCard.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.eventsPictureBox)).BeginInit();
+            this.upcomingEventsCard2.SuspendLayout();
+            this.upcomingEventsPanel.SuspendLayout();
+            this.dayTripCard.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dayTripCheckPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.notifsPictureBox2)).BeginInit();
+            this.hikeTourCard.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.hikeTourCheckPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.hikeTourNotifPictureBox)).BeginInit();
+            this.workshopCard.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.workshopCheckPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.workshopNotifsPictureBox)).BeginInit();
+            this.concertCard.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.concertCheckPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.concertNotifPictureBox)).BeginInit();
+            this.upcomingEventsCard.SuspendLayout();
             this.SuspendLayout();
             // 
             // TabMaster
@@ -314,29 +390,913 @@
             this.TabMaster.Multiline = true;
             this.TabMaster.Name = "TabMaster";
             this.TabMaster.SelectedIndex = 0;
-            this.TabMaster.Size = new System.Drawing.Size(944, 530);
+            this.TabMaster.Size = new System.Drawing.Size(944, 526);
             this.TabMaster.TabIndex = 0;
             // 
             // homePage
             // 
-            this.homePage.Controls.Add(this.pictureBox4);
-            this.homePage.Controls.Add(this.materialCard10);
-            this.homePage.Controls.Add(this.materialCard9);
-            this.homePage.Controls.Add(this.materialCard8);
-            this.homePage.Controls.Add(this.materialCard7);
-            this.homePage.Controls.Add(this.materialCard6);
-            this.homePage.Controls.Add(this.materialCard4);
-            this.homePage.Controls.Add(this.materialCard2);
-            this.homePage.Controls.Add(this.materialCard1);
+            this.homePage.Controls.Add(this.forrestPictureCard);
+            this.homePage.Controls.Add(this.lightsHomePictureBox2);
+            this.homePage.Controls.Add(this.upcomingEventsHomeCard);
+            this.homePage.Controls.Add(this.mapPictureHomeCard);
+            this.homePage.Controls.Add(this.energyUseHomeCard);
+            this.homePage.Controls.Add(this.orderHomeCard);
+            this.homePage.Controls.Add(this.lightsHomeCard);
+            this.homePage.Controls.Add(this.stakesStatusHomeCard);
+            this.homePage.Controls.Add(this.todaysSuggestionsHomeCard);
+            this.homePage.Controls.Add(this.weatherWeekCard);
+            this.homePage.Controls.Add(this.temperatureTodayCard);
             this.homePage.Controls.Add(this.homeLabel);
             this.homePage.ImageKey = "icons8-home-26.png";
             this.homePage.Location = new System.Drawing.Point(4, 31);
             this.homePage.Margin = new System.Windows.Forms.Padding(2);
             this.homePage.Name = "homePage";
-            this.homePage.Size = new System.Drawing.Size(936, 495);
+            this.homePage.Size = new System.Drawing.Size(936, 491);
             this.homePage.TabIndex = 1;
             this.homePage.Text = "Home";
             this.homePage.UseVisualStyleBackColor = true;
+            // 
+            // forrestPictureCard
+            // 
+            this.forrestPictureCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.forrestPictureCard.Controls.Add(this.forrestPictureBox);
+            this.forrestPictureCard.Depth = 0;
+            this.forrestPictureCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.forrestPictureCard.Location = new System.Drawing.Point(336, 27);
+            this.forrestPictureCard.Margin = new System.Windows.Forms.Padding(14);
+            this.forrestPictureCard.MouseState = MaterialSkin.MouseState.HOVER;
+            this.forrestPictureCard.Name = "forrestPictureCard";
+            this.forrestPictureCard.Padding = new System.Windows.Forms.Padding(14);
+            this.forrestPictureCard.Size = new System.Drawing.Size(288, 149);
+            this.forrestPictureCard.TabIndex = 12;
+            // 
+            // forrestPictureBox
+            // 
+            this.forrestPictureBox.Cursor = System.Windows.Forms.Cursors.Default;
+            this.forrestPictureBox.Image = global::Trailmate.Properties.Resources.Screenshot_8;
+            this.forrestPictureBox.Location = new System.Drawing.Point(0, 14);
+            this.forrestPictureBox.Name = "forrestPictureBox";
+            this.forrestPictureBox.Size = new System.Drawing.Size(288, 145);
+            this.forrestPictureBox.TabIndex = 9;
+            this.forrestPictureBox.TabStop = false;
+            // 
+            // lightsHomePictureBox2
+            // 
+            this.lightsHomePictureBox2.Image = global::Trailmate.Properties.Resources.png_clipart_lamp_cartoon_illustration_hand_drawn_cartoon_light_bulb_painted_hand1;
+            this.lightsHomePictureBox2.Location = new System.Drawing.Point(216, 13);
+            this.lightsHomePictureBox2.Name = "lightsHomePictureBox2";
+            this.lightsHomePictureBox2.Size = new System.Drawing.Size(89, 101);
+            this.lightsHomePictureBox2.TabIndex = 11;
+            this.lightsHomePictureBox2.TabStop = false;
+            // 
+            // upcomingEventsHomeCard
+            // 
+            this.upcomingEventsHomeCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.upcomingEventsHomeCard.Controls.Add(this.pictureBox2);
+            this.upcomingEventsHomeCard.Controls.Add(this.upcomingEventsSeeMoreButton);
+            this.upcomingEventsHomeCard.Controls.Add(this.firstUpcomingEventLabel);
+            this.upcomingEventsHomeCard.Controls.Add(this.upcomingEventsHomeLabel);
+            this.upcomingEventsHomeCard.Depth = 0;
+            this.upcomingEventsHomeCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.upcomingEventsHomeCard.Location = new System.Drawing.Point(652, 27);
+            this.upcomingEventsHomeCard.Margin = new System.Windows.Forms.Padding(14);
+            this.upcomingEventsHomeCard.MouseState = MaterialSkin.MouseState.HOVER;
+            this.upcomingEventsHomeCard.Name = "upcomingEventsHomeCard";
+            this.upcomingEventsHomeCard.Padding = new System.Windows.Forms.Padding(14);
+            this.upcomingEventsHomeCard.Size = new System.Drawing.Size(220, 101);
+            this.upcomingEventsHomeCard.TabIndex = 10;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Trailmate.Properties.Resources.icons8_schedule_26;
+            this.pictureBox2.Location = new System.Drawing.Point(7, 14);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(30, 28);
+            this.pictureBox2.TabIndex = 3;
+            this.pictureBox2.TabStop = false;
+            // 
+            // upcomingEventsSeeMoreButton
+            // 
+            this.upcomingEventsSeeMoreButton.AutoSize = false;
+            this.upcomingEventsSeeMoreButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.upcomingEventsSeeMoreButton.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.upcomingEventsSeeMoreButton.Depth = 0;
+            this.upcomingEventsSeeMoreButton.HighEmphasis = true;
+            this.upcomingEventsSeeMoreButton.Icon = null;
+            this.upcomingEventsSeeMoreButton.Location = new System.Drawing.Point(136, 70);
+            this.upcomingEventsSeeMoreButton.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.upcomingEventsSeeMoreButton.MouseState = MaterialSkin.MouseState.HOVER;
+            this.upcomingEventsSeeMoreButton.Name = "upcomingEventsSeeMoreButton";
+            this.upcomingEventsSeeMoreButton.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.upcomingEventsSeeMoreButton.Size = new System.Drawing.Size(75, 25);
+            this.upcomingEventsSeeMoreButton.TabIndex = 5;
+            this.upcomingEventsSeeMoreButton.Text = "see more";
+            this.upcomingEventsSeeMoreButton.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.upcomingEventsSeeMoreButton.UseAccentColor = false;
+            this.upcomingEventsSeeMoreButton.UseVisualStyleBackColor = true;
+            // 
+            // firstUpcomingEventLabel
+            // 
+            this.firstUpcomingEventLabel.AutoSize = true;
+            this.firstUpcomingEventLabel.Depth = 0;
+            this.firstUpcomingEventLabel.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.firstUpcomingEventLabel.Location = new System.Drawing.Point(44, 45);
+            this.firstUpcomingEventLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.firstUpcomingEventLabel.Name = "firstUpcomingEventLabel";
+            this.firstUpcomingEventLabel.Size = new System.Drawing.Size(97, 19);
+            this.firstUpcomingEventLabel.TabIndex = 4;
+            this.firstUpcomingEventLabel.Text = "15/3: Concert";
+            // 
+            // upcomingEventsHomeLabel
+            // 
+            this.upcomingEventsHomeLabel.AutoSize = true;
+            this.upcomingEventsHomeLabel.Depth = 0;
+            this.upcomingEventsHomeLabel.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.upcomingEventsHomeLabel.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.upcomingEventsHomeLabel.Location = new System.Drawing.Point(43, 14);
+            this.upcomingEventsHomeLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.upcomingEventsHomeLabel.Name = "upcomingEventsHomeLabel";
+            this.upcomingEventsHomeLabel.Size = new System.Drawing.Size(160, 24);
+            this.upcomingEventsHomeLabel.TabIndex = 3;
+            this.upcomingEventsHomeLabel.Text = "Upcoming Events:";
+            // 
+            // mapPictureHomeCard
+            // 
+            this.mapPictureHomeCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.mapPictureHomeCard.Controls.Add(this.pictureBox6);
+            this.mapPictureHomeCard.Depth = 0;
+            this.mapPictureHomeCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.mapPictureHomeCard.Location = new System.Drawing.Point(652, 384);
+            this.mapPictureHomeCard.Margin = new System.Windows.Forms.Padding(14);
+            this.mapPictureHomeCard.MouseState = MaterialSkin.MouseState.HOVER;
+            this.mapPictureHomeCard.Name = "mapPictureHomeCard";
+            this.mapPictureHomeCard.Padding = new System.Windows.Forms.Padding(14);
+            this.mapPictureHomeCard.Size = new System.Drawing.Size(220, 101);
+            this.mapPictureHomeCard.TabIndex = 8;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::Trailmate.Properties.Resources.summer_garden_flowers_and_insects_landscape_vector_509732404;
+            this.pictureBox6.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(220, 101);
+            this.pictureBox6.TabIndex = 0;
+            this.pictureBox6.TabStop = false;
+            // 
+            // energyUseHomeCard
+            // 
+            this.energyUseHomeCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.energyUseHomeCard.Controls.Add(this.pictureBox4);
+            this.energyUseHomeCard.Controls.Add(this.energySeeMoreButton);
+            this.energyUseHomeCard.Controls.Add(this.energyHomeChangeLabel);
+            this.energyUseHomeCard.Controls.Add(this.energyHomeLabel);
+            this.energyUseHomeCard.Depth = 0;
+            this.energyUseHomeCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.energyUseHomeCard.Location = new System.Drawing.Point(652, 264);
+            this.energyUseHomeCard.Margin = new System.Windows.Forms.Padding(14);
+            this.energyUseHomeCard.MouseState = MaterialSkin.MouseState.HOVER;
+            this.energyUseHomeCard.Name = "energyUseHomeCard";
+            this.energyUseHomeCard.Padding = new System.Windows.Forms.Padding(14);
+            this.energyUseHomeCard.Size = new System.Drawing.Size(220, 101);
+            this.energyUseHomeCard.TabIndex = 7;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::Trailmate.Properties.Resources.icons8_leaf_26;
+            this.pictureBox4.Location = new System.Drawing.Point(7, 14);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(30, 28);
+            this.pictureBox4.TabIndex = 9;
+            this.pictureBox4.TabStop = false;
+            // 
+            // energySeeMoreButton
+            // 
+            this.energySeeMoreButton.AutoSize = false;
+            this.energySeeMoreButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.energySeeMoreButton.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.energySeeMoreButton.Depth = 0;
+            this.energySeeMoreButton.HighEmphasis = true;
+            this.energySeeMoreButton.Icon = null;
+            this.energySeeMoreButton.Location = new System.Drawing.Point(136, 65);
+            this.energySeeMoreButton.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.energySeeMoreButton.MouseState = MaterialSkin.MouseState.HOVER;
+            this.energySeeMoreButton.Name = "energySeeMoreButton";
+            this.energySeeMoreButton.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.energySeeMoreButton.Size = new System.Drawing.Size(75, 27);
+            this.energySeeMoreButton.TabIndex = 8;
+            this.energySeeMoreButton.Text = "see more";
+            this.energySeeMoreButton.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.energySeeMoreButton.UseAccentColor = false;
+            this.energySeeMoreButton.UseVisualStyleBackColor = true;
+            // 
+            // energyHomeChangeLabel
+            // 
+            this.energyHomeChangeLabel.AutoSize = true;
+            this.energyHomeChangeLabel.Depth = 0;
+            this.energyHomeChangeLabel.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.energyHomeChangeLabel.Location = new System.Drawing.Point(44, 45);
+            this.energyHomeChangeLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.energyHomeChangeLabel.Name = "energyHomeChangeLabel";
+            this.energyHomeChangeLabel.Size = new System.Drawing.Size(68, 19);
+            this.energyHomeChangeLabel.TabIndex = 7;
+            this.energyHomeChangeLabel.Text = "Moderate";
+            // 
+            // energyHomeLabel
+            // 
+            this.energyHomeLabel.Depth = 0;
+            this.energyHomeLabel.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.energyHomeLabel.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.energyHomeLabel.Location = new System.Drawing.Point(43, 14);
+            this.energyHomeLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.energyHomeLabel.Name = "energyHomeLabel";
+            this.energyHomeLabel.Size = new System.Drawing.Size(168, 31);
+            this.energyHomeLabel.TabIndex = 6;
+            this.energyHomeLabel.Text = "Energy use today:";
+            // 
+            // orderHomeCard
+            // 
+            this.orderHomeCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.orderHomeCard.Controls.Add(this.pictureBox3);
+            this.orderHomeCard.Controls.Add(this.orderNowHomeButton);
+            this.orderHomeCard.Controls.Add(this.orderHomeLabel);
+            this.orderHomeCard.Depth = 0;
+            this.orderHomeCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.orderHomeCard.Location = new System.Drawing.Point(652, 145);
+            this.orderHomeCard.Margin = new System.Windows.Forms.Padding(14);
+            this.orderHomeCard.MouseState = MaterialSkin.MouseState.HOVER;
+            this.orderHomeCard.Name = "orderHomeCard";
+            this.orderHomeCard.Padding = new System.Windows.Forms.Padding(14);
+            this.orderHomeCard.Size = new System.Drawing.Size(220, 101);
+            this.orderHomeCard.TabIndex = 6;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::Trailmate.Properties.Resources.icons8_restaurant_26;
+            this.pictureBox3.Location = new System.Drawing.Point(7, 17);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(30, 28);
+            this.pictureBox3.TabIndex = 9;
+            this.pictureBox3.TabStop = false;
+            // 
+            // orderNowHomeButton
+            // 
+            this.orderNowHomeButton.AutoSize = false;
+            this.orderNowHomeButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.orderNowHomeButton.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.orderNowHomeButton.Depth = 0;
+            this.orderNowHomeButton.HighEmphasis = true;
+            this.orderNowHomeButton.Icon = null;
+            this.orderNowHomeButton.Location = new System.Drawing.Point(124, 70);
+            this.orderNowHomeButton.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.orderNowHomeButton.MouseState = MaterialSkin.MouseState.HOVER;
+            this.orderNowHomeButton.Name = "orderNowHomeButton";
+            this.orderNowHomeButton.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.orderNowHomeButton.Size = new System.Drawing.Size(87, 25);
+            this.orderNowHomeButton.TabIndex = 8;
+            this.orderNowHomeButton.Text = "order now";
+            this.orderNowHomeButton.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.orderNowHomeButton.UseAccentColor = false;
+            this.orderNowHomeButton.UseVisualStyleBackColor = true;
+            // 
+            // orderHomeLabel
+            // 
+            this.orderHomeLabel.Depth = 0;
+            this.orderHomeLabel.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.orderHomeLabel.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.orderHomeLabel.Location = new System.Drawing.Point(43, 14);
+            this.orderHomeLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.orderHomeLabel.Name = "orderHomeLabel";
+            this.orderHomeLabel.Size = new System.Drawing.Size(177, 50);
+            this.orderHomeLabel.TabIndex = 6;
+            this.orderHomeLabel.Text = "Order food and drinks to your tent";
+            // 
+            // lightsHomeCard
+            // 
+            this.lightsHomeCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.lightsHomeCard.Controls.Add(this.lightsHomePictureBox1);
+            this.lightsHomeCard.Controls.Add(this.materialSwitch1);
+            this.lightsHomeCard.Controls.Add(this.lightsHomeLabel);
+            this.lightsHomeCard.Depth = 0;
+            this.lightsHomeCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.lightsHomeCard.Location = new System.Drawing.Point(17, 55);
+            this.lightsHomeCard.Margin = new System.Windows.Forms.Padding(14);
+            this.lightsHomeCard.MouseState = MaterialSkin.MouseState.HOVER;
+            this.lightsHomeCard.Name = "lightsHomeCard";
+            this.lightsHomeCard.Padding = new System.Windows.Forms.Padding(14);
+            this.lightsHomeCard.Size = new System.Drawing.Size(188, 55);
+            this.lightsHomeCard.TabIndex = 5;
+            // 
+            // lightsHomePictureBox1
+            // 
+            this.lightsHomePictureBox1.Image = global::Trailmate.Properties.Resources.icons8_light_26;
+            this.lightsHomePictureBox1.Location = new System.Drawing.Point(17, 14);
+            this.lightsHomePictureBox1.Name = "lightsHomePictureBox1";
+            this.lightsHomePictureBox1.Size = new System.Drawing.Size(30, 28);
+            this.lightsHomePictureBox1.TabIndex = 2;
+            this.lightsHomePictureBox1.TabStop = false;
+            // 
+            // materialSwitch1
+            // 
+            this.materialSwitch1.Depth = 0;
+            this.materialSwitch1.Location = new System.Drawing.Point(123, 11);
+            this.materialSwitch1.Margin = new System.Windows.Forms.Padding(0);
+            this.materialSwitch1.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.materialSwitch1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialSwitch1.Name = "materialSwitch1";
+            this.materialSwitch1.Ripple = true;
+            this.materialSwitch1.Size = new System.Drawing.Size(58, 31);
+            this.materialSwitch1.TabIndex = 1;
+            this.materialSwitch1.Text = "lightsHomeSwitch";
+            this.materialSwitch1.UseVisualStyleBackColor = true;
+            // 
+            // lightsHomeLabel
+            // 
+            this.lightsHomeLabel.AutoSize = true;
+            this.lightsHomeLabel.Depth = 0;
+            this.lightsHomeLabel.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.lightsHomeLabel.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.lightsHomeLabel.Location = new System.Drawing.Point(53, 14);
+            this.lightsHomeLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.lightsHomeLabel.Name = "lightsHomeLabel";
+            this.lightsHomeLabel.Size = new System.Drawing.Size(61, 24);
+            this.lightsHomeLabel.TabIndex = 0;
+            this.lightsHomeLabel.Text = "Lights:";
+            // 
+            // stakesStatusHomeCard
+            // 
+            this.stakesStatusHomeCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.stakesStatusHomeCard.Controls.Add(this.pictureBox5);
+            this.stakesStatusHomeCard.Controls.Add(this.stakesStatusSeeMoreButton);
+            this.stakesStatusHomeCard.Controls.Add(this.stakesStatusChanging);
+            this.stakesStatusHomeCard.Controls.Add(this.stakesStatusLabel);
+            this.stakesStatusHomeCard.Depth = 0;
+            this.stakesStatusHomeCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.stakesStatusHomeCard.Location = new System.Drawing.Point(336, 193);
+            this.stakesStatusHomeCard.Margin = new System.Windows.Forms.Padding(14);
+            this.stakesStatusHomeCard.MouseState = MaterialSkin.MouseState.HOVER;
+            this.stakesStatusHomeCard.Name = "stakesStatusHomeCard";
+            this.stakesStatusHomeCard.Padding = new System.Windows.Forms.Padding(14);
+            this.stakesStatusHomeCard.Size = new System.Drawing.Size(288, 103);
+            this.stakesStatusHomeCard.TabIndex = 4;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::Trailmate.Properties.Resources.icons8_pavilion_26;
+            this.pictureBox5.Location = new System.Drawing.Point(12, 14);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(30, 28);
+            this.pictureBox5.TabIndex = 7;
+            this.pictureBox5.TabStop = false;
+            // 
+            // stakesStatusSeeMoreButton
+            // 
+            this.stakesStatusSeeMoreButton.AutoSize = false;
+            this.stakesStatusSeeMoreButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.stakesStatusSeeMoreButton.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.stakesStatusSeeMoreButton.Depth = 0;
+            this.stakesStatusSeeMoreButton.HighEmphasis = true;
+            this.stakesStatusSeeMoreButton.Icon = null;
+            this.stakesStatusSeeMoreButton.Location = new System.Drawing.Point(195, 58);
+            this.stakesStatusSeeMoreButton.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.stakesStatusSeeMoreButton.MouseState = MaterialSkin.MouseState.HOVER;
+            this.stakesStatusSeeMoreButton.Name = "stakesStatusSeeMoreButton";
+            this.stakesStatusSeeMoreButton.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.stakesStatusSeeMoreButton.Size = new System.Drawing.Size(75, 25);
+            this.stakesStatusSeeMoreButton.TabIndex = 6;
+            this.stakesStatusSeeMoreButton.Text = "see more";
+            this.stakesStatusSeeMoreButton.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.stakesStatusSeeMoreButton.UseAccentColor = false;
+            this.stakesStatusSeeMoreButton.UseVisualStyleBackColor = true;
+            // 
+            // stakesStatusChanging
+            // 
+            this.stakesStatusChanging.AutoSize = true;
+            this.stakesStatusChanging.Depth = 0;
+            this.stakesStatusChanging.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.stakesStatusChanging.Location = new System.Drawing.Point(48, 42);
+            this.stakesStatusChanging.MouseState = MaterialSkin.MouseState.HOVER;
+            this.stakesStatusChanging.Name = "stakesStatusChanging";
+            this.stakesStatusChanging.Size = new System.Drawing.Size(46, 19);
+            this.stakesStatusChanging.TabIndex = 1;
+            this.stakesStatusChanging.Text = "Stable";
+            // 
+            // stakesStatusLabel
+            // 
+            this.stakesStatusLabel.AutoSize = true;
+            this.stakesStatusLabel.Depth = 0;
+            this.stakesStatusLabel.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.stakesStatusLabel.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.stakesStatusLabel.Location = new System.Drawing.Point(47, 14);
+            this.stakesStatusLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.stakesStatusLabel.Name = "stakesStatusLabel";
+            this.stakesStatusLabel.Size = new System.Drawing.Size(135, 24);
+            this.stakesStatusLabel.TabIndex = 0;
+            this.stakesStatusLabel.Text = "Stakes Status: ";
+            // 
+            // todaysSuggestionsHomeCard
+            // 
+            this.todaysSuggestionsHomeCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.todaysSuggestionsHomeCard.Controls.Add(this.TodaysSuggestionsHomeLabel);
+            this.todaysSuggestionsHomeCard.Depth = 0;
+            this.todaysSuggestionsHomeCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.todaysSuggestionsHomeCard.Location = new System.Drawing.Point(336, 324);
+            this.todaysSuggestionsHomeCard.Margin = new System.Windows.Forms.Padding(14);
+            this.todaysSuggestionsHomeCard.MouseState = MaterialSkin.MouseState.HOVER;
+            this.todaysSuggestionsHomeCard.Name = "todaysSuggestionsHomeCard";
+            this.todaysSuggestionsHomeCard.Padding = new System.Windows.Forms.Padding(14);
+            this.todaysSuggestionsHomeCard.Size = new System.Drawing.Size(288, 161);
+            this.todaysSuggestionsHomeCard.TabIndex = 3;
+            // 
+            // tempLabel6
+            // 
+            this.tempLabel6.Depth = 0;
+            this.tempLabel6.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.tempLabel6.Location = new System.Drawing.Point(336, 36);
+            this.tempLabel6.MouseState = MaterialSkin.MouseState.HOVER;
+            this.tempLabel6.Name = "tempLabel6";
+            this.tempLabel6.Size = new System.Drawing.Size(41, 47);
+            this.tempLabel6.TabIndex = 8;
+            this.tempLabel6.Text = "12° 17:00";
+            // 
+            // TodaysSuggestionsHomeLabel
+            // 
+            this.TodaysSuggestionsHomeLabel.AutoSize = true;
+            this.TodaysSuggestionsHomeLabel.Depth = 0;
+            this.TodaysSuggestionsHomeLabel.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.TodaysSuggestionsHomeLabel.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.TodaysSuggestionsHomeLabel.Location = new System.Drawing.Point(16, 14);
+            this.TodaysSuggestionsHomeLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.TodaysSuggestionsHomeLabel.Name = "TodaysSuggestionsHomeLabel";
+            this.TodaysSuggestionsHomeLabel.Size = new System.Drawing.Size(245, 24);
+            this.TodaysSuggestionsHomeLabel.TabIndex = 0;
+            this.TodaysSuggestionsHomeLabel.Text = "Todays Smart Suggestions:";
+            // 
+            // tempLabel5
+            // 
+            this.tempLabel5.Depth = 0;
+            this.tempLabel5.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.tempLabel5.Location = new System.Drawing.Point(288, 36);
+            this.tempLabel5.MouseState = MaterialSkin.MouseState.HOVER;
+            this.tempLabel5.Name = "tempLabel5";
+            this.tempLabel5.Size = new System.Drawing.Size(53, 47);
+            this.tempLabel5.TabIndex = 7;
+            this.tempLabel5.Text = "13° 15:00";
+            // 
+            // weatherWeekCard
+            // 
+            this.weatherWeekCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.weatherWeekCard.Controls.Add(this.dayLabel6);
+            this.weatherWeekCard.Controls.Add(this.dayLabel5);
+            this.weatherWeekCard.Controls.Add(this.dayLabel4);
+            this.weatherWeekCard.Controls.Add(this.dayLabel3);
+            this.weatherWeekCard.Controls.Add(this.dayLabel2);
+            this.weatherWeekCard.Controls.Add(this.dayLabel1);
+            this.weatherWeekCard.Controls.Add(this.todayWeekLabel);
+            this.weatherWeekCard.Controls.Add(this.tempLabelWeek7);
+            this.weatherWeekCard.Controls.Add(this.tempLabelWeek6);
+            this.weatherWeekCard.Controls.Add(this.tempLabelWeek5);
+            this.weatherWeekCard.Controls.Add(this.tempLabelWeek4);
+            this.weatherWeekCard.Controls.Add(this.tempLabelWeek3);
+            this.weatherWeekCard.Controls.Add(this.tempLabelWeek2);
+            this.weatherWeekCard.Controls.Add(this.tempLabelWeek1);
+            this.weatherWeekCard.Controls.Add(this.weatherWeekPictureBox7);
+            this.weatherWeekCard.Controls.Add(this.weatherWeekPictureBox3);
+            this.weatherWeekCard.Controls.Add(this.weatherWeekPictureBox6);
+            this.weatherWeekCard.Controls.Add(this.weatherWeekPictureBox5);
+            this.weatherWeekCard.Controls.Add(this.weatherWeekPictureBox4);
+            this.weatherWeekCard.Controls.Add(this.weatherWeekPictureBox2);
+            this.weatherWeekCard.Controls.Add(this.weatherWeekPictureBox1);
+            this.weatherWeekCard.Controls.Add(this.WeatherWeekLabelSmall);
+            this.weatherWeekCard.Controls.Add(this.weatherWeekLabel);
+            this.weatherWeekCard.Controls.Add(this.weatherWeekPictureBox);
+            this.weatherWeekCard.Depth = 0;
+            this.weatherWeekCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.weatherWeekCard.Location = new System.Drawing.Point(17, 320);
+            this.weatherWeekCard.Margin = new System.Windows.Forms.Padding(14);
+            this.weatherWeekCard.MouseState = MaterialSkin.MouseState.HOVER;
+            this.weatherWeekCard.Name = "weatherWeekCard";
+            this.weatherWeekCard.Padding = new System.Windows.Forms.Padding(14);
+            this.weatherWeekCard.Size = new System.Drawing.Size(297, 161);
+            this.weatherWeekCard.TabIndex = 2;
+            // 
+            // dayLabel6
+            // 
+            this.dayLabel6.Depth = 0;
+            this.dayLabel6.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.dayLabel6.FontType = MaterialSkin.MaterialSkinManager.fontType.SubtleEmphasis;
+            this.dayLabel6.Location = new System.Drawing.Point(236, 123);
+            this.dayLabel6.MouseState = MaterialSkin.MouseState.HOVER;
+            this.dayLabel6.Name = "dayLabel6";
+            this.dayLabel6.Size = new System.Drawing.Size(28, 14);
+            this.dayLabel6.TabIndex = 22;
+            this.dayLabel6.Text = "Sat";
+            // 
+            // dayLabel5
+            // 
+            this.dayLabel5.Depth = 0;
+            this.dayLabel5.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.dayLabel5.FontType = MaterialSkin.MaterialSkinManager.fontType.SubtleEmphasis;
+            this.dayLabel5.Location = new System.Drawing.Point(200, 123);
+            this.dayLabel5.MouseState = MaterialSkin.MouseState.HOVER;
+            this.dayLabel5.Name = "dayLabel5";
+            this.dayLabel5.Size = new System.Drawing.Size(28, 14);
+            this.dayLabel5.TabIndex = 21;
+            this.dayLabel5.Text = "Fri";
+            // 
+            // dayLabel4
+            // 
+            this.dayLabel4.Depth = 0;
+            this.dayLabel4.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.dayLabel4.FontType = MaterialSkin.MaterialSkinManager.fontType.SubtleEmphasis;
+            this.dayLabel4.Location = new System.Drawing.Point(164, 123);
+            this.dayLabel4.MouseState = MaterialSkin.MouseState.HOVER;
+            this.dayLabel4.Name = "dayLabel4";
+            this.dayLabel4.Size = new System.Drawing.Size(28, 14);
+            this.dayLabel4.TabIndex = 20;
+            this.dayLabel4.Text = "Thu";
+            // 
+            // dayLabel3
+            // 
+            this.dayLabel3.Depth = 0;
+            this.dayLabel3.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.dayLabel3.FontType = MaterialSkin.MaterialSkinManager.fontType.SubtleEmphasis;
+            this.dayLabel3.Location = new System.Drawing.Point(128, 123);
+            this.dayLabel3.MouseState = MaterialSkin.MouseState.HOVER;
+            this.dayLabel3.Name = "dayLabel3";
+            this.dayLabel3.Size = new System.Drawing.Size(28, 14);
+            this.dayLabel3.TabIndex = 19;
+            this.dayLabel3.Text = "Wed";
+            // 
+            // dayLabel2
+            // 
+            this.dayLabel2.Depth = 0;
+            this.dayLabel2.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.dayLabel2.FontType = MaterialSkin.MaterialSkinManager.fontType.SubtleEmphasis;
+            this.dayLabel2.Location = new System.Drawing.Point(92, 123);
+            this.dayLabel2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.dayLabel2.Name = "dayLabel2";
+            this.dayLabel2.Size = new System.Drawing.Size(28, 14);
+            this.dayLabel2.TabIndex = 18;
+            this.dayLabel2.Text = "Tue";
+            // 
+            // dayLabel1
+            // 
+            this.dayLabel1.Depth = 0;
+            this.dayLabel1.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.dayLabel1.FontType = MaterialSkin.MaterialSkinManager.fontType.SubtleEmphasis;
+            this.dayLabel1.Location = new System.Drawing.Point(58, 123);
+            this.dayLabel1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.dayLabel1.Name = "dayLabel1";
+            this.dayLabel1.Size = new System.Drawing.Size(28, 14);
+            this.dayLabel1.TabIndex = 17;
+            this.dayLabel1.Text = "Mon";
+            // 
+            // todayWeekLabel
+            // 
+            this.todayWeekLabel.AutoSize = true;
+            this.todayWeekLabel.Depth = 0;
+            this.todayWeekLabel.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.todayWeekLabel.FontType = MaterialSkin.MaterialSkinManager.fontType.SubtleEmphasis;
+            this.todayWeekLabel.Location = new System.Drawing.Point(17, 123);
+            this.todayWeekLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.todayWeekLabel.Name = "todayWeekLabel";
+            this.todayWeekLabel.Size = new System.Drawing.Size(35, 14);
+            this.todayWeekLabel.TabIndex = 16;
+            this.todayWeekLabel.Text = "Today";
+            // 
+            // tempLabelWeek7
+            // 
+            this.tempLabelWeek7.CausesValidation = false;
+            this.tempLabelWeek7.Depth = 0;
+            this.tempLabelWeek7.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.tempLabelWeek7.Location = new System.Drawing.Point(236, 95);
+            this.tempLabelWeek7.MouseState = MaterialSkin.MouseState.HOVER;
+            this.tempLabelWeek7.Name = "tempLabelWeek7";
+            this.tempLabelWeek7.Size = new System.Drawing.Size(30, 28);
+            this.tempLabelWeek7.TabIndex = 15;
+            this.tempLabelWeek7.Text = "13°";
+            // 
+            // tempLabelWeek6
+            // 
+            this.tempLabelWeek6.CausesValidation = false;
+            this.tempLabelWeek6.Depth = 0;
+            this.tempLabelWeek6.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.tempLabelWeek6.Location = new System.Drawing.Point(200, 95);
+            this.tempLabelWeek6.MouseState = MaterialSkin.MouseState.HOVER;
+            this.tempLabelWeek6.Name = "tempLabelWeek6";
+            this.tempLabelWeek6.Size = new System.Drawing.Size(30, 28);
+            this.tempLabelWeek6.TabIndex = 14;
+            this.tempLabelWeek6.Text = "15°";
+            // 
+            // tempLabelWeek5
+            // 
+            this.tempLabelWeek5.CausesValidation = false;
+            this.tempLabelWeek5.Depth = 0;
+            this.tempLabelWeek5.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.tempLabelWeek5.Location = new System.Drawing.Point(164, 95);
+            this.tempLabelWeek5.MouseState = MaterialSkin.MouseState.HOVER;
+            this.tempLabelWeek5.Name = "tempLabelWeek5";
+            this.tempLabelWeek5.Size = new System.Drawing.Size(30, 28);
+            this.tempLabelWeek5.TabIndex = 13;
+            this.tempLabelWeek5.Text = "10°";
+            // 
+            // tempLabelWeek4
+            // 
+            this.tempLabelWeek4.CausesValidation = false;
+            this.tempLabelWeek4.Depth = 0;
+            this.tempLabelWeek4.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.tempLabelWeek4.Location = new System.Drawing.Point(128, 95);
+            this.tempLabelWeek4.MouseState = MaterialSkin.MouseState.HOVER;
+            this.tempLabelWeek4.Name = "tempLabelWeek4";
+            this.tempLabelWeek4.Size = new System.Drawing.Size(30, 28);
+            this.tempLabelWeek4.TabIndex = 12;
+            this.tempLabelWeek4.Text = "11°";
+            // 
+            // tempLabelWeek3
+            // 
+            this.tempLabelWeek3.CausesValidation = false;
+            this.tempLabelWeek3.Depth = 0;
+            this.tempLabelWeek3.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.tempLabelWeek3.Location = new System.Drawing.Point(92, 95);
+            this.tempLabelWeek3.MouseState = MaterialSkin.MouseState.HOVER;
+            this.tempLabelWeek3.Name = "tempLabelWeek3";
+            this.tempLabelWeek3.Size = new System.Drawing.Size(30, 28);
+            this.tempLabelWeek3.TabIndex = 11;
+            this.tempLabelWeek3.Text = "10°";
+            // 
+            // tempLabelWeek2
+            // 
+            this.tempLabelWeek2.CausesValidation = false;
+            this.tempLabelWeek2.Depth = 0;
+            this.tempLabelWeek2.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.tempLabelWeek2.Location = new System.Drawing.Point(56, 95);
+            this.tempLabelWeek2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.tempLabelWeek2.Name = "tempLabelWeek2";
+            this.tempLabelWeek2.Size = new System.Drawing.Size(30, 28);
+            this.tempLabelWeek2.TabIndex = 10;
+            this.tempLabelWeek2.Text = "12°";
+            // 
+            // tempLabelWeek1
+            // 
+            this.tempLabelWeek1.CausesValidation = false;
+            this.tempLabelWeek1.Depth = 0;
+            this.tempLabelWeek1.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.tempLabelWeek1.Location = new System.Drawing.Point(20, 95);
+            this.tempLabelWeek1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.tempLabelWeek1.Name = "tempLabelWeek1";
+            this.tempLabelWeek1.Size = new System.Drawing.Size(30, 28);
+            this.tempLabelWeek1.TabIndex = 0;
+            this.tempLabelWeek1.Text = "10°";
+            // 
+            // weatherWeekPictureBox7
+            // 
+            this.weatherWeekPictureBox7.Image = global::Trailmate.Properties.Resources.icons8_clouds_26;
+            this.weatherWeekPictureBox7.Location = new System.Drawing.Point(236, 64);
+            this.weatherWeekPictureBox7.Name = "weatherWeekPictureBox7";
+            this.weatherWeekPictureBox7.Size = new System.Drawing.Size(30, 28);
+            this.weatherWeekPictureBox7.TabIndex = 9;
+            this.weatherWeekPictureBox7.TabStop = false;
+            // 
+            // weatherWeekPictureBox3
+            // 
+            this.weatherWeekPictureBox3.Image = global::Trailmate.Properties.Resources.icons8_stormy_weather_26;
+            this.weatherWeekPictureBox3.Location = new System.Drawing.Point(92, 64);
+            this.weatherWeekPictureBox3.Name = "weatherWeekPictureBox3";
+            this.weatherWeekPictureBox3.Size = new System.Drawing.Size(30, 28);
+            this.weatherWeekPictureBox3.TabIndex = 8;
+            this.weatherWeekPictureBox3.TabStop = false;
+            // 
+            // weatherWeekPictureBox6
+            // 
+            this.weatherWeekPictureBox6.Image = global::Trailmate.Properties.Resources.icons8_sun_26;
+            this.weatherWeekPictureBox6.Location = new System.Drawing.Point(200, 64);
+            this.weatherWeekPictureBox6.Name = "weatherWeekPictureBox6";
+            this.weatherWeekPictureBox6.Size = new System.Drawing.Size(30, 28);
+            this.weatherWeekPictureBox6.TabIndex = 7;
+            this.weatherWeekPictureBox6.TabStop = false;
+            // 
+            // weatherWeekPictureBox5
+            // 
+            this.weatherWeekPictureBox5.Image = global::Trailmate.Properties.Resources.icons8_rain_26;
+            this.weatherWeekPictureBox5.Location = new System.Drawing.Point(164, 64);
+            this.weatherWeekPictureBox5.Name = "weatherWeekPictureBox5";
+            this.weatherWeekPictureBox5.Size = new System.Drawing.Size(30, 28);
+            this.weatherWeekPictureBox5.TabIndex = 6;
+            this.weatherWeekPictureBox5.TabStop = false;
+            // 
+            // weatherWeekPictureBox4
+            // 
+            this.weatherWeekPictureBox4.Image = global::Trailmate.Properties.Resources.icons8_rain_26;
+            this.weatherWeekPictureBox4.Location = new System.Drawing.Point(128, 64);
+            this.weatherWeekPictureBox4.Name = "weatherWeekPictureBox4";
+            this.weatherWeekPictureBox4.Size = new System.Drawing.Size(30, 28);
+            this.weatherWeekPictureBox4.TabIndex = 5;
+            this.weatherWeekPictureBox4.TabStop = false;
+            // 
+            // weatherWeekPictureBox2
+            // 
+            this.weatherWeekPictureBox2.Image = global::Trailmate.Properties.Resources.icons8_sun_26;
+            this.weatherWeekPictureBox2.Location = new System.Drawing.Point(56, 64);
+            this.weatherWeekPictureBox2.Name = "weatherWeekPictureBox2";
+            this.weatherWeekPictureBox2.Size = new System.Drawing.Size(30, 28);
+            this.weatherWeekPictureBox2.TabIndex = 4;
+            this.weatherWeekPictureBox2.TabStop = false;
+            // 
+            // weatherWeekPictureBox1
+            // 
+            this.weatherWeekPictureBox1.Image = global::Trailmate.Properties.Resources.icons8_clouds_26;
+            this.weatherWeekPictureBox1.Location = new System.Drawing.Point(20, 64);
+            this.weatherWeekPictureBox1.Name = "weatherWeekPictureBox1";
+            this.weatherWeekPictureBox1.Size = new System.Drawing.Size(30, 28);
+            this.weatherWeekPictureBox1.TabIndex = 3;
+            this.weatherWeekPictureBox1.TabStop = false;
+            // 
+            // WeatherWeekLabelSmall
+            // 
+            this.WeatherWeekLabelSmall.AutoSize = true;
+            this.WeatherWeekLabelSmall.Depth = 0;
+            this.WeatherWeekLabelSmall.Font = new System.Drawing.Font("Roboto Medium", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.WeatherWeekLabelSmall.FontType = MaterialSkin.MaterialSkinManager.fontType.Subtitle2;
+            this.WeatherWeekLabelSmall.Location = new System.Drawing.Point(230, 14);
+            this.WeatherWeekLabelSmall.MouseState = MaterialSkin.MouseState.HOVER;
+            this.WeatherWeekLabelSmall.Name = "WeatherWeekLabelSmall";
+            this.WeatherWeekLabelSmall.Size = new System.Drawing.Size(36, 17);
+            this.WeatherWeekLabelSmall.TabIndex = 2;
+            this.WeatherWeekLabelSmall.Text = "Week";
+            // 
+            // weatherWeekLabel
+            // 
+            this.weatherWeekLabel.AutoSize = true;
+            this.weatherWeekLabel.Depth = 0;
+            this.weatherWeekLabel.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.weatherWeekLabel.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.weatherWeekLabel.Location = new System.Drawing.Point(50, 17);
+            this.weatherWeekLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.weatherWeekLabel.Name = "weatherWeekLabel";
+            this.weatherWeekLabel.Size = new System.Drawing.Size(77, 24);
+            this.weatherWeekLabel.TabIndex = 1;
+            this.weatherWeekLabel.Text = "Weather";
+            // 
+            // weatherWeekPictureBox
+            // 
+            this.weatherWeekPictureBox.Image = global::Trailmate.Properties.Resources.icons8_umbrella_26;
+            this.weatherWeekPictureBox.Location = new System.Drawing.Point(14, 17);
+            this.weatherWeekPictureBox.Name = "weatherWeekPictureBox";
+            this.weatherWeekPictureBox.Size = new System.Drawing.Size(30, 28);
+            this.weatherWeekPictureBox.TabIndex = 0;
+            this.weatherWeekPictureBox.TabStop = false;
+            // 
+            // temperatureTodayCard
+            // 
+            this.temperatureTodayCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.temperatureTodayCard.Controls.Add(this.temperatureTodayPanel);
+            this.temperatureTodayCard.Controls.Add(this.todayTempLabel);
+            this.temperatureTodayCard.Controls.Add(this.temperatureTodayLabel);
+            this.temperatureTodayCard.Controls.Add(this.tempTodayPictureBox);
+            this.temperatureTodayCard.Depth = 0;
+            this.temperatureTodayCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.temperatureTodayCard.Location = new System.Drawing.Point(17, 131);
+            this.temperatureTodayCard.Margin = new System.Windows.Forms.Padding(14);
+            this.temperatureTodayCard.MouseState = MaterialSkin.MouseState.HOVER;
+            this.temperatureTodayCard.Name = "temperatureTodayCard";
+            this.temperatureTodayCard.Padding = new System.Windows.Forms.Padding(14);
+            this.temperatureTodayCard.Size = new System.Drawing.Size(297, 161);
+            this.temperatureTodayCard.TabIndex = 1;
+            // 
+            // temperatureTodayPanel
+            // 
+            this.temperatureTodayPanel.AutoScroll = true;
+            this.temperatureTodayPanel.Controls.Add(this.tempLabel6);
+            this.temperatureTodayPanel.Controls.Add(this.todaysDateCard);
+            this.temperatureTodayPanel.Controls.Add(this.tempLabel1);
+            this.temperatureTodayPanel.Controls.Add(this.tempLabel5);
+            this.temperatureTodayPanel.Controls.Add(this.tempLabel2);
+            this.temperatureTodayPanel.Controls.Add(this.tempLabel4);
+            this.temperatureTodayPanel.Controls.Add(this.tempLabel3);
+            this.temperatureTodayPanel.Location = new System.Drawing.Point(0, 51);
+            this.temperatureTodayPanel.Name = "temperatureTodayPanel";
+            this.temperatureTodayPanel.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.temperatureTodayPanel.Size = new System.Drawing.Size(297, 110);
+            this.temperatureTodayPanel.TabIndex = 3;
+            // 
+            // todaysDateCard
+            // 
+            this.todaysDateCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.todaysDateCard.Controls.Add(this.todaysDateLabel);
+            this.todaysDateCard.Depth = 0;
+            this.todaysDateCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.todaysDateCard.Location = new System.Drawing.Point(17, 25);
+            this.todaysDateCard.Margin = new System.Windows.Forms.Padding(14);
+            this.todaysDateCard.MouseState = MaterialSkin.MouseState.HOVER;
+            this.todaysDateCard.Name = "todaysDateCard";
+            this.todaysDateCard.Padding = new System.Windows.Forms.Padding(14);
+            this.todaysDateCard.Size = new System.Drawing.Size(62, 60);
+            this.todaysDateCard.TabIndex = 3;
+            // 
+            // todaysDateLabel
+            // 
+            this.todaysDateLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.todaysDateLabel.Depth = 0;
+            this.todaysDateLabel.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.todaysDateLabel.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.todaysDateLabel.Location = new System.Drawing.Point(17, 11);
+            this.todaysDateLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.todaysDateLabel.Name = "todaysDateLabel";
+            this.todaysDateLabel.Size = new System.Drawing.Size(47, 50);
+            this.todaysDateLabel.TabIndex = 0;
+            this.todaysDateLabel.Text = "20 Jan";
+            // 
+            // tempLabel1
+            // 
+            this.tempLabel1.Depth = 0;
+            this.tempLabel1.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.tempLabel1.Location = new System.Drawing.Point(92, 36);
+            this.tempLabel1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.tempLabel1.Name = "tempLabel1";
+            this.tempLabel1.Size = new System.Drawing.Size(41, 47);
+            this.tempLabel1.TabIndex = 4;
+            this.tempLabel1.Text = "8° Now";
+            // 
+            // tempLabel2
+            // 
+            this.tempLabel2.Depth = 0;
+            this.tempLabel2.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.tempLabel2.Location = new System.Drawing.Point(139, 36);
+            this.tempLabel2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.tempLabel2.Name = "tempLabel2";
+            this.tempLabel2.Size = new System.Drawing.Size(41, 47);
+            this.tempLabel2.TabIndex = 5;
+            this.tempLabel2.Text = "10° 9:00";
+            // 
+            // tempLabel4
+            // 
+            this.tempLabel4.Depth = 0;
+            this.tempLabel4.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.tempLabel4.Location = new System.Drawing.Point(236, 36);
+            this.tempLabel4.MouseState = MaterialSkin.MouseState.HOVER;
+            this.tempLabel4.Name = "tempLabel4";
+            this.tempLabel4.Size = new System.Drawing.Size(53, 47);
+            this.tempLabel4.TabIndex = 6;
+            this.tempLabel4.Text = "12° 13:00";
+            // 
+            // tempLabel3
+            // 
+            this.tempLabel3.Depth = 0;
+            this.tempLabel3.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.tempLabel3.Location = new System.Drawing.Point(186, 36);
+            this.tempLabel3.MouseState = MaterialSkin.MouseState.HOVER;
+            this.tempLabel3.Name = "tempLabel3";
+            this.tempLabel3.Size = new System.Drawing.Size(54, 47);
+            this.tempLabel3.TabIndex = 5;
+            this.tempLabel3.Text = "10° 11:00";
+            // 
+            // todayTempLabel
+            // 
+            this.todayTempLabel.AutoSize = true;
+            this.todayTempLabel.Depth = 0;
+            this.todayTempLabel.Font = new System.Drawing.Font("Roboto Medium", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.todayTempLabel.FontType = MaterialSkin.MaterialSkinManager.fontType.Subtitle2;
+            this.todayTempLabel.Location = new System.Drawing.Point(225, 14);
+            this.todayTempLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.todayTempLabel.Name = "todayTempLabel";
+            this.todayTempLabel.Size = new System.Drawing.Size(41, 17);
+            this.todayTempLabel.TabIndex = 2;
+            this.todayTempLabel.Text = "Today";
+            // 
+            // temperatureTodayLabel
+            // 
+            this.temperatureTodayLabel.AutoSize = true;
+            this.temperatureTodayLabel.Depth = 0;
+            this.temperatureTodayLabel.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.temperatureTodayLabel.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.temperatureTodayLabel.Location = new System.Drawing.Point(50, 17);
+            this.temperatureTodayLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.temperatureTodayLabel.Name = "temperatureTodayLabel";
+            this.temperatureTodayLabel.Size = new System.Drawing.Size(117, 24);
+            this.temperatureTodayLabel.TabIndex = 1;
+            this.temperatureTodayLabel.Text = "Temperature";
+            // 
+            // tempTodayPictureBox
+            // 
+            this.tempTodayPictureBox.Image = global::Trailmate.Properties.Resources.icons8_temperature_26;
+            this.tempTodayPictureBox.Location = new System.Drawing.Point(14, 17);
+            this.tempTodayPictureBox.Name = "tempTodayPictureBox";
+            this.tempTodayPictureBox.Size = new System.Drawing.Size(30, 28);
+            this.tempTodayPictureBox.TabIndex = 0;
+            this.tempTodayPictureBox.TabStop = false;
+            // 
+            // homeLabel
+            // 
+            this.homeLabel.AutoSize = true;
+            this.homeLabel.Depth = 0;
+            this.homeLabel.Font = new System.Drawing.Font("Roboto", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.homeLabel.FontType = MaterialSkin.MaterialSkinManager.fontType.H5;
+            this.homeLabel.Location = new System.Drawing.Point(12, 12);
+            this.homeLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.homeLabel.Name = "homeLabel";
+            this.homeLabel.Size = new System.Drawing.Size(66, 29);
+            this.homeLabel.TabIndex = 0;
+            this.homeLabel.Text = "Home";
             // 
             // setupPage
             // 
@@ -346,7 +1306,7 @@
             this.setupPage.Location = new System.Drawing.Point(4, 31);
             this.setupPage.Name = "setupPage";
             this.setupPage.Padding = new System.Windows.Forms.Padding(3);
-            this.setupPage.Size = new System.Drawing.Size(936, 495);
+            this.setupPage.Size = new System.Drawing.Size(936, 491);
             this.setupPage.TabIndex = 0;
             this.setupPage.Text = "Setup";
             this.setupPage.UseVisualStyleBackColor = true;
@@ -374,7 +1334,7 @@
             this.groundInfoCard.MouseState = MaterialSkin.MouseState.HOVER;
             this.groundInfoCard.Name = "groundInfoCard";
             this.groundInfoCard.Padding = new System.Windows.Forms.Padding(14);
-            this.groundInfoCard.Size = new System.Drawing.Size(265, 489);
+            this.groundInfoCard.Size = new System.Drawing.Size(265, 485);
             this.groundInfoCard.TabIndex = 0;
             this.groundInfoCard.Visible = false;
             // 
@@ -562,7 +1522,7 @@
             this.finalSetupCard.MouseState = MaterialSkin.MouseState.HOVER;
             this.finalSetupCard.Name = "finalSetupCard";
             this.finalSetupCard.Padding = new System.Windows.Forms.Padding(14);
-            this.finalSetupCard.Size = new System.Drawing.Size(930, 489);
+            this.finalSetupCard.Size = new System.Drawing.Size(930, 485);
             this.finalSetupCard.TabIndex = 1;
             this.finalSetupCard.Visible = false;
             // 
@@ -572,7 +1532,7 @@
             this.tentControlPage.Location = new System.Drawing.Point(4, 31);
             this.tentControlPage.Margin = new System.Windows.Forms.Padding(2);
             this.tentControlPage.Name = "tentControlPage";
-            this.tentControlPage.Size = new System.Drawing.Size(936, 495);
+            this.tentControlPage.Size = new System.Drawing.Size(936, 491);
             this.tentControlPage.TabIndex = 2;
             this.tentControlPage.Text = "Tent Control";
             this.tentControlPage.UseVisualStyleBackColor = true;
@@ -583,7 +1543,7 @@
             this.lightControlPage.Location = new System.Drawing.Point(4, 31);
             this.lightControlPage.Margin = new System.Windows.Forms.Padding(2);
             this.lightControlPage.Name = "lightControlPage";
-            this.lightControlPage.Size = new System.Drawing.Size(936, 495);
+            this.lightControlPage.Size = new System.Drawing.Size(936, 491);
             this.lightControlPage.TabIndex = 3;
             this.lightControlPage.Text = "Light Control";
             this.lightControlPage.UseVisualStyleBackColor = true;
@@ -599,7 +1559,7 @@
             this.energyPage.Location = new System.Drawing.Point(4, 31);
             this.energyPage.Margin = new System.Windows.Forms.Padding(2);
             this.energyPage.Name = "energyPage";
-            this.energyPage.Size = new System.Drawing.Size(936, 495);
+            this.energyPage.Size = new System.Drawing.Size(936, 491);
             this.energyPage.TabIndex = 4;
             this.energyPage.Text = "Energy";
             this.energyPage.UseVisualStyleBackColor = true;
@@ -670,6 +1630,15 @@
             this.materialLabel4.TabIndex = 4;
             this.materialLabel4.Text = "800W";
             // 
+            // fridgePictureBox
+            // 
+            this.fridgePictureBox.Image = global::Trailmate.Properties.Resources.icons8_fridge_26;
+            this.fridgePictureBox.Location = new System.Drawing.Point(17, 50);
+            this.fridgePictureBox.Name = "fridgePictureBox";
+            this.fridgePictureBox.Size = new System.Drawing.Size(30, 28);
+            this.fridgePictureBox.TabIndex = 3;
+            this.fridgePictureBox.TabStop = false;
+            // 
             // fridgeSwitch
             // 
             this.fridgeSwitch.Depth = 0;
@@ -724,6 +1693,15 @@
             this.materialLabel3.Size = new System.Drawing.Size(63, 23);
             this.materialLabel3.TabIndex = 4;
             this.materialLabel3.Text = "1000W";
+            // 
+            // coffeeMachinePictureBox
+            // 
+            this.coffeeMachinePictureBox.Image = global::Trailmate.Properties.Resources.icons8_coffee_maker_26;
+            this.coffeeMachinePictureBox.Location = new System.Drawing.Point(17, 50);
+            this.coffeeMachinePictureBox.Name = "coffeeMachinePictureBox";
+            this.coffeeMachinePictureBox.Size = new System.Drawing.Size(30, 28);
+            this.coffeeMachinePictureBox.TabIndex = 3;
+            this.coffeeMachinePictureBox.TabStop = false;
             // 
             // coffeeMachineSwitch
             // 
@@ -780,6 +1758,15 @@
             this.materialLabel2.TabIndex = 4;
             this.materialLabel2.Text = "200W";
             // 
+            // smartTvPictureBox
+            // 
+            this.smartTvPictureBox.Image = global::Trailmate.Properties.Resources.icons8_retro_tv_26;
+            this.smartTvPictureBox.Location = new System.Drawing.Point(17, 50);
+            this.smartTvPictureBox.Name = "smartTvPictureBox";
+            this.smartTvPictureBox.Size = new System.Drawing.Size(30, 28);
+            this.smartTvPictureBox.TabIndex = 3;
+            this.smartTvPictureBox.TabStop = false;
+            // 
             // smartTVSwitch
             // 
             this.smartTVSwitch.Depth = 0;
@@ -834,6 +1821,15 @@
             this.materialLabel1.Size = new System.Drawing.Size(63, 23);
             this.materialLabel1.TabIndex = 3;
             this.materialLabel1.Text = "1500W";
+            // 
+            // acPictureBox
+            // 
+            this.acPictureBox.Image = global::Trailmate.Properties.Resources.icons8_air_conditioner_26;
+            this.acPictureBox.Location = new System.Drawing.Point(17, 50);
+            this.acPictureBox.Name = "acPictureBox";
+            this.acPictureBox.Size = new System.Drawing.Size(30, 28);
+            this.acPictureBox.TabIndex = 2;
+            this.acPictureBox.TabStop = false;
             // 
             // acSwitch
             // 
@@ -890,6 +1886,15 @@
             this.energyLabel2.Size = new System.Drawing.Size(62, 24);
             this.energyLabel2.TabIndex = 2;
             this.energyLabel2.Text = "Energy";
+            // 
+            // energyIcon2
+            // 
+            this.energyIcon2.Image = global::Trailmate.Properties.Resources.icons8_quick_mode_on_26;
+            this.energyIcon2.Location = new System.Drawing.Point(16, 17);
+            this.energyIcon2.Name = "energyIcon2";
+            this.energyIcon2.Size = new System.Drawing.Size(30, 28);
+            this.energyIcon2.TabIndex = 1;
+            this.energyIcon2.TabStop = false;
             // 
             // EcoEffHubCard
             // 
@@ -1063,13 +2068,22 @@
             this.energyLabel1.TabIndex = 1;
             this.energyLabel1.Text = "Energy";
             // 
+            // energyIcon1
+            // 
+            this.energyIcon1.Image = global::Trailmate.Properties.Resources.icons8_quick_mode_on_26;
+            this.energyIcon1.Location = new System.Drawing.Point(14, 17);
+            this.energyIcon1.Name = "energyIcon1";
+            this.energyIcon1.Size = new System.Drawing.Size(30, 28);
+            this.energyIcon1.TabIndex = 0;
+            this.energyIcon1.TabStop = false;
+            // 
             // emergencyPage
             // 
             this.emergencyPage.ImageKey = "icons8-siren-26.png";
             this.emergencyPage.Location = new System.Drawing.Point(4, 31);
             this.emergencyPage.Margin = new System.Windows.Forms.Padding(2);
             this.emergencyPage.Name = "emergencyPage";
-            this.emergencyPage.Size = new System.Drawing.Size(936, 495);
+            this.emergencyPage.Size = new System.Drawing.Size(936, 491);
             this.emergencyPage.TabIndex = 5;
             this.emergencyPage.Text = "Emergency";
             this.emergencyPage.UseVisualStyleBackColor = true;
@@ -1080,7 +2094,7 @@
             this.explorePage.Location = new System.Drawing.Point(4, 31);
             this.explorePage.Margin = new System.Windows.Forms.Padding(2);
             this.explorePage.Name = "explorePage";
-            this.explorePage.Size = new System.Drawing.Size(936, 495);
+            this.explorePage.Size = new System.Drawing.Size(936, 491);
             this.explorePage.TabIndex = 6;
             this.explorePage.Text = "Explore";
             this.explorePage.UseVisualStyleBackColor = true;
@@ -1099,7 +2113,7 @@
             this.orderPage.Location = new System.Drawing.Point(4, 31);
             this.orderPage.Margin = new System.Windows.Forms.Padding(2);
             this.orderPage.Name = "orderPage";
-            this.orderPage.Size = new System.Drawing.Size(936, 495);
+            this.orderPage.Size = new System.Drawing.Size(936, 491);
             this.orderPage.TabIndex = 7;
             this.orderPage.Text = "Order";
             this.orderPage.UseVisualStyleBackColor = true;
@@ -2067,7 +3081,7 @@
             this.eventsPage.Location = new System.Drawing.Point(4, 31);
             this.eventsPage.Margin = new System.Windows.Forms.Padding(2);
             this.eventsPage.Name = "eventsPage";
-            this.eventsPage.Size = new System.Drawing.Size(936, 495);
+            this.eventsPage.Size = new System.Drawing.Size(936, 491);
             this.eventsPage.TabIndex = 8;
             this.eventsPage.Text = "Events";
             this.eventsPage.UseVisualStyleBackColor = true;
@@ -2089,6 +3103,59 @@
             this.buttonsCard.Padding = new System.Windows.Forms.Padding(14);
             this.buttonsCard.Size = new System.Drawing.Size(564, 100);
             this.buttonsCard.TabIndex = 4;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Trailmate.Properties.Resources.Screenshot_2025_01_09_1817141;
+            this.pictureBox1.Location = new System.Drawing.Point(419, 10);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(116, 83);
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
+            // 
+            // infoForCheckLabel
+            // 
+            this.infoForCheckLabel.AutoSize = true;
+            this.infoForCheckLabel.Depth = 0;
+            this.infoForCheckLabel.Font = new System.Drawing.Font("Roboto Medium", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.infoForCheckLabel.FontType = MaterialSkin.MaterialSkinManager.fontType.Subtitle2;
+            this.infoForCheckLabel.Location = new System.Drawing.Point(52, 66);
+            this.infoForCheckLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.infoForCheckLabel.Name = "infoForCheckLabel";
+            this.infoForCheckLabel.Size = new System.Drawing.Size(219, 17);
+            this.infoForCheckLabel.TabIndex = 7;
+            this.infoForCheckLabel.Text = ": I agree to participate in the event";
+            // 
+            // infoForNotifLabel
+            // 
+            this.infoForNotifLabel.AutoSize = true;
+            this.infoForNotifLabel.Depth = 0;
+            this.infoForNotifLabel.Font = new System.Drawing.Font("Roboto Medium", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.infoForNotifLabel.FontType = MaterialSkin.MaterialSkinManager.fontType.Subtitle2;
+            this.infoForNotifLabel.Location = new System.Drawing.Point(52, 27);
+            this.infoForNotifLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.infoForNotifLabel.Name = "infoForNotifLabel";
+            this.infoForNotifLabel.Size = new System.Drawing.Size(308, 17);
+            this.infoForNotifLabel.TabIndex = 6;
+            this.infoForNotifLabel.Text = ": I agree to recieve notifications about this event";
+            // 
+            // infoForCheckPictureBox
+            // 
+            this.infoForCheckPictureBox.Image = global::Trailmate.Properties.Resources.icons8_check_26;
+            this.infoForCheckPictureBox.Location = new System.Drawing.Point(17, 56);
+            this.infoForCheckPictureBox.Name = "infoForCheckPictureBox";
+            this.infoForCheckPictureBox.Size = new System.Drawing.Size(29, 27);
+            this.infoForCheckPictureBox.TabIndex = 5;
+            this.infoForCheckPictureBox.TabStop = false;
+            // 
+            // infoForInfoPictureBox
+            // 
+            this.infoForInfoPictureBox.Image = global::Trailmate.Properties.Resources.icons8_notification_26;
+            this.infoForInfoPictureBox.Location = new System.Drawing.Point(17, 17);
+            this.infoForInfoPictureBox.Name = "infoForInfoPictureBox";
+            this.infoForInfoPictureBox.Size = new System.Drawing.Size(29, 27);
+            this.infoForInfoPictureBox.TabIndex = 4;
+            this.infoForInfoPictureBox.TabStop = false;
             // 
             // infoCard
             // 
@@ -2187,6 +3254,15 @@
             this.infoEventsLabel.TabIndex = 0;
             this.infoEventsLabel.Text = "Info:";
             // 
+            // eventsPictureBox
+            // 
+            this.eventsPictureBox.Image = global::Trailmate.Properties.Resources.Screenshot_2025_01_09_1817052;
+            this.eventsPictureBox.Location = new System.Drawing.Point(17, 17);
+            this.eventsPictureBox.Name = "eventsPictureBox";
+            this.eventsPictureBox.Size = new System.Drawing.Size(194, 253);
+            this.eventsPictureBox.TabIndex = 0;
+            this.eventsPictureBox.TabStop = false;
+            // 
             // upcomingEventsCard2
             // 
             this.upcomingEventsCard2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
@@ -2233,6 +3309,15 @@
             this.dayTripCard.Size = new System.Drawing.Size(238, 75);
             this.dayTripCard.TabIndex = 2;
             // 
+            // dayTripCheckPictureBox
+            // 
+            this.dayTripCheckPictureBox.Image = global::Trailmate.Properties.Resources.icons8_check_26;
+            this.dayTripCheckPictureBox.Location = new System.Drawing.Point(105, 44);
+            this.dayTripCheckPictureBox.Name = "dayTripCheckPictureBox";
+            this.dayTripCheckPictureBox.Size = new System.Drawing.Size(29, 27);
+            this.dayTripCheckPictureBox.TabIndex = 4;
+            this.dayTripCheckPictureBox.TabStop = false;
+            // 
             // dayTripInfoButton
             // 
             this.dayTripInfoButton.AutoSize = false;
@@ -2266,6 +3351,15 @@
             this.notifsSwitch2.TabIndex = 4;
             this.notifsSwitch2.Text = "materialSwitch1";
             this.notifsSwitch2.UseVisualStyleBackColor = true;
+            // 
+            // notifsPictureBox2
+            // 
+            this.notifsPictureBox2.Image = global::Trailmate.Properties.Resources.icons8_notification_26;
+            this.notifsPictureBox2.Location = new System.Drawing.Point(155, 3);
+            this.notifsPictureBox2.Name = "notifsPictureBox2";
+            this.notifsPictureBox2.Size = new System.Drawing.Size(29, 27);
+            this.notifsPictureBox2.TabIndex = 3;
+            this.notifsPictureBox2.TabStop = false;
             // 
             // imGoingDayTripButton
             // 
@@ -2319,6 +3413,15 @@
             this.hikeTourCard.Size = new System.Drawing.Size(238, 75);
             this.hikeTourCard.TabIndex = 3;
             // 
+            // hikeTourCheckPictureBox
+            // 
+            this.hikeTourCheckPictureBox.Image = global::Trailmate.Properties.Resources.icons8_check_26;
+            this.hikeTourCheckPictureBox.Location = new System.Drawing.Point(105, 44);
+            this.hikeTourCheckPictureBox.Name = "hikeTourCheckPictureBox";
+            this.hikeTourCheckPictureBox.Size = new System.Drawing.Size(29, 27);
+            this.hikeTourCheckPictureBox.TabIndex = 4;
+            this.hikeTourCheckPictureBox.TabStop = false;
+            // 
             // hikeTourInfoButton
             // 
             this.hikeTourInfoButton.AutoSize = false;
@@ -2352,6 +3455,15 @@
             this.hikeTourSwtch.TabIndex = 4;
             this.hikeTourSwtch.Text = "materialSwitch1";
             this.hikeTourSwtch.UseVisualStyleBackColor = true;
+            // 
+            // hikeTourNotifPictureBox
+            // 
+            this.hikeTourNotifPictureBox.Image = global::Trailmate.Properties.Resources.icons8_notification_26;
+            this.hikeTourNotifPictureBox.Location = new System.Drawing.Point(155, 3);
+            this.hikeTourNotifPictureBox.Name = "hikeTourNotifPictureBox";
+            this.hikeTourNotifPictureBox.Size = new System.Drawing.Size(29, 27);
+            this.hikeTourNotifPictureBox.TabIndex = 3;
+            this.hikeTourNotifPictureBox.TabStop = false;
             // 
             // hikeTourImGoingButton
             // 
@@ -2405,6 +3517,15 @@
             this.workshopCard.Size = new System.Drawing.Size(238, 75);
             this.workshopCard.TabIndex = 2;
             // 
+            // workshopCheckPictureBox
+            // 
+            this.workshopCheckPictureBox.Image = global::Trailmate.Properties.Resources.icons8_check_26;
+            this.workshopCheckPictureBox.Location = new System.Drawing.Point(105, 44);
+            this.workshopCheckPictureBox.Name = "workshopCheckPictureBox";
+            this.workshopCheckPictureBox.Size = new System.Drawing.Size(29, 27);
+            this.workshopCheckPictureBox.TabIndex = 4;
+            this.workshopCheckPictureBox.TabStop = false;
+            // 
             // workshopInfoButton
             // 
             this.workshopInfoButton.AutoSize = false;
@@ -2438,6 +3559,15 @@
             this.workshopSwitch.TabIndex = 4;
             this.workshopSwitch.Text = "materialSwitch1";
             this.workshopSwitch.UseVisualStyleBackColor = true;
+            // 
+            // workshopNotifsPictureBox
+            // 
+            this.workshopNotifsPictureBox.Image = global::Trailmate.Properties.Resources.icons8_notification_26;
+            this.workshopNotifsPictureBox.Location = new System.Drawing.Point(155, 3);
+            this.workshopNotifsPictureBox.Name = "workshopNotifsPictureBox";
+            this.workshopNotifsPictureBox.Size = new System.Drawing.Size(29, 27);
+            this.workshopNotifsPictureBox.TabIndex = 3;
+            this.workshopNotifsPictureBox.TabStop = false;
             // 
             // workshopImGoingButton
             // 
@@ -2491,6 +3621,15 @@
             this.concertCard.Size = new System.Drawing.Size(238, 75);
             this.concertCard.TabIndex = 1;
             // 
+            // concertCheckPictureBox
+            // 
+            this.concertCheckPictureBox.Image = global::Trailmate.Properties.Resources.icons8_check_26;
+            this.concertCheckPictureBox.Location = new System.Drawing.Point(105, 44);
+            this.concertCheckPictureBox.Name = "concertCheckPictureBox";
+            this.concertCheckPictureBox.Size = new System.Drawing.Size(29, 27);
+            this.concertCheckPictureBox.TabIndex = 4;
+            this.concertCheckPictureBox.TabStop = false;
+            // 
             // concertInfoButton
             // 
             this.concertInfoButton.AutoSize = false;
@@ -2524,6 +3663,15 @@
             this.concertNotifSwitch.TabIndex = 4;
             this.concertNotifSwitch.Text = "materialSwitch1";
             this.concertNotifSwitch.UseVisualStyleBackColor = true;
+            // 
+            // concertNotifPictureBox
+            // 
+            this.concertNotifPictureBox.Image = global::Trailmate.Properties.Resources.icons8_notification_26;
+            this.concertNotifPictureBox.Location = new System.Drawing.Point(155, 3);
+            this.concertNotifPictureBox.Name = "concertNotifPictureBox";
+            this.concertNotifPictureBox.Size = new System.Drawing.Size(29, 27);
+            this.concertNotifPictureBox.TabIndex = 3;
+            this.concertNotifPictureBox.TabStop = false;
             // 
             // concertGoingButton
             // 
@@ -2623,415 +3771,11 @@
             this.imageList1.Images.SetKeyName(7, "icons8-camping-tent-26.png");
             this.imageList1.Images.SetKeyName(8, "icons8-home-26.png");
             // 
-            // infoForNotifLabel
-            // 
-            this.infoForNotifLabel.AutoSize = true;
-            this.infoForNotifLabel.Depth = 0;
-            this.infoForNotifLabel.Font = new System.Drawing.Font("Roboto Medium", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.infoForNotifLabel.FontType = MaterialSkin.MaterialSkinManager.fontType.Subtitle2;
-            this.infoForNotifLabel.Location = new System.Drawing.Point(52, 27);
-            this.infoForNotifLabel.MouseState = MaterialSkin.MouseState.HOVER;
-            this.infoForNotifLabel.Name = "infoForNotifLabel";
-            this.infoForNotifLabel.Size = new System.Drawing.Size(308, 17);
-            this.infoForNotifLabel.TabIndex = 6;
-            this.infoForNotifLabel.Text = ": I agree to recieve notifications about this event";
-            // 
-            // infoForCheckLabel
-            // 
-            this.infoForCheckLabel.AutoSize = true;
-            this.infoForCheckLabel.Depth = 0;
-            this.infoForCheckLabel.Font = new System.Drawing.Font("Roboto Medium", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.infoForCheckLabel.FontType = MaterialSkin.MaterialSkinManager.fontType.Subtitle2;
-            this.infoForCheckLabel.Location = new System.Drawing.Point(52, 66);
-            this.infoForCheckLabel.MouseState = MaterialSkin.MouseState.HOVER;
-            this.infoForCheckLabel.Name = "infoForCheckLabel";
-            this.infoForCheckLabel.Size = new System.Drawing.Size(219, 17);
-            this.infoForCheckLabel.TabIndex = 7;
-            this.infoForCheckLabel.Text = ": I agree to participate in the event";
-            // 
-            // homeLabel
-            // 
-            this.homeLabel.AutoSize = true;
-            this.homeLabel.Depth = 0;
-            this.homeLabel.Font = new System.Drawing.Font("Roboto", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.homeLabel.FontType = MaterialSkin.MaterialSkinManager.fontType.H5;
-            this.homeLabel.Location = new System.Drawing.Point(12, 12);
-            this.homeLabel.MouseState = MaterialSkin.MouseState.HOVER;
-            this.homeLabel.Name = "homeLabel";
-            this.homeLabel.Size = new System.Drawing.Size(66, 29);
-            this.homeLabel.TabIndex = 0;
-            this.homeLabel.Text = "Home";
-            // 
-            // materialCard1
-            // 
-            this.materialCard1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.materialCard1.Controls.Add(this.materialCard5);
-            this.materialCard1.Controls.Add(this.materialLabel14);
-            this.materialCard1.Controls.Add(this.materialLabel15);
-            this.materialCard1.Controls.Add(this.pictureBox2);
-            this.materialCard1.Depth = 0;
-            this.materialCard1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard1.Location = new System.Drawing.Point(17, 131);
-            this.materialCard1.Margin = new System.Windows.Forms.Padding(14);
-            this.materialCard1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCard1.Name = "materialCard1";
-            this.materialCard1.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCard1.Size = new System.Drawing.Size(288, 161);
-            this.materialCard1.TabIndex = 1;
-            // 
-            // materialLabel14
-            // 
-            this.materialLabel14.AutoSize = true;
-            this.materialLabel14.Depth = 0;
-            this.materialLabel14.Font = new System.Drawing.Font("Roboto Medium", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel14.FontType = MaterialSkin.MaterialSkinManager.fontType.Subtitle2;
-            this.materialLabel14.Location = new System.Drawing.Point(225, 14);
-            this.materialLabel14.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel14.Name = "materialLabel14";
-            this.materialLabel14.Size = new System.Drawing.Size(41, 17);
-            this.materialLabel14.TabIndex = 2;
-            this.materialLabel14.Text = "Today";
-            // 
-            // materialLabel15
-            // 
-            this.materialLabel15.AutoSize = true;
-            this.materialLabel15.Depth = 0;
-            this.materialLabel15.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel15.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
-            this.materialLabel15.Location = new System.Drawing.Point(50, 17);
-            this.materialLabel15.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel15.Name = "materialLabel15";
-            this.materialLabel15.Size = new System.Drawing.Size(77, 24);
-            this.materialLabel15.TabIndex = 1;
-            this.materialLabel15.Text = "Weather";
-            // 
-            // materialCard2
-            // 
-            this.materialCard2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.materialCard2.Controls.Add(this.materialLabel16);
-            this.materialCard2.Controls.Add(this.materialLabel17);
-            this.materialCard2.Controls.Add(this.pictureBox3);
-            this.materialCard2.Depth = 0;
-            this.materialCard2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard2.Location = new System.Drawing.Point(17, 320);
-            this.materialCard2.Margin = new System.Windows.Forms.Padding(14);
-            this.materialCard2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCard2.Name = "materialCard2";
-            this.materialCard2.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCard2.Size = new System.Drawing.Size(288, 161);
-            this.materialCard2.TabIndex = 2;
-            // 
-            // materialLabel16
-            // 
-            this.materialLabel16.AutoSize = true;
-            this.materialLabel16.Depth = 0;
-            this.materialLabel16.Font = new System.Drawing.Font("Roboto Medium", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel16.FontType = MaterialSkin.MaterialSkinManager.fontType.Subtitle2;
-            this.materialLabel16.Location = new System.Drawing.Point(230, 14);
-            this.materialLabel16.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel16.Name = "materialLabel16";
-            this.materialLabel16.Size = new System.Drawing.Size(36, 17);
-            this.materialLabel16.TabIndex = 2;
-            this.materialLabel16.Text = "Week";
-            // 
-            // materialLabel17
-            // 
-            this.materialLabel17.AutoSize = true;
-            this.materialLabel17.Depth = 0;
-            this.materialLabel17.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel17.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
-            this.materialLabel17.Location = new System.Drawing.Point(50, 17);
-            this.materialLabel17.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel17.Name = "materialLabel17";
-            this.materialLabel17.Size = new System.Drawing.Size(77, 24);
-            this.materialLabel17.TabIndex = 1;
-            this.materialLabel17.Text = "Weather";
-            // 
-            // materialCard4
-            // 
-            this.materialCard4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.materialCard4.Depth = 0;
-            this.materialCard4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard4.Location = new System.Drawing.Point(345, 324);
-            this.materialCard4.Margin = new System.Windows.Forms.Padding(14);
-            this.materialCard4.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCard4.Name = "materialCard4";
-            this.materialCard4.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCard4.Size = new System.Drawing.Size(288, 161);
-            this.materialCard4.TabIndex = 3;
-            // 
-            // materialCard5
-            // 
-            this.materialCard5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.materialCard5.Depth = 0;
-            this.materialCard5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard5.Location = new System.Drawing.Point(14, 73);
-            this.materialCard5.Margin = new System.Windows.Forms.Padding(14);
-            this.materialCard5.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCard5.Name = "materialCard5";
-            this.materialCard5.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCard5.Size = new System.Drawing.Size(62, 60);
-            this.materialCard5.TabIndex = 3;
-            // 
-            // materialCard6
-            // 
-            this.materialCard6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.materialCard6.Depth = 0;
-            this.materialCard6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard6.Location = new System.Drawing.Point(345, 208);
-            this.materialCard6.Margin = new System.Windows.Forms.Padding(14);
-            this.materialCard6.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCard6.Name = "materialCard6";
-            this.materialCard6.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCard6.Size = new System.Drawing.Size(288, 88);
-            this.materialCard6.TabIndex = 4;
-            // 
-            // materialCard7
-            // 
-            this.materialCard7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.materialCard7.Depth = 0;
-            this.materialCard7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard7.Location = new System.Drawing.Point(17, 55);
-            this.materialCard7.Margin = new System.Windows.Forms.Padding(14);
-            this.materialCard7.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCard7.Name = "materialCard7";
-            this.materialCard7.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCard7.Size = new System.Drawing.Size(288, 55);
-            this.materialCard7.TabIndex = 5;
-            // 
-            // materialCard8
-            // 
-            this.materialCard8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.materialCard8.Depth = 0;
-            this.materialCard8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard8.Location = new System.Drawing.Point(661, 145);
-            this.materialCard8.Margin = new System.Windows.Forms.Padding(14);
-            this.materialCard8.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCard8.Name = "materialCard8";
-            this.materialCard8.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCard8.Size = new System.Drawing.Size(211, 101);
-            this.materialCard8.TabIndex = 6;
-            // 
-            // materialCard9
-            // 
-            this.materialCard9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.materialCard9.Depth = 0;
-            this.materialCard9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard9.Location = new System.Drawing.Point(661, 264);
-            this.materialCard9.Margin = new System.Windows.Forms.Padding(14);
-            this.materialCard9.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCard9.Name = "materialCard9";
-            this.materialCard9.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCard9.Size = new System.Drawing.Size(211, 101);
-            this.materialCard9.TabIndex = 7;
-            // 
-            // materialCard10
-            // 
-            this.materialCard10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.materialCard10.Depth = 0;
-            this.materialCard10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard10.Location = new System.Drawing.Point(661, 384);
-            this.materialCard10.Margin = new System.Windows.Forms.Padding(14);
-            this.materialCard10.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCard10.Name = "materialCard10";
-            this.materialCard10.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCard10.Size = new System.Drawing.Size(211, 101);
-            this.materialCard10.TabIndex = 8;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::Trailmate.Properties.Resources._200188395_mountains_with_a_river_green_trees_and_a_beautiful_sky_in_the_background;
-            this.pictureBox4.Location = new System.Drawing.Point(345, 55);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(288, 136);
-            this.pictureBox4.TabIndex = 9;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::Trailmate.Properties.Resources.icons8_umbrella_26;
-            this.pictureBox3.Location = new System.Drawing.Point(14, 17);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(30, 28);
-            this.pictureBox3.TabIndex = 0;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Trailmate.Properties.Resources.icons8_umbrella_26;
-            this.pictureBox2.Location = new System.Drawing.Point(14, 17);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(30, 28);
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            // 
-            // fridgePictureBox
-            // 
-            this.fridgePictureBox.Image = global::Trailmate.Properties.Resources.icons8_fridge_26;
-            this.fridgePictureBox.Location = new System.Drawing.Point(17, 50);
-            this.fridgePictureBox.Name = "fridgePictureBox";
-            this.fridgePictureBox.Size = new System.Drawing.Size(30, 28);
-            this.fridgePictureBox.TabIndex = 3;
-            this.fridgePictureBox.TabStop = false;
-            // 
-            // coffeeMachinePictureBox
-            // 
-            this.coffeeMachinePictureBox.Image = global::Trailmate.Properties.Resources.icons8_coffee_maker_26;
-            this.coffeeMachinePictureBox.Location = new System.Drawing.Point(17, 50);
-            this.coffeeMachinePictureBox.Name = "coffeeMachinePictureBox";
-            this.coffeeMachinePictureBox.Size = new System.Drawing.Size(30, 28);
-            this.coffeeMachinePictureBox.TabIndex = 3;
-            this.coffeeMachinePictureBox.TabStop = false;
-            // 
-            // smartTvPictureBox
-            // 
-            this.smartTvPictureBox.Image = global::Trailmate.Properties.Resources.icons8_retro_tv_26;
-            this.smartTvPictureBox.Location = new System.Drawing.Point(17, 50);
-            this.smartTvPictureBox.Name = "smartTvPictureBox";
-            this.smartTvPictureBox.Size = new System.Drawing.Size(30, 28);
-            this.smartTvPictureBox.TabIndex = 3;
-            this.smartTvPictureBox.TabStop = false;
-            // 
-            // acPictureBox
-            // 
-            this.acPictureBox.Image = global::Trailmate.Properties.Resources.icons8_air_conditioner_26;
-            this.acPictureBox.Location = new System.Drawing.Point(17, 50);
-            this.acPictureBox.Name = "acPictureBox";
-            this.acPictureBox.Size = new System.Drawing.Size(30, 28);
-            this.acPictureBox.TabIndex = 2;
-            this.acPictureBox.TabStop = false;
-            // 
-            // energyIcon2
-            // 
-            this.energyIcon2.Image = global::Trailmate.Properties.Resources.icons8_quick_mode_on_26;
-            this.energyIcon2.Location = new System.Drawing.Point(16, 17);
-            this.energyIcon2.Name = "energyIcon2";
-            this.energyIcon2.Size = new System.Drawing.Size(30, 28);
-            this.energyIcon2.TabIndex = 1;
-            this.energyIcon2.TabStop = false;
-            // 
-            // energyIcon1
-            // 
-            this.energyIcon1.Image = global::Trailmate.Properties.Resources.icons8_quick_mode_on_26;
-            this.energyIcon1.Location = new System.Drawing.Point(14, 17);
-            this.energyIcon1.Name = "energyIcon1";
-            this.energyIcon1.Size = new System.Drawing.Size(30, 28);
-            this.energyIcon1.TabIndex = 0;
-            this.energyIcon1.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Trailmate.Properties.Resources.Screenshot_2025_01_09_1817141;
-            this.pictureBox1.Location = new System.Drawing.Point(419, 10);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(116, 83);
-            this.pictureBox1.TabIndex = 8;
-            this.pictureBox1.TabStop = false;
-            // 
-            // infoForCheckPictureBox
-            // 
-            this.infoForCheckPictureBox.Image = global::Trailmate.Properties.Resources.icons8_check_26;
-            this.infoForCheckPictureBox.Location = new System.Drawing.Point(17, 56);
-            this.infoForCheckPictureBox.Name = "infoForCheckPictureBox";
-            this.infoForCheckPictureBox.Size = new System.Drawing.Size(29, 27);
-            this.infoForCheckPictureBox.TabIndex = 5;
-            this.infoForCheckPictureBox.TabStop = false;
-            // 
-            // infoForInfoPictureBox
-            // 
-            this.infoForInfoPictureBox.Image = global::Trailmate.Properties.Resources.icons8_notification_26;
-            this.infoForInfoPictureBox.Location = new System.Drawing.Point(17, 17);
-            this.infoForInfoPictureBox.Name = "infoForInfoPictureBox";
-            this.infoForInfoPictureBox.Size = new System.Drawing.Size(29, 27);
-            this.infoForInfoPictureBox.TabIndex = 4;
-            this.infoForInfoPictureBox.TabStop = false;
-            // 
-            // eventsPictureBox
-            // 
-            this.eventsPictureBox.Image = global::Trailmate.Properties.Resources.Screenshot_2025_01_09_1817052;
-            this.eventsPictureBox.Location = new System.Drawing.Point(17, 17);
-            this.eventsPictureBox.Name = "eventsPictureBox";
-            this.eventsPictureBox.Size = new System.Drawing.Size(194, 253);
-            this.eventsPictureBox.TabIndex = 0;
-            this.eventsPictureBox.TabStop = false;
-            // 
-            // dayTripCheckPictureBox
-            // 
-            this.dayTripCheckPictureBox.Image = global::Trailmate.Properties.Resources.icons8_check_26;
-            this.dayTripCheckPictureBox.Location = new System.Drawing.Point(105, 44);
-            this.dayTripCheckPictureBox.Name = "dayTripCheckPictureBox";
-            this.dayTripCheckPictureBox.Size = new System.Drawing.Size(29, 27);
-            this.dayTripCheckPictureBox.TabIndex = 4;
-            this.dayTripCheckPictureBox.TabStop = false;
-            // 
-            // notifsPictureBox2
-            // 
-            this.notifsPictureBox2.Image = global::Trailmate.Properties.Resources.icons8_notification_26;
-            this.notifsPictureBox2.Location = new System.Drawing.Point(155, 3);
-            this.notifsPictureBox2.Name = "notifsPictureBox2";
-            this.notifsPictureBox2.Size = new System.Drawing.Size(29, 27);
-            this.notifsPictureBox2.TabIndex = 3;
-            this.notifsPictureBox2.TabStop = false;
-            // 
-            // hikeTourCheckPictureBox
-            // 
-            this.hikeTourCheckPictureBox.Image = global::Trailmate.Properties.Resources.icons8_check_26;
-            this.hikeTourCheckPictureBox.Location = new System.Drawing.Point(105, 44);
-            this.hikeTourCheckPictureBox.Name = "hikeTourCheckPictureBox";
-            this.hikeTourCheckPictureBox.Size = new System.Drawing.Size(29, 27);
-            this.hikeTourCheckPictureBox.TabIndex = 4;
-            this.hikeTourCheckPictureBox.TabStop = false;
-            // 
-            // hikeTourNotifPictureBox
-            // 
-            this.hikeTourNotifPictureBox.Image = global::Trailmate.Properties.Resources.icons8_notification_26;
-            this.hikeTourNotifPictureBox.Location = new System.Drawing.Point(155, 3);
-            this.hikeTourNotifPictureBox.Name = "hikeTourNotifPictureBox";
-            this.hikeTourNotifPictureBox.Size = new System.Drawing.Size(29, 27);
-            this.hikeTourNotifPictureBox.TabIndex = 3;
-            this.hikeTourNotifPictureBox.TabStop = false;
-            // 
-            // workshopCheckPictureBox
-            // 
-            this.workshopCheckPictureBox.Image = global::Trailmate.Properties.Resources.icons8_check_26;
-            this.workshopCheckPictureBox.Location = new System.Drawing.Point(105, 44);
-            this.workshopCheckPictureBox.Name = "workshopCheckPictureBox";
-            this.workshopCheckPictureBox.Size = new System.Drawing.Size(29, 27);
-            this.workshopCheckPictureBox.TabIndex = 4;
-            this.workshopCheckPictureBox.TabStop = false;
-            // 
-            // workshopNotifsPictureBox
-            // 
-            this.workshopNotifsPictureBox.Image = global::Trailmate.Properties.Resources.icons8_notification_26;
-            this.workshopNotifsPictureBox.Location = new System.Drawing.Point(155, 3);
-            this.workshopNotifsPictureBox.Name = "workshopNotifsPictureBox";
-            this.workshopNotifsPictureBox.Size = new System.Drawing.Size(29, 27);
-            this.workshopNotifsPictureBox.TabIndex = 3;
-            this.workshopNotifsPictureBox.TabStop = false;
-            // 
-            // concertCheckPictureBox
-            // 
-            this.concertCheckPictureBox.Image = global::Trailmate.Properties.Resources.icons8_check_26;
-            this.concertCheckPictureBox.Location = new System.Drawing.Point(105, 44);
-            this.concertCheckPictureBox.Name = "concertCheckPictureBox";
-            this.concertCheckPictureBox.Size = new System.Drawing.Size(29, 27);
-            this.concertCheckPictureBox.TabIndex = 4;
-            this.concertCheckPictureBox.TabStop = false;
-            // 
-            // concertNotifPictureBox
-            // 
-            this.concertNotifPictureBox.Image = global::Trailmate.Properties.Resources.icons8_notification_26;
-            this.concertNotifPictureBox.Location = new System.Drawing.Point(155, 3);
-            this.concertNotifPictureBox.Name = "concertNotifPictureBox";
-            this.concertNotifPictureBox.Size = new System.Drawing.Size(29, 27);
-            this.concertNotifPictureBox.TabIndex = 3;
-            this.concertNotifPictureBox.TabStop = false;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(950, 597);
+            this.ClientSize = new System.Drawing.Size(950, 593);
             this.Controls.Add(this.TabMaster);
             this.DrawerShowIconsWhenHidden = true;
             this.DrawerTabControl = this.TabMaster;
@@ -3041,6 +3785,42 @@
             this.TabMaster.ResumeLayout(false);
             this.homePage.ResumeLayout(false);
             this.homePage.PerformLayout();
+            this.forrestPictureCard.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.forrestPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lightsHomePictureBox2)).EndInit();
+            this.upcomingEventsHomeCard.ResumeLayout(false);
+            this.upcomingEventsHomeCard.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.mapPictureHomeCard.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            this.energyUseHomeCard.ResumeLayout(false);
+            this.energyUseHomeCard.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.orderHomeCard.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.lightsHomeCard.ResumeLayout(false);
+            this.lightsHomeCard.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.lightsHomePictureBox1)).EndInit();
+            this.stakesStatusHomeCard.ResumeLayout(false);
+            this.stakesStatusHomeCard.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            this.todaysSuggestionsHomeCard.ResumeLayout(false);
+            this.todaysSuggestionsHomeCard.PerformLayout();
+            this.weatherWeekCard.ResumeLayout(false);
+            this.weatherWeekCard.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.weatherWeekPictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.weatherWeekPictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.weatherWeekPictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.weatherWeekPictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.weatherWeekPictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.weatherWeekPictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.weatherWeekPictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.weatherWeekPictureBox)).EndInit();
+            this.temperatureTodayCard.ResumeLayout(false);
+            this.temperatureTodayCard.PerformLayout();
+            this.temperatureTodayPanel.ResumeLayout(false);
+            this.todaysDateCard.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.tempTodayPictureBox)).EndInit();
             this.setupPage.ResumeLayout(false);
             this.groundInfoCard.ResumeLayout(false);
             this.groundInfoCard.PerformLayout();
@@ -3049,20 +3829,26 @@
             this.devicesPanel.ResumeLayout(false);
             this.devicesCard4.ResumeLayout(false);
             this.devicesCard4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.fridgePictureBox)).EndInit();
             this.devicesCard3.ResumeLayout(false);
             this.devicesCard3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.coffeeMachinePictureBox)).EndInit();
             this.devicesCard2.ResumeLayout(false);
             this.devicesCard2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.smartTvPictureBox)).EndInit();
             this.devicesCard1.ResumeLayout(false);
             this.devicesCard1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.acPictureBox)).EndInit();
             this.energyWeekCard.ResumeLayout(false);
             this.energyWeekCard.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.energyIcon2)).EndInit();
             this.EcoEffHubCard.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.ecoEffCard.ResumeLayout(false);
             this.ecoEffCard.PerformLayout();
             this.energyTodayCard.ResumeLayout(false);
             this.energyTodayCard.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.energyIcon1)).EndInit();
             this.orderPage.ResumeLayout(false);
             this.orderPage.PerformLayout();
             this.foodPanel.ResumeLayout(false);
@@ -3102,47 +3888,34 @@
             this.eventsPage.PerformLayout();
             this.buttonsCard.ResumeLayout(false);
             this.buttonsCard.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.infoForCheckPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.infoForInfoPictureBox)).EndInit();
             this.infoCard.ResumeLayout(false);
             this.infoInsideInfoCard.ResumeLayout(false);
             this.infoInsideInfoCard.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.eventsPictureBox)).EndInit();
             this.upcomingEventsCard2.ResumeLayout(false);
             this.upcomingEventsPanel.ResumeLayout(false);
             this.upcomingEventsPanel.PerformLayout();
             this.dayTripCard.ResumeLayout(false);
             this.dayTripCard.PerformLayout();
-            this.hikeTourCard.ResumeLayout(false);
-            this.hikeTourCard.PerformLayout();
-            this.workshopCard.ResumeLayout(false);
-            this.workshopCard.PerformLayout();
-            this.concertCard.ResumeLayout(false);
-            this.concertCard.PerformLayout();
-            this.upcomingEventsCard.ResumeLayout(false);
-            this.upcomingEventsCard.PerformLayout();
-            this.materialCard1.ResumeLayout(false);
-            this.materialCard1.PerformLayout();
-            this.materialCard2.ResumeLayout(false);
-            this.materialCard2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.fridgePictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.coffeeMachinePictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.smartTvPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.acPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.energyIcon2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.energyIcon1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.infoForCheckPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.infoForInfoPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.eventsPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dayTripCheckPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.notifsPictureBox2)).EndInit();
+            this.hikeTourCard.ResumeLayout(false);
+            this.hikeTourCard.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.hikeTourCheckPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.hikeTourNotifPictureBox)).EndInit();
+            this.workshopCard.ResumeLayout(false);
+            this.workshopCard.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.workshopCheckPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.workshopNotifsPictureBox)).EndInit();
+            this.concertCard.ResumeLayout(false);
+            this.concertCard.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.concertCheckPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.concertNotifPictureBox)).EndInit();
+            this.upcomingEventsCard.ResumeLayout(false);
+            this.upcomingEventsCard.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -3326,23 +4099,75 @@
         private MaterialSkin.Controls.MaterialLabel infoForNotifLabel;
         private MaterialSkin.Controls.MaterialLabel infoForCheckLabel;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private MaterialSkin.Controls.MaterialCard materialCard1;
-        private MaterialSkin.Controls.MaterialLabel materialLabel14;
-        private MaterialSkin.Controls.MaterialLabel materialLabel15;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private MaterialSkin.Controls.MaterialCard temperatureTodayCard;
+        private MaterialSkin.Controls.MaterialLabel todayTempLabel;
+        private MaterialSkin.Controls.MaterialLabel temperatureTodayLabel;
+        private System.Windows.Forms.PictureBox tempTodayPictureBox;
         private MaterialSkin.Controls.MaterialLabel homeLabel;
-        private MaterialSkin.Controls.MaterialCard materialCard4;
-        private MaterialSkin.Controls.MaterialCard materialCard2;
-        private MaterialSkin.Controls.MaterialLabel materialLabel16;
-        private MaterialSkin.Controls.MaterialLabel materialLabel17;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private MaterialSkin.Controls.MaterialCard materialCard10;
-        private MaterialSkin.Controls.MaterialCard materialCard9;
-        private MaterialSkin.Controls.MaterialCard materialCard8;
-        private MaterialSkin.Controls.MaterialCard materialCard7;
-        private MaterialSkin.Controls.MaterialCard materialCard6;
-        private MaterialSkin.Controls.MaterialCard materialCard5;
+        private MaterialSkin.Controls.MaterialCard todaysSuggestionsHomeCard;
+        private MaterialSkin.Controls.MaterialCard weatherWeekCard;
+        private MaterialSkin.Controls.MaterialLabel WeatherWeekLabelSmall;
+        private MaterialSkin.Controls.MaterialLabel weatherWeekLabel;
+        private System.Windows.Forms.PictureBox weatherWeekPictureBox;
+        private MaterialSkin.Controls.MaterialCard mapPictureHomeCard;
+        private MaterialSkin.Controls.MaterialCard energyUseHomeCard;
+        private MaterialSkin.Controls.MaterialCard orderHomeCard;
+        private MaterialSkin.Controls.MaterialCard lightsHomeCard;
+        private MaterialSkin.Controls.MaterialCard stakesStatusHomeCard;
+        private MaterialSkin.Controls.MaterialCard todaysDateCard;
+        private MaterialSkin.Controls.MaterialCard upcomingEventsHomeCard;
+        private MaterialSkin.Controls.MaterialLabel todaysDateLabel;
+        private MaterialSkin.Controls.MaterialLabel tempLabel3;
+        private System.Windows.Forms.Panel temperatureTodayPanel;
+        private MaterialSkin.Controls.MaterialLabel tempLabel4;
+        private MaterialSkin.Controls.MaterialLabel tempLabel2;
+        private MaterialSkin.Controls.MaterialLabel tempLabel1;
+        private MaterialSkin.Controls.MaterialLabel tempLabel6;
+        private MaterialSkin.Controls.MaterialLabel tempLabel5;
+        private System.Windows.Forms.PictureBox lightsHomePictureBox1;
+        private MaterialSkin.Controls.MaterialSwitch materialSwitch1;
+        private MaterialSkin.Controls.MaterialLabel lightsHomeLabel;
+        private System.Windows.Forms.PictureBox lightsHomePictureBox2;
+        private System.Windows.Forms.PictureBox weatherWeekPictureBox6;
+        private System.Windows.Forms.PictureBox weatherWeekPictureBox5;
+        private System.Windows.Forms.PictureBox weatherWeekPictureBox4;
+        private System.Windows.Forms.PictureBox weatherWeekPictureBox2;
+        private System.Windows.Forms.PictureBox weatherWeekPictureBox1;
+        private MaterialSkin.Controls.MaterialLabel dayLabel6;
+        private MaterialSkin.Controls.MaterialLabel dayLabel5;
+        private MaterialSkin.Controls.MaterialLabel dayLabel4;
+        private MaterialSkin.Controls.MaterialLabel dayLabel3;
+        private MaterialSkin.Controls.MaterialLabel dayLabel2;
+        private MaterialSkin.Controls.MaterialLabel dayLabel1;
+        private MaterialSkin.Controls.MaterialLabel todayWeekLabel;
+        private MaterialSkin.Controls.MaterialLabel tempLabelWeek7;
+        private MaterialSkin.Controls.MaterialLabel tempLabelWeek6;
+        private MaterialSkin.Controls.MaterialLabel tempLabelWeek5;
+        private MaterialSkin.Controls.MaterialLabel tempLabelWeek4;
+        private MaterialSkin.Controls.MaterialLabel tempLabelWeek3;
+        private MaterialSkin.Controls.MaterialLabel tempLabelWeek2;
+        private MaterialSkin.Controls.MaterialLabel tempLabelWeek1;
+        private System.Windows.Forms.PictureBox weatherWeekPictureBox7;
+        private System.Windows.Forms.PictureBox weatherWeekPictureBox3;
+        private MaterialSkin.Controls.MaterialLabel stakesStatusLabel;
+        private MaterialSkin.Controls.MaterialButton upcomingEventsSeeMoreButton;
+        private MaterialSkin.Controls.MaterialLabel firstUpcomingEventLabel;
+        private MaterialSkin.Controls.MaterialLabel upcomingEventsHomeLabel;
+        private MaterialSkin.Controls.MaterialLabel stakesStatusChanging;
+        private MaterialSkin.Controls.MaterialCard forrestPictureCard;
+        private System.Windows.Forms.PictureBox forrestPictureBox;
+        private MaterialSkin.Controls.MaterialButton energySeeMoreButton;
+        private MaterialSkin.Controls.MaterialLabel energyHomeChangeLabel;
+        private MaterialSkin.Controls.MaterialLabel energyHomeLabel;
+        private MaterialSkin.Controls.MaterialButton orderNowHomeButton;
+        private MaterialSkin.Controls.MaterialLabel orderHomeLabel;
+        private MaterialSkin.Controls.MaterialButton stakesStatusSeeMoreButton;
+        private MaterialSkin.Controls.MaterialLabel TodaysSuggestionsHomeLabel;
+        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox6;
     }
 }
 

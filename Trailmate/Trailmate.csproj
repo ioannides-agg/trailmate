@@ -183,6 +183,87 @@
   <ItemGroup>
     <None Include="Resources\200188395-mountains-with-a-river-green-trees-and-a-beautiful-sky-in-the-background.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flat-style-forest-icon-isolated-white-background_1151483-63169.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flat-style-forest-icon-isolated-white-background_1151483-631691.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flat-style-forest-icon-isolated-white-background_1151483-631692.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-light-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mario-phillips-inside-the-tent.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-clipart-lamp-cartoon-illustration-hand-drawn-cartoon-light-bulb-painted-hand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-clipart-lamp-cartoon-illustration-hand-drawn-cartoon-light-bulb-painted-hand1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-stormy-weather-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-sun-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-rain-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-clouds-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-temperature-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-pavilion-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-schedule-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-restaurant-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-leaf-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map-camping-travel-vector_118813-16701.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cute-campsite-wooden-signpost-camping-pointer-illustration-graphic-element-art-card_658039-5528.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cute-campsite-wooden-signpost-camping-pointer-illustration-graphic-element-art-card_658039-55281.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cute-campsite-wooden-signpost-camping-pointer-illustration-graphic-element-art-card_658039-55282.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\summer-garden-flowers-and-insects-landscape-vector-50973240.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\summer-garden-flowers-and-insects-landscape-vector-509732401.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\summer-garden-flowers-and-insects-landscape-vector-509732402.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\summer-garden-flowers-and-insects-landscape-vector-509732403.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\summer-garden-flowers-and-insects-landscape-vector-509732404.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

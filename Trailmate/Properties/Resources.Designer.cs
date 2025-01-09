@@ -74,6 +74,69 @@ namespace Trailmate.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cute_campsite_wooden_signpost_camping_pointer_illustration_graphic_element_art_card_658039_5528 {
+            get {
+                object obj = ResourceManager.GetObject("cute-campsite-wooden-signpost-camping-pointer-illustration-graphic-element-art-ca" +
+                        "rd_658039-5528", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cute_campsite_wooden_signpost_camping_pointer_illustration_graphic_element_art_card_658039_55281 {
+            get {
+                object obj = ResourceManager.GetObject("cute-campsite-wooden-signpost-camping-pointer-illustration-graphic-element-art-ca" +
+                        "rd_658039-55281", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cute_campsite_wooden_signpost_camping_pointer_illustration_graphic_element_art_card_658039_55282 {
+            get {
+                object obj = ResourceManager.GetObject("cute-campsite-wooden-signpost-camping-pointer-illustration-graphic-element-art-ca" +
+                        "rd_658039-55282", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap flat_style_forest_icon_isolated_white_background_1151483_63169 {
+            get {
+                object obj = ResourceManager.GetObject("flat-style-forest-icon-isolated-white-background_1151483-63169", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap flat_style_forest_icon_isolated_white_background_1151483_631691 {
+            get {
+                object obj = ResourceManager.GetObject("flat-style-forest-icon-isolated-white-background_1151483-631691", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap flat_style_forest_icon_isolated_white_background_1151483_631692 {
+            get {
+                object obj = ResourceManager.GetObject("flat-style-forest-icon-isolated-white-background_1151483-631692", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_air_conditioner_26 {
             get {
                 object obj = ResourceManager.GetObject("icons8-air-conditioner-26", resourceCulture);
@@ -87,6 +150,16 @@ namespace Trailmate.Properties {
         internal static System.Drawing.Bitmap icons8_check_26 {
             get {
                 object obj = ResourceManager.GetObject("icons8-check-26", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_clouds_26 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-clouds-26", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -124,9 +197,39 @@ namespace Trailmate.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_leaf_26 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-leaf-26", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_light_26 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-light-26", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_notification_26 {
             get {
                 object obj = ResourceManager.GetObject("icons8-notification-26", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_pavilion_26 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-pavilion-26", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -144,6 +247,26 @@ namespace Trailmate.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_rain_26 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-rain-26", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_restaurant_26 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-restaurant-26", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_retro_tv_26 {
             get {
                 object obj = ResourceManager.GetObject("icons8-retro-tv-26", resourceCulture);
@@ -154,9 +277,59 @@ namespace Trailmate.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_schedule_26 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-schedule-26", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_stormy_weather_26 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-stormy-weather-26", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_sun_26 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-sun-26", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_temperature_26 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-temperature-26", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_umbrella_26 {
             get {
                 object obj = ResourceManager.GetObject("icons8-umbrella-26", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image {
+            get {
+                object obj = ResourceManager.GetObject("image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -197,6 +370,47 @@ namespace Trailmate.Properties {
         internal static System.Drawing.Bitmap IMG_1800 {
             get {
                 object obj = ResourceManager.GetObject("IMG_1800", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap map_camping_travel_vector_118813_16701 {
+            get {
+                object obj = ResourceManager.GetObject("map-camping-travel-vector_118813-16701", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mario_phillips_inside_the_tent {
+            get {
+                object obj = ResourceManager.GetObject("mario-phillips-inside-the-tent", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap png_clipart_lamp_cartoon_illustration_hand_drawn_cartoon_light_bulb_painted_hand {
+            get {
+                object obj = ResourceManager.GetObject("png-clipart-lamp-cartoon-illustration-hand-drawn-cartoon-light-bulb-painted-hand", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap png_clipart_lamp_cartoon_illustration_hand_drawn_cartoon_light_bulb_painted_hand1 {
+            get {
+                object obj = ResourceManager.GetObject("png-clipart-lamp-cartoon-illustration-hand-drawn-cartoon-light-bulb-painted-hand1" +
+                        "", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -247,6 +461,66 @@ namespace Trailmate.Properties {
         internal static System.Drawing.Bitmap Screenshot_2025_01_09_1817141 {
             get {
                 object obj = ResourceManager.GetObject("Screenshot 2025-01-09 1817141", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_8 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot_8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap summer_garden_flowers_and_insects_landscape_vector_50973240 {
+            get {
+                object obj = ResourceManager.GetObject("summer-garden-flowers-and-insects-landscape-vector-50973240", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap summer_garden_flowers_and_insects_landscape_vector_509732401 {
+            get {
+                object obj = ResourceManager.GetObject("summer-garden-flowers-and-insects-landscape-vector-509732401", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap summer_garden_flowers_and_insects_landscape_vector_509732402 {
+            get {
+                object obj = ResourceManager.GetObject("summer-garden-flowers-and-insects-landscape-vector-509732402", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap summer_garden_flowers_and_insects_landscape_vector_509732403 {
+            get {
+                object obj = ResourceManager.GetObject("summer-garden-flowers-and-insects-landscape-vector-509732403", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap summer_garden_flowers_and_insects_landscape_vector_509732404 {
+            get {
+                object obj = ResourceManager.GetObject("summer-garden-flowers-and-insects-landscape-vector-509732404", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
