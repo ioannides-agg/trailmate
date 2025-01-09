@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Drawing;
 
 namespace Trailmate.Classes
 {
@@ -46,11 +47,19 @@ namespace Trailmate.Classes
             flatness = _flatness;
             density = _density;
             humidity = _humidity;
+            
+
         }
 
         public GMarkerGoogle getMarker()
         {
             return marker;
+        }
+
+        public void changeContext(string text)
+        {
+            context = text;
+            marker.ToolTipText = context;
         }
     }
 }

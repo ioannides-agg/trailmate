@@ -183,6 +183,16 @@ namespace Trailmate.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap stake {
+            get {
+                object obj = ResourceManager.GetObject("stake", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Task_Analysis_Diagram_4 {
             get {
                 object obj = ResourceManager.GetObject("Task Analysis Diagram-4", resourceCulture);
