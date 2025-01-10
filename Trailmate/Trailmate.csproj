@@ -271,6 +271,15 @@
   <ItemGroup>
     <None Include="Resources\stake1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-message-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-warning-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-color-dropper-26.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
