@@ -14,24 +14,13 @@ namespace Trailmate.Classes
     {
         PointLatLng point;
         string context;
-        public string altitude {  get; private set; }
-        public string texture { get; private set; }
-        public string flatness { get; private set; }
-        public string density { get; private set; }
-        public string humidity { get; private set; }
         GMarkerGoogle marker;
-        GMapOverlay markersOverlay;
 
-        public Marker(PointLatLng _point,string _context, GMapOverlay _markersOverlay,
-            string _altitude,
-            string _texture,
-            string _flatness,
-            string _density,
-            string _humidity) {
-            
+        public Marker(PointLatLng _point, string _context)
+        {
+
             point = _point;
             context = _context;
-            markersOverlay = _markersOverlay;
 
             marker = new GMarkerGoogle(point, GMarkerGoogleType.red_dot)
             {
@@ -39,15 +28,6 @@ namespace Trailmate.Classes
                 ToolTipMode = MarkerTooltipMode.OnMouseOver,
                 Tag = this
             };
-
-            markersOverlay.Markers.Add(marker);
-
-            altitude = _altitude;
-            texture = _texture;
-            flatness = _flatness;
-            density = _density;
-            humidity = _humidity;
-            
 
         }
 
@@ -60,6 +40,31 @@ namespace Trailmate.Classes
         {
             context = text;
             marker.ToolTipText = context;
+        }
+    }
+
+    public class CampMarker : Marker
+    {
+        public string altitude {  get; private set; }
+        public string texture { get; private set; }
+        public string flatness { get; private set; }
+        public string density { get; private set; }
+        public string humidity { get; private set; }
+
+        public CampMarker(PointLatLng _point,string _context,
+            string _altitude,
+            string _texture,
+            string _flatness,
+            string _density,
+            string _humidity) : base(_point, _context) {
+
+            altitude = _altitude;
+            texture = _texture;
+            flatness = _flatness;
+            density = _density;
+            humidity = _humidity;
+            
+
         }
     }
 }

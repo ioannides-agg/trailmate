@@ -448,6 +448,17 @@ namespace Trailmate.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap png_clipart_lamp_cartoon_illustration_hand_drawn_cartoon_light_bulb_painted_hand1_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("png-clipart-lamp-cartoon-illustration-hand-drawn-cartoon-light-bulb-painted-hand1" +
+                        "-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Screenshot_2025_01_09_181705 {
             get {
                 object obj = ResourceManager.GetObject("Screenshot 2025-01-09 181705", resourceCulture);

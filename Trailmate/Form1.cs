@@ -16,6 +16,9 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Data.Entity.Core.Metadata.Edm;
 using System.Linq;
+using static GMap.NET.Entity.OpenStreetMapGraphHopperGeocodeEntity;
+using System.Runtime.Remoting.Contexts;
+using System.Data.Entity;
 
 namespace Trailmate
 {
@@ -31,18 +34,23 @@ namespace Trailmate
         int energySaving = 0;
         int energyConsumption = 0;
 
-        public static Marker selectedCampsite;
+        public static CampMarker selectedCampsite;
         map Map;
+
+        map EmergencyMap;
+        GMarkerGoogle shelter;
+
+        map ExploreMap;
 
         int initialInterval;
 
         double orderTotal;
 
-        FoodItem Latte, Cappuccino, Espresso, Americano;
-        FoodItem Water, Lemonade, Orangade, Cocktail;
-        FoodItem Burger, Pizza, Sandwich, Fries;
-
         List<MaterialLabel> materialLabels = new List<MaterialLabel>();
+
+        List<Event> events = new List<Event>();
+
+        TouristSpot selectedSpot;
 
         public Form1()
         {
@@ -57,20 +65,180 @@ namespace Trailmate
             Map = new map(setupPage);
             initialInterval = timer1.Interval;
 
-            Latte = new FoodItem("Latte", 4.5, latteAddButton);
-            Cappuccino = new FoodItem("Cappuccino", 4, cappuccinoAddButton);
-            Espresso = new FoodItem("Espresso", 3.5, espressoAddButton);
-            Americano = new FoodItem("Americano", 4.5, americanoAddButton);
+            FoodItem Latte = new FoodItem("Latte", 4.5, latteAddButton);
+            FoodItem Cappuccino = new FoodItem("Cappuccino", 4, cappuccinoAddButton);
+            FoodItem Espresso = new FoodItem("Espresso", 3.5, espressoAddButton);
+            FoodItem Americano = new FoodItem("Americano", 4.5, americanoAddButton);
 
-            Water = new FoodItem("Water", 0.5, waterAddButton);
-            Lemonade = new FoodItem("Lemonade", 2.5, lemonadeAddButton);
-            Orangade = new FoodItem("Orangade", 2.5, orangadeAddButton);
-            Cocktail = new FoodItem("Cocktail", 10.5, cocktailAddButton);
+            FoodItem Water = new FoodItem("Water", 0.5, waterAddButton);
+            FoodItem Lemonade = new FoodItem("Lemonade", 2.5, lemonadeAddButton);
+            FoodItem Orangade = new FoodItem("Orangade", 2.5, orangadeAddButton);
+            FoodItem Cocktail = new FoodItem("Cocktail", 10.5, cocktailAddButton);
 
-            Burger = new FoodItem("Burger", 13, burgerAddButton);
-            Pizza = new FoodItem("Pizza", 12, pizzaAddButton);
-            Sandwich = new FoodItem("Sandwich", 6.5, sandwichAddButton);
-            Fries = new FoodItem("French fries", 5, frenchFriesAddButton);
+            FoodItem Burger = new FoodItem("Burger", 13, burgerAddButton);
+            FoodItem Pizza = new FoodItem("Pizza", 12, pizzaAddButton);
+            FoodItem Sandwich = new FoodItem("Sandwich", 6.5, sandwichAddButton);
+            FoodItem Fries = new FoodItem("French fries", 5, frenchFriesAddButton);
+
+            Event celineConcert = new Event(eventType.Concert, "Celine Dion", "9:00 pm", "2 hours", "At the central stage of the camping, near the cafe", concertInfoButton, concertGoingButton, eventGoingCheck1);
+            Event dayTrip = new Event(eventType.Trip, "Trip at ...", "9:30 am", "7 hours", "At the camping lobby", dayTripInfoButton, imGoingDayTripButton, eventGoingCheck2);
+            Event workshop = new Event(eventType.Workshop, "Programming workshop", "5:00 pm", "3 hours", "At the exhibitions hall, behind the cafe", workshopInfoButton, workshopImGoingButton, eventGoingCheck3);
+            Event hikeTour = new Event(eventType.Hike, "Hiking tour around the camp", "8:00 am", "3 hours", "At the camping lobby", hikeTourInfoButton, hikeTourImGoingButton, eventGoingCheck4);
+
+            CampMarker Campsite1 = new CampMarker(new PointLatLng(38.196180, 23.736182), "Camp Site 1: 38.196180, 23.736182",
+                "320m", "Smooth", "Relatively flat", "1530 kg/m^3", "47%");
+
+            CampMarker Campsite2 = new CampMarker(new PointLatLng(38.195464, 23.740821), "Camp Site 2: 38.195464, 23.740821",
+                "110m", "Smooth", "Flat", "740 kg/m^3", "25%");
+
+            CampMarker Campsite3 = new CampMarker(new PointLatLng(38.196708, 23.735236), "Camp Site 3: 38.196708, 23.735236",
+                "270m", "Rocky", "Relatively flat", "900 kg/m^3", "31%");
+
+            CampMarker Campsite4 = new CampMarker(new PointLatLng(38.193456, 23.746023), "Camp Site 4: 38.193456, 23.746023",
+                "490m", "Rocky", "Relatively flat", "1710 kg/m^3", "62%");
+
+            CampMarker Campsite5 = new CampMarker(new PointLatLng(38.197821, 23.741660), "Camp Site 5: 38.197821, 23.741660",
+                "20m", "Smooth", "Flat", "1080 kg/m^3", "17%");
+
+            List<CampMarker> markers = new List<CampMarker>();
+            markers.Add(Campsite1);
+            markers.Add(Campsite2);
+            markers.Add(Campsite3);
+            markers.Add(Campsite4);
+            markers.Add(Campsite5);
+
+            Map.initializeMarkers(markers);
+
+            EmergencyMap = new map(emergencyPage);
+            EmergencyMap.setCamp();
+            emergencyMapCard.Controls.Add(EmergencyMap.mapControl);
+
+            ExploreMap = new map(explorePage);
+            ExploreMap.setCamp();
+            mapExploreCard.Controls.Add(ExploreMap.mapControl);
+
+            TouristSpot ForestRestaurant = new TouristSpot(new PointLatLng(38.198473, 23.735281), "Forest restaurant", "550m away", "4.5", "Open", forestRestaurantExploreLabel);
+            TouristSpot HikeTrail = new TouristSpot(new PointLatLng(38.194426, 23.738682), "Hike trail", "760m away", "3.9", "Open", hikeTrailExploreLabel);
+            TouristSpot Temple = new TouristSpot(new PointLatLng(38.198077, 23.743521), "Buddhist Temple", "1.4m away", "4.6", "Open", buddhistTempleExploreLabel);
+            TouristSpot Bar = new TouristSpot(new PointLatLng(38.195354, 23.739808), "Bar", "430m away", "4.9", "Open", BarExploreLabel);
+        }
+
+        private void setupEmergencyMap()
+        {
+            EmergencyMap.initializeMarkers(selectedCampsite);
+
+            shelter = new GMarkerGoogle(new PointLatLng(38.196180, 23.739319) , GMarkerGoogleType.blue_dot)
+            {
+                ToolTipText = "Closest Shelter is here",
+                ToolTipMode = MarkerTooltipMode.OnMouseOver,
+            };
+
+            EmergencyMap.markersOverlay.Markers.Add(shelter);
+        }
+
+        private void setupExploreMap()
+        {
+            ExploreMap.initializeMarkers(selectedCampsite);
+
+            ExploreMap.initializeMarkers(TouristSpot.gMarkers);
+        }
+
+        private void exploreLabel_Click(object sender, EventArgs e)
+        {
+            MaterialLabel label = sender as MaterialLabel;
+
+            TouristSpot spot = label.Tag as TouristSpot;
+
+            distanceExploreLabelVar1.Text = spot.distance;
+            starsExploreLabelVar1.Text = spot.rating;
+            openExploreLabel.Text = spot.availability;
+
+            selectedSpot = spot;
+
+            label.BorderStyle = BorderStyle.FixedSingle;
+            label.Focus();
+
+            ExploreMap.clearRoute();
+        }
+
+        private void startNavigationExploreButton_Click(object sender, EventArgs e)
+        {
+            if(selectedSpot != null)
+            {
+                ExploreMap.DrawRoute(selectedCampsite.getMarker().Position, selectedSpot.marker.Position);
+            }
+        }
+
+        private void exploreLabel_ClickAway(object sender, EventArgs e)
+        {
+            MaterialLabel label = sender as MaterialLabel;
+            label.BorderStyle = BorderStyle.None;
+        }
+
+        private void startNavEmergencyButton_Click(object sender, EventArgs e)
+        {
+            EmergencyMap.DrawRoute(selectedCampsite.getMarker().Position , shelter.Position);
+            EmergencyMap.mapControl.Zoom = 12;
+            EmergencyMap.mapControl.Zoom = 14;
+
+        }
+
+        private void onPageChange(object sender, EventArgs e)
+        {
+            TabControl pageManager = (TabControl)sender;
+
+            if (pageManager.SelectedTab.Text != "Setup")
+            {
+                pageManager.SelectedTab.Controls.Add(blockCard1);
+                blockCard1.BringToFront();
+            }
+
+        }
+
+        private void myCampMarker_Click(object sender, EventArgs e)
+        {
+            finalSetupCard.Visible = true;
+            finalizeButton.Visible = false;
+        }
+
+        private void littleSwitch_toggle(object sender, EventArgs e)
+        {
+            MaterialSwitch lightSwitch = sender as MaterialSwitch;
+
+            lightSwitch1.Text = lightSwitch.Checked ? "On" : " Off";
+            lightSwitch1.Checked = lightSwitch.Checked;
+            lightSwitch2.Text = lightSwitch.Checked ? "On" : " Off";
+            lightSwitch2.Checked = lightSwitch.Checked;
+        }
+
+        private void infoEventButton_Click(object sender, EventArgs e)
+        {
+            MaterialButton btn = (MaterialButton)sender;
+            Event eventData = btn.Tag as Event;
+
+            eventNameLabel1.Text = eventData.name;
+            eventTimeLabel1.Text = eventData.time;
+            eventDurationLabel1.Text = eventData.duration;
+            eventVenueLabel1.Text = eventData.venue;
+        }
+
+        private void goingEventButton_Click(object sender, EventArgs e)
+        {
+            MaterialButton btn = (MaterialButton)sender;
+            Event eventData = btn.Tag as Event;
+
+            switch (eventData.checkbox.Checked)
+            {
+                case true:
+                    eventData.checkbox.Checked = false;
+                    events.Remove(eventData);
+                    break;
+
+                case false:
+                    eventData.checkbox.Checked = true;
+                    events.Add(eventData);
+                    break;
+            }
         }
 
         private void submitOrderButton_Click(object sender, EventArgs e)
@@ -96,7 +264,7 @@ namespace Trailmate
             MaterialLabel itemLabel = new MaterialLabel();
 
             itemLabel.Location = itemPointer.Location;
-            itemPointer.Location = new Point(itemPointer.Location.X, itemPointer.Location.Y + 20);
+            itemPointer.Location = new System.Drawing.Point(itemPointer.Location.X, itemPointer.Location.Y + 20);
 
             itemLabel.Text = item.item + " " + item.price.ToString() + "$";
             itemLabel.AutoSize = false;
@@ -128,7 +296,7 @@ namespace Trailmate
             incartLabel.Text = "No items in cart.";
             orderTotal = 0;
 
-            itemPointer.Location = new Point(16, 20);
+            itemPointer.Location = new System.Drawing.Point(16, 20);
 
             foreach (MaterialLabel item in materialLabels.ToList())
             {
@@ -149,25 +317,30 @@ namespace Trailmate
         private void checkButton_Click(object sender, EventArgs e)
         {
             bool label1 = calculateStatus(psi1, angle1);
+            setPressure1.Text = psi1.ToString() + " psi";
+            setAngle1.Text = angle1.ToString() + " degrees";
 
-            psi2 = pressureScrollbar2.Value;
-            angle2 = angleScrollbar2.Value;
             bool label2 = calculateStatus(psi2, angle2);
+            setPressure2.Text = psi2.ToString() + " psi";
+            setAngle2.Text = angle2.ToString() + " degrees";
 
-            psi3 = pressureScrollbar3.Value;
-            angle3 = pressureScrollbar3.Value;
             bool label3 = calculateStatus(psi3, angle3);
+            setPressure3.Text = psi3.ToString() + " psi";
+            setAngle3.Text = angle3.ToString() + " degrees";
 
-            psi4 = pressureScrollbar4.Value;
-            angle4 = pressureScrollbar4.Value;
             bool label4 = calculateStatus(psi4, angle4);
+            setPressure4.Text = psi4.ToString() + " psi";
+            setAngle4.Text = angle4.ToString() + " degrees";
 
             setStatus1.Text = label1 ? "OK!" : "Adjustment needed";
             setStatus2.Text = label2 ? "OK!" : "Adjustment needed";
             setStatus3.Text = label3 ? "OK!" : "Adjustment needed";
             setStatus4.Text = label4 ? "OK!" : "Adjustment needed";
 
+
             bool flag = label1 == label2 == label3 == label4 & label1 == true;
+
+            stakesStatusChanging.Text = flag ? "Stable" : "Unstable";
 
             if (flag) finalizeButton.Visible = true;
         }
@@ -183,15 +356,10 @@ namespace Trailmate
             }
             else
             {
-                status = psi > 20 && angle >= 0;
+                status = psi > 15 && angle >= 0;
             }
 
             return status;
-        }
-
-        private void TabMaster_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void finalizeButton_Click(object sender, EventArgs e)
@@ -200,8 +368,15 @@ namespace Trailmate
             Map.clearMarkers();
             selectedCampsite.changeContext("Your camp is here!");
 
-            Map.addMarker(selectedCampsite);
+            Map.initializeMarkers(selectedCampsite);
+            Map.mapControl.OnMarkerClick += myCampMarker_Click;
             Map.setCamp();
+
+            TabMaster.SelectedIndexChanged -= onPageChange;
+            blockCard1.Dispose();
+
+            setupEmergencyMap();
+            setupExploreMap();
         }
 
         private void switches_CheckedChanged(object sender, EventArgs e)
@@ -275,6 +450,31 @@ namespace Trailmate
                     timer1.Interval = timer1.Interval + 2000;
                     break;
             }
+        }
+
+        private void orderNowHomeButton_Click(object sender, EventArgs e)
+        {
+            TabMaster.SelectTab(4);
+        }
+
+        private void energySeeMoreButton_Click(object sender, EventArgs e)
+        {
+            TabMaster.SelectTab(5);
+        }
+
+        private void stakesStatusSeeMoreButton_Click(object sender, EventArgs e)
+        {
+            TabMaster.SelectTab(1);
+        }
+
+        private void blockButton_Click(object sender, EventArgs e)
+        {
+            TabMaster.SelectTab(1);
+        }
+
+        private void upcomingEventsSeeMoreButton_Click(object sender, EventArgs e)
+        {
+            TabMaster.SelectTab(3);
         }
 
         //Stake 1
