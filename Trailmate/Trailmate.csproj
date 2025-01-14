@@ -285,6 +285,18 @@
   <ItemGroup>
     <None Include="Resources\png-clipart-lamp-cartoon-illustration-hand-drawn-cartoon-light-bulb-painted-hand1-removebg-preview.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rgb_spectrum.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\color_spectrum.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\color_spectrum %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lights.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

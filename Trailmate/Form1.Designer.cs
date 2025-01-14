@@ -219,7 +219,13 @@
             this.tentControlLabel = new MaterialSkin.Controls.MaterialLabel();
             this.lightControlPage = new System.Windows.Forms.TabPage();
             this.lightsVisualizationCard = new MaterialSkin.Controls.MaterialCard();
+            this.color4 = new System.Windows.Forms.Label();
+            this.color2 = new System.Windows.Forms.Label();
+            this.color3 = new System.Windows.Forms.Label();
+            this.color1 = new System.Windows.Forms.Label();
             this.colorSelectCard = new MaterialSkin.Controls.MaterialCard();
+            this.colorPreview = new System.Windows.Forms.Label();
+            this.colorSpectrum = new System.Windows.Forms.PictureBox();
             this.colorSelectApplyButton = new MaterialSkin.Controls.MaterialButton();
             this.colorSelectPictureBox = new System.Windows.Forms.PictureBox();
             this.colorSelectLabel = new MaterialSkin.Controls.MaterialLabel();
@@ -234,7 +240,6 @@
             this.effectLightControlCard = new MaterialSkin.Controls.MaterialCard();
             this.RainbowEffectButton = new MaterialSkin.Controls.MaterialButton();
             this.flashingEffectButton = new MaterialSkin.Controls.MaterialButton();
-            this.strobeEffectButton = new MaterialSkin.Controls.MaterialButton();
             this.nightModeButton = new MaterialSkin.Controls.MaterialButton();
             this.effectsInsideLightControlCard = new MaterialSkin.Controls.MaterialCard();
             this.effectsLightControlLabel = new MaterialSkin.Controls.MaterialLabel();
@@ -459,6 +464,8 @@
             this.materialCard6 = new MaterialSkin.Controls.MaterialCard();
             this.materialButton3 = new MaterialSkin.Controls.MaterialButton();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.timer3 = new System.Windows.Forms.Timer(this.components);
             this.TabMaster.SuspendLayout();
             this.homePage.SuspendLayout();
             this.blockCard1.SuspendLayout();
@@ -526,7 +533,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.fabric1PictureBox)).BeginInit();
             this.fabricNameCard.SuspendLayout();
             this.lightControlPage.SuspendLayout();
+            this.lightsVisualizationCard.SuspendLayout();
             this.colorSelectCard.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.colorSpectrum)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.colorSelectPictureBox)).BeginInit();
             this.warmthLightControlCard.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.lightsLightControlPictureBox3)).BeginInit();
@@ -3128,6 +3137,10 @@
             // lightsVisualizationCard
             // 
             this.lightsVisualizationCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.lightsVisualizationCard.Controls.Add(this.color4);
+            this.lightsVisualizationCard.Controls.Add(this.color2);
+            this.lightsVisualizationCard.Controls.Add(this.color3);
+            this.lightsVisualizationCard.Controls.Add(this.color1);
             this.lightsVisualizationCard.Depth = 0;
             this.lightsVisualizationCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.lightsVisualizationCard.Location = new System.Drawing.Point(241, 274);
@@ -3138,9 +3151,47 @@
             this.lightsVisualizationCard.Size = new System.Drawing.Size(410, 207);
             this.lightsVisualizationCard.TabIndex = 6;
             // 
+            // color4
+            // 
+            this.color4.BackColor = System.Drawing.Color.Black;
+            this.color4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.color4.Location = new System.Drawing.Point(177, 85);
+            this.color4.Name = "color4";
+            this.color4.Size = new System.Drawing.Size(65, 65);
+            this.color4.TabIndex = 4;
+            // 
+            // color2
+            // 
+            this.color2.BackColor = System.Drawing.Color.Black;
+            this.color2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.color2.Location = new System.Drawing.Point(38, 14);
+            this.color2.Name = "color2";
+            this.color2.Size = new System.Drawing.Size(334, 15);
+            this.color2.TabIndex = 3;
+            // 
+            // color3
+            // 
+            this.color3.BackColor = System.Drawing.Color.Black;
+            this.color3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.color3.Location = new System.Drawing.Point(378, 25);
+            this.color3.Name = "color3";
+            this.color3.Size = new System.Drawing.Size(15, 168);
+            this.color3.TabIndex = 2;
+            // 
+            // color1
+            // 
+            this.color1.BackColor = System.Drawing.Color.Black;
+            this.color1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.color1.Location = new System.Drawing.Point(17, 25);
+            this.color1.Name = "color1";
+            this.color1.Size = new System.Drawing.Size(15, 168);
+            this.color1.TabIndex = 1;
+            // 
             // colorSelectCard
             // 
             this.colorSelectCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.colorSelectCard.Controls.Add(this.colorPreview);
+            this.colorSelectCard.Controls.Add(this.colorSpectrum);
             this.colorSelectCard.Controls.Add(this.colorSelectApplyButton);
             this.colorSelectCard.Controls.Add(this.colorSelectPictureBox);
             this.colorSelectCard.Controls.Add(this.colorSelectLabel);
@@ -3154,6 +3205,26 @@
             this.colorSelectCard.Size = new System.Drawing.Size(410, 182);
             this.colorSelectCard.TabIndex = 5;
             // 
+            // colorPreview
+            // 
+            this.colorPreview.Location = new System.Drawing.Point(99, 134);
+            this.colorPreview.Name = "colorPreview";
+            this.colorPreview.Size = new System.Drawing.Size(63, 28);
+            this.colorPreview.TabIndex = 0;
+            // 
+            // colorSpectrum
+            // 
+            this.colorSpectrum.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.colorSpectrum.Cursor = System.Windows.Forms.Cursors.Cross;
+            this.colorSpectrum.Image = global::Trailmate.Properties.Resources.color_spectrum__1_;
+            this.colorSpectrum.Location = new System.Drawing.Point(177, 22);
+            this.colorSpectrum.Name = "colorSpectrum";
+            this.colorSpectrum.Size = new System.Drawing.Size(216, 143);
+            this.colorSpectrum.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.colorSpectrum.TabIndex = 9;
+            this.colorSpectrum.TabStop = false;
+            this.colorSpectrum.MouseDown += new System.Windows.Forms.MouseEventHandler(this.colorSpectrum_MouseDown);
+            // 
             // colorSelectApplyButton
             // 
             this.colorSelectApplyButton.AutoSize = false;
@@ -3162,7 +3233,7 @@
             this.colorSelectApplyButton.Depth = 0;
             this.colorSelectApplyButton.HighEmphasis = true;
             this.colorSelectApplyButton.Icon = null;
-            this.colorSelectApplyButton.Location = new System.Drawing.Point(18, 131);
+            this.colorSelectApplyButton.Location = new System.Drawing.Point(17, 131);
             this.colorSelectApplyButton.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.colorSelectApplyButton.MouseState = MaterialSkin.MouseState.HOVER;
             this.colorSelectApplyButton.Name = "colorSelectApplyButton";
@@ -3173,6 +3244,7 @@
             this.colorSelectApplyButton.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.colorSelectApplyButton.UseAccentColor = false;
             this.colorSelectApplyButton.UseVisualStyleBackColor = true;
+            this.colorSelectApplyButton.Click += new System.EventHandler(this.colorSelectApplyButton_Click);
             // 
             // colorSelectPictureBox
             // 
@@ -3223,6 +3295,8 @@
             this.warmthLightControlSlider.Size = new System.Drawing.Size(173, 40);
             this.warmthLightControlSlider.TabIndex = 9;
             this.warmthLightControlSlider.Text = "";
+            this.warmthLightControlSlider.Value = 0;
+            this.warmthLightControlSlider.onValueChanged += new MaterialSkin.Controls.MaterialSlider.ValueChanged(this.warmthLightControlSlider_onValueChanged);
             // 
             // warmthLightControlLabel
             // 
@@ -3273,6 +3347,8 @@
             this.intensityLightControlSlider.Size = new System.Drawing.Size(173, 40);
             this.intensityLightControlSlider.TabIndex = 5;
             this.intensityLightControlSlider.Text = "";
+            this.intensityLightControlSlider.Value = 100;
+            this.intensityLightControlSlider.onValueChanged += new MaterialSkin.Controls.MaterialSlider.ValueChanged(this.intensityLightControlSlider_onValueChanged);
             // 
             // lightsLightControlPictureBox2
             // 
@@ -3302,7 +3378,6 @@
             this.effectLightControlCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.effectLightControlCard.Controls.Add(this.RainbowEffectButton);
             this.effectLightControlCard.Controls.Add(this.flashingEffectButton);
-            this.effectLightControlCard.Controls.Add(this.strobeEffectButton);
             this.effectLightControlCard.Controls.Add(this.nightModeButton);
             this.effectLightControlCard.Controls.Add(this.effectsInsideLightControlCard);
             this.effectLightControlCard.Depth = 0;
@@ -3323,7 +3398,7 @@
             this.RainbowEffectButton.Depth = 0;
             this.RainbowEffectButton.HighEmphasis = true;
             this.RainbowEffectButton.Icon = null;
-            this.RainbowEffectButton.Location = new System.Drawing.Point(27, 237);
+            this.RainbowEffectButton.Location = new System.Drawing.Point(27, 144);
             this.RainbowEffectButton.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.RainbowEffectButton.MouseState = MaterialSkin.MouseState.HOVER;
             this.RainbowEffectButton.Name = "RainbowEffectButton";
@@ -3334,6 +3409,7 @@
             this.RainbowEffectButton.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.RainbowEffectButton.UseAccentColor = false;
             this.RainbowEffectButton.UseVisualStyleBackColor = true;
+            this.RainbowEffectButton.Click += new System.EventHandler(this.RainbowEffectButton_Click);
             // 
             // flashingEffectButton
             // 
@@ -3343,7 +3419,7 @@
             this.flashingEffectButton.Depth = 0;
             this.flashingEffectButton.HighEmphasis = true;
             this.flashingEffectButton.Icon = null;
-            this.flashingEffectButton.Location = new System.Drawing.Point(27, 178);
+            this.flashingEffectButton.Location = new System.Drawing.Point(27, 105);
             this.flashingEffectButton.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.flashingEffectButton.MouseState = MaterialSkin.MouseState.HOVER;
             this.flashingEffectButton.Name = "flashingEffectButton";
@@ -3354,26 +3430,7 @@
             this.flashingEffectButton.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.flashingEffectButton.UseAccentColor = false;
             this.flashingEffectButton.UseVisualStyleBackColor = true;
-            // 
-            // strobeEffectButton
-            // 
-            this.strobeEffectButton.AutoSize = false;
-            this.strobeEffectButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.strobeEffectButton.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.strobeEffectButton.Depth = 0;
-            this.strobeEffectButton.HighEmphasis = true;
-            this.strobeEffectButton.Icon = null;
-            this.strobeEffectButton.Location = new System.Drawing.Point(27, 120);
-            this.strobeEffectButton.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.strobeEffectButton.MouseState = MaterialSkin.MouseState.HOVER;
-            this.strobeEffectButton.Name = "strobeEffectButton";
-            this.strobeEffectButton.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.strobeEffectButton.Size = new System.Drawing.Size(128, 27);
-            this.strobeEffectButton.TabIndex = 2;
-            this.strobeEffectButton.Text = "Strobe Effect";
-            this.strobeEffectButton.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.strobeEffectButton.UseAccentColor = false;
-            this.strobeEffectButton.UseVisualStyleBackColor = true;
+            this.flashingEffectButton.Click += new System.EventHandler(this.flashingEffectButton_Click);
             // 
             // nightModeButton
             // 
@@ -3394,6 +3451,7 @@
             this.nightModeButton.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.nightModeButton.UseAccentColor = false;
             this.nightModeButton.UseVisualStyleBackColor = true;
+            this.nightModeButton.Click += new System.EventHandler(this.nightModeButton_Click);
             // 
             // effectsInsideLightControlCard
             // 
@@ -4555,6 +4613,7 @@
             // 
             // cart
             // 
+            this.cart.AutoScroll = true;
             this.cart.Controls.Add(this.itemPointer);
             this.cart.Location = new System.Drawing.Point(14, 43);
             this.cart.Name = "cart";
@@ -6600,6 +6659,15 @@
             this.timer1.Interval = 10000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // timer2
+            // 
+            this.timer2.Interval = 200;
+            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
+            // 
+            // timer3
+            // 
+            this.timer3.Tick += new System.EventHandler(this.timer3_Tick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -6698,8 +6766,10 @@
             this.fabricNameCard.PerformLayout();
             this.lightControlPage.ResumeLayout(false);
             this.lightControlPage.PerformLayout();
+            this.lightsVisualizationCard.ResumeLayout(false);
             this.colorSelectCard.ResumeLayout(false);
             this.colorSelectCard.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.colorSpectrum)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.colorSelectPictureBox)).EndInit();
             this.warmthLightControlCard.ResumeLayout(false);
             this.warmthLightControlCard.PerformLayout();
@@ -7247,7 +7317,6 @@
         private MaterialSkin.Controls.MaterialButton nightModeButton;
         private MaterialSkin.Controls.MaterialButton RainbowEffectButton;
         private MaterialSkin.Controls.MaterialButton flashingEffectButton;
-        private MaterialSkin.Controls.MaterialButton strobeEffectButton;
         private System.Windows.Forms.PictureBox colorSelectPictureBox;
         private MaterialSkin.Controls.MaterialLabel colorSelectLabel;
         private MaterialSkin.Controls.MaterialButton colorSelectApplyButton;
@@ -7259,6 +7328,14 @@
         private MaterialSkin.Controls.MaterialCard blockCard1;
         private MaterialSkin.Controls.MaterialButton blockButton;
         private MaterialSkin.Controls.MaterialLabel blockLabel;
+        private System.Windows.Forms.PictureBox colorSpectrum;
+        private System.Windows.Forms.Label colorPreview;
+        private System.Windows.Forms.Label color1;
+        private System.Windows.Forms.Label color4;
+        private System.Windows.Forms.Label color2;
+        private System.Windows.Forms.Label color3;
+        private System.Windows.Forms.Timer timer2;
+        private System.Windows.Forms.Timer timer3;
     }
 }
 

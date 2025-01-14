@@ -52,6 +52,17 @@ namespace Trailmate
 
         TouristSpot selectedSpot;
 
+        Color clr;
+        Color internalColor;
+        Color clrPicked;
+
+        double lightIntensity = 1.0;
+
+        double lightWarmth = 0;
+
+        Color[] rainbowEffect = { Color.Red, Color.Orange, Color.Yellow, Color.Green, Color.Blue, Color.Purple };
+        int rainbowIndex = 0;
+
         public Form1()
         {
             InitializeComponent();
@@ -121,6 +132,8 @@ namespace Trailmate
             TouristSpot HikeTrail = new TouristSpot(new PointLatLng(38.194426, 23.738682), "Hike trail", "760m away", "3.9", "Open", hikeTrailExploreLabel);
             TouristSpot Temple = new TouristSpot(new PointLatLng(38.198077, 23.743521), "Buddhist Temple", "1.4m away", "4.6", "Open", buddhistTempleExploreLabel);
             TouristSpot Bar = new TouristSpot(new PointLatLng(38.195354, 23.739808), "Bar", "430m away", "4.9", "Open", BarExploreLabel);
+
+            changeColor(Color.Black);
         }
 
         private void setupEmergencyMap()
@@ -209,6 +222,16 @@ namespace Trailmate
             lightSwitch1.Checked = lightSwitch.Checked;
             lightSwitch2.Text = lightSwitch.Checked ? "On" : " Off";
             lightSwitch2.Checked = lightSwitch.Checked;
+
+            if(!lightSwitch.Checked)
+            {
+                changeColor(Color.Black);
+                timer2.Enabled = false;
+                timer3.Enabled = false;
+            } else
+            {
+                changeColor(Color.White);
+            }
         }
 
         private void infoEventButton_Click(object sender, EventArgs e)
@@ -417,6 +440,87 @@ namespace Trailmate
             }
         }
 
+        private void colorSpectrum_MouseDown(object sender, MouseEventArgs e)
+        {
+            Bitmap pixelData = (Bitmap)colorSpectrum.Image;
+            clrPicked = pixelData.GetPixel(e.X, e.Y);
+
+            colorPreview.BackColor = clrPicked;
+        }
+
+        private void colorSelectApplyButton_Click(object sender, EventArgs e)
+        {
+            if (lightSwitch2.Checked)
+            {
+                changeColor(clrPicked);
+                timer2.Enabled = false;
+                timer3.Enabled = false;
+            }
+        }
+
+        private void changeColor(Color color)
+        {
+            clr = color;
+            internalColor = Color.FromArgb((int)(color.R * lightIntensity), (int)(color.G * lightIntensity), (int)(color.B * lightIntensity));
+            internalColor = Color.FromArgb(Clamp((int)(internalColor.R + lightWarmth), 0, 255), internalColor.G, Clamp((int)(internalColor.B - lightWarmth), 0, 255));
+
+            color1.BackColor = internalColor;
+            color2.BackColor = internalColor;
+            color3.BackColor = internalColor;
+            color4.BackColor = internalColor;
+        }
+
+        private void nightModeButton_Click(object sender, EventArgs e)
+        {
+            changeColor(Color.Orange);
+            timer2.Enabled = false;
+            timer3.Enabled = false;
+        }
+
+        private void intensityLightControlSlider_onValueChanged(object sender, int newValue)
+        {
+            lightIntensity = newValue * 0.01;
+
+            changeColor(clr);
+        }
+
+        private void warmthLightControlSlider_onValueChanged(object sender, int newValue)
+        {
+            lightWarmth = newValue;
+            
+            changeColor(clr);
+        }
+
+        private void timer2_Tick(object sender, EventArgs e)
+        {
+            if(clr == Color.Black) { 
+                changeColor(clrPicked); 
+            } else
+            {
+                changeColor(Color.Black);
+            }
+        }
+
+        private void flashingEffectButton_Click(object sender, EventArgs e)
+        {
+            timer2.Enabled = true;
+            timer3.Enabled = false;
+        }
+
+        private void timer3_Tick(object sender, EventArgs e)
+        {
+            changeColor(rainbowEffect[rainbowIndex]);
+
+            rainbowIndex++;
+            rainbowIndex = rainbowIndex > rainbowEffect.Length - 1 ? 0 : rainbowIndex;
+        }
+
+        private void RainbowEffectButton_Click(object sender, EventArgs e)
+        {
+            timer3.Enabled = true;
+            timer2.Enabled = false;
+        }
+
         void update_tickrate()
         {
             switch (energySaving - energyConsumption)
@@ -527,6 +631,11 @@ namespace Trailmate
         {
             angle4 = angleScrollbar4.Value;
             setAngle4.Text = angle4.ToString() + " degrees";
+        }
+
+        public static int Clamp(int value, int min, int max)
+        {
+            return (value < min) ? min : (value > max) ? max : value;
         }
     }
 }

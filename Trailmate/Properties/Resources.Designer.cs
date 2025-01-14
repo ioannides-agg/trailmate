@@ -74,6 +74,26 @@ namespace Trailmate.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap color_spectrum {
+            get {
+                object obj = ResourceManager.GetObject("color_spectrum", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap color_spectrum__1_ {
+            get {
+                object obj = ResourceManager.GetObject("color_spectrum (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cute_campsite_wooden_signpost_camping_pointer_illustration_graphic_element_art_card_658039_5528 {
             get {
                 object obj = ResourceManager.GetObject("cute-campsite-wooden-signpost-camping-pointer-illustration-graphic-element-art-ca" +
@@ -407,6 +427,16 @@ namespace Trailmate.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap lights {
+            get {
+                object obj = ResourceManager.GetObject("lights", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap map_camping_travel_vector_118813_16701 {
             get {
                 object obj = ResourceManager.GetObject("map-camping-travel-vector_118813-16701", resourceCulture);
@@ -452,6 +482,16 @@ namespace Trailmate.Properties {
             get {
                 object obj = ResourceManager.GetObject("png-clipart-lamp-cartoon-illustration-hand-drawn-cartoon-light-bulb-painted-hand1" +
                         "-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap rgb_spectrum {
+            get {
+                object obj = ResourceManager.GetObject("rgb_spectrum", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

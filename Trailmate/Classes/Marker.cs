@@ -63,8 +63,6 @@ namespace Trailmate.Classes
             flatness = _flatness;
             density = _density;
             humidity = _humidity;
-            
-
         }
     }
 }

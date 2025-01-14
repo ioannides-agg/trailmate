@@ -130,6 +130,9 @@
   <data name="200188395-mountains-with-a-river-green-trees-and-a-beautiful-sky-in-the-background" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\200188395-mountains-with-a-river-green-trees-and-a-beautiful-sky-in-the-background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="color_spectrum (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\color_spectrum (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icons8-umbrella-26" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-umbrella-26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -157,6 +160,9 @@
   <data name="icons8-pavilion-26" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-pavilion-26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="rgb_spectrum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rgb_spectrum.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icons8-light-26" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-light-26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -165,9 +171,6 @@
   </data>
   <data name="icons8-rain-26" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-rain-26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="image" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\image.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-color-dropper-26" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-color-dropper-26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -208,6 +211,9 @@
   <data name="icons8-stormy-weather-26" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-stormy-weather-26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Screenshot 2025-01-09 181705" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2025-01-09 181705.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Screenshot 2025-01-09 1817051" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Screenshot 2025-01-09 1817051.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -241,6 +247,12 @@
   <data name="summer-garden-flowers-and-insects-landscape-vector-509732403" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\summer-garden-flowers-and-insects-landscape-vector-509732403.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="color_spectrum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\color_spectrum.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icons8-retro-tv-26" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-retro-tv-26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -265,13 +277,13 @@
   <data name="icons8-information-26" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-information-26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Screenshot 2025-01-09 181705" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Screenshot 2025-01-09 181705.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="png-clipart-lamp-cartoon-illustration-hand-drawn-cartoon-light-bulb-painted-hand1-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\png-clipart-lamp-cartoon-illustration-hand-drawn-cartoon-light-bulb-painted-hand1-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-coffee-maker-26" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-coffee-maker-26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="png-clipart-lamp-cartoon-illustration-hand-drawn-cartoon-light-bulb-painted-hand1-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\png-clipart-lamp-cartoon-illustration-hand-drawn-cartoon-light-bulb-painted-hand1-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lights" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lights.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
