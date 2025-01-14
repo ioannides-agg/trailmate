@@ -19,6 +19,8 @@ using System.Linq;
 using static GMap.NET.Entity.OpenStreetMapGraphHopperGeocodeEntity;
 using System.Runtime.Remoting.Contexts;
 using System.Data.Entity;
+using MaterialSkin.Properties;
+using System.Diagnostics;
 
 namespace Trailmate
 {
@@ -62,6 +64,10 @@ namespace Trailmate
 
         Color[] rainbowEffect = { Color.Red, Color.Orange, Color.Yellow, Color.Green, Color.Blue, Color.Purple };
         int rainbowIndex = 0;
+
+        Fabric loadedFabric;
+        bool mouseDownHold;
+        List<Fabric> fabrics = new List<Fabric>();
 
         public Form1()
         {
@@ -134,6 +140,72 @@ namespace Trailmate
             TouristSpot Bar = new TouristSpot(new PointLatLng(38.195354, 23.739808), "Bar", "430m away", "4.9", "Open", BarExploreLabel);
 
             changeColor(Color.Black);
+
+            Fabric standard = new Fabric("Standard fabric", "This fabric is the most versatile fabric.", Properties.Resources.tent, fabric1PictureBox);
+            Fabric insulating = new Fabric("Insulating fabric", "This fabric is best suitable for cold weather, as the special nanofibers keep the heat in and the cold out", Properties.Resources.tent_hot, fabric2PictureBox);
+            Fabric breezy = new Fabric("Breezy fabric", "This fabric is best suitable for hot weather, as it allows the air to flow in the tent", Properties.Resources.tent_breezy, fabric3PictureBox);
+            Fabric enforced = new Fabric("Enforced fabric", "This fabric is suitable for hazardous phenomena as it protects your tent.", Properties.Resources.tent_enforced, fabric4PictureBox);
+            
+            fabrics.Add(standard);
+            fabrics.Add(insulating);
+            fabrics.Add(breezy);
+            fabrics.Add(enforced);
+
+            tentControlTentPreviewPictureBox.AllowDrop = true;
+        }
+
+        private void onFabric_mouseDown(object sender, MouseEventArgs e)
+        {
+            loadedFabric = ((PictureBox)sender).Tag as Fabric;
+
+            if (((PictureBox)sender).Image != null && e.Button == MouseButtons.Left)
+            {
+                DoDragDrop(((PictureBox)sender).Image, DragDropEffects.Copy);
+            }
+        }
+
+        private void tentControlTentPreviewPictureBox_DragEnter(object sender, DragEventArgs e)
+        {
+            if (e.Data.GetDataPresent(typeof(Bitmap)))
+            {
+                e.Effect = DragDropEffects.Copy;
+            }
+            else
+            {
+                e.Effect = DragDropEffects.None;
+            }
+        }
+
+        private void tentControlTentPreviewPictureBox_DragDrop(object sender, DragEventArgs e)
+        {
+            if (e.Data.GetDataPresent(typeof(Bitmap)))
+            {
+                tentControlTentPreviewPictureBox.Image = loadedFabric.img;
+                defaultFabricNameLabel.Text = loadedFabric.name;
+                defaultFabricDescriptionLabel.Text = loadedFabric.description;
+                loadedFabric.usedCounter++;
+
+                updateFavorites();
+            }
+        }
+
+        void updateFavorites()
+        {
+            if (loadedFabric != null)
+            {
+                Fabric no1 = null;
+
+                foreach (Fabric item in fabrics)
+                {
+                    if(item.usedCounter >= no1.usedCounter)
+                    {
+                        no1 = item;
+                    }
+                }
+
+                mostUsedPictureBox1.Tag = no1;
+                //unfinished
+            }
         }
 
         private void setupEmergencyMap()

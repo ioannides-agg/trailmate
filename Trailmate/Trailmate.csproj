@@ -86,6 +86,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\Event.cs" />
+    <Compile Include="Classes\Fabric.cs" />
     <Compile Include="Classes\FoodItem.cs" />
     <Compile Include="Classes\map.cs" />
     <Compile Include="Classes\Marker.cs" />
@@ -296,6 +297,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\lights.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tent_hot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tent_breezy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tent_enforced.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snowflake.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hot1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wind.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sunny-day.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

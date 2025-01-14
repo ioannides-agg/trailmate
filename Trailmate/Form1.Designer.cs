@@ -2447,15 +2447,14 @@
             // 
             // defaultFabricDescriptionLabel
             // 
-            this.defaultFabricDescriptionLabel.AutoSize = true;
             this.defaultFabricDescriptionLabel.Depth = 0;
             this.defaultFabricDescriptionLabel.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.defaultFabricDescriptionLabel.Location = new System.Drawing.Point(8, 33);
             this.defaultFabricDescriptionLabel.MouseState = MaterialSkin.MouseState.HOVER;
             this.defaultFabricDescriptionLabel.Name = "defaultFabricDescriptionLabel";
-            this.defaultFabricDescriptionLabel.Size = new System.Drawing.Size(53, 19);
+            this.defaultFabricDescriptionLabel.Size = new System.Drawing.Size(272, 62);
             this.defaultFabricDescriptionLabel.TabIndex = 0;
-            this.defaultFabricDescriptionLabel.Text = "Default";
+            this.defaultFabricDescriptionLabel.Text = "This fabric is the most versatile fabric.";
             // 
             // fabricDescriptionLabel
             // 
@@ -2889,6 +2888,7 @@
             // 
             // tentControlCardBottomLeft
             // 
+            this.tentControlCardBottomLeft.AllowDrop = true;
             this.tentControlCardBottomLeft.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.tentControlCardBottomLeft.Controls.Add(this.previewTentControlLabel);
             this.tentControlCardBottomLeft.Controls.Add(this.saveChangesTentControlButton);
@@ -2945,7 +2945,7 @@
             this.dragAndDropLabel.Depth = 0;
             this.dragAndDropLabel.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             this.dragAndDropLabel.FontType = MaterialSkin.MaterialSkinManager.fontType.SubtleEmphasis;
-            this.dragAndDropLabel.Location = new System.Drawing.Point(64, 163);
+            this.dragAndDropLabel.Location = new System.Drawing.Point(111, 14);
             this.dragAndDropLabel.MouseState = MaterialSkin.MouseState.HOVER;
             this.dragAndDropLabel.Name = "dragAndDropLabel";
             this.dragAndDropLabel.Size = new System.Drawing.Size(241, 14);
@@ -2954,11 +2954,15 @@
             // 
             // tentControlTentPreviewPictureBox
             // 
+            this.tentControlTentPreviewPictureBox.Image = global::Trailmate.Properties.Resources.tent;
             this.tentControlTentPreviewPictureBox.Location = new System.Drawing.Point(9, 33);
             this.tentControlTentPreviewPictureBox.Name = "tentControlTentPreviewPictureBox";
-            this.tentControlTentPreviewPictureBox.Size = new System.Drawing.Size(383, 286);
+            this.tentControlTentPreviewPictureBox.Size = new System.Drawing.Size(398, 286);
+            this.tentControlTentPreviewPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.tentControlTentPreviewPictureBox.TabIndex = 2;
             this.tentControlTentPreviewPictureBox.TabStop = false;
+            this.tentControlTentPreviewPictureBox.DragDrop += new System.Windows.Forms.DragEventHandler(this.tentControlTentPreviewPictureBox_DragDrop);
+            this.tentControlTentPreviewPictureBox.DragEnter += new System.Windows.Forms.DragEventHandler(this.tentControlTentPreviewPictureBox_DragEnter);
             // 
             // fabricsListInsideCard
             // 
@@ -3033,35 +3037,51 @@
             // 
             // fabric4PictureBox
             // 
+            this.fabric4PictureBox.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.fabric4PictureBox.Image = global::Trailmate.Properties.Resources.snowflake;
             this.fabric4PictureBox.Location = new System.Drawing.Point(33, 195);
             this.fabric4PictureBox.Name = "fabric4PictureBox";
             this.fabric4PictureBox.Size = new System.Drawing.Size(45, 40);
+            this.fabric4PictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.fabric4PictureBox.TabIndex = 4;
             this.fabric4PictureBox.TabStop = false;
+            this.fabric4PictureBox.MouseDown += new System.Windows.Forms.MouseEventHandler(this.onFabric_mouseDown);
             // 
             // fabric3PictureBox
             // 
+            this.fabric3PictureBox.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.fabric3PictureBox.Image = global::Trailmate.Properties.Resources.wind;
             this.fabric3PictureBox.Location = new System.Drawing.Point(33, 134);
             this.fabric3PictureBox.Name = "fabric3PictureBox";
             this.fabric3PictureBox.Size = new System.Drawing.Size(45, 40);
+            this.fabric3PictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.fabric3PictureBox.TabIndex = 3;
             this.fabric3PictureBox.TabStop = false;
+            this.fabric3PictureBox.MouseDown += new System.Windows.Forms.MouseEventHandler(this.onFabric_mouseDown);
             // 
             // fabric2PictureBox
             // 
+            this.fabric2PictureBox.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.fabric2PictureBox.Image = global::Trailmate.Properties.Resources.hot1;
             this.fabric2PictureBox.Location = new System.Drawing.Point(33, 77);
             this.fabric2PictureBox.Name = "fabric2PictureBox";
             this.fabric2PictureBox.Size = new System.Drawing.Size(45, 40);
+            this.fabric2PictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.fabric2PictureBox.TabIndex = 2;
             this.fabric2PictureBox.TabStop = false;
+            this.fabric2PictureBox.MouseDown += new System.Windows.Forms.MouseEventHandler(this.onFabric_mouseDown);
             // 
             // fabric1PictureBox
             // 
+            this.fabric1PictureBox.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.fabric1PictureBox.Image = global::Trailmate.Properties.Resources.sunny_day;
             this.fabric1PictureBox.Location = new System.Drawing.Point(33, 18);
             this.fabric1PictureBox.Name = "fabric1PictureBox";
             this.fabric1PictureBox.Size = new System.Drawing.Size(45, 40);
+            this.fabric1PictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.fabric1PictureBox.TabIndex = 1;
             this.fabric1PictureBox.TabStop = false;
+            this.fabric1PictureBox.MouseDown += new System.Windows.Forms.MouseEventHandler(this.onFabric_mouseDown);
             // 
             // fabricNameCard
             // 
@@ -3086,9 +3106,9 @@
             this.defaultFabricNameLabel.Location = new System.Drawing.Point(11, 30);
             this.defaultFabricNameLabel.MouseState = MaterialSkin.MouseState.HOVER;
             this.defaultFabricNameLabel.Name = "defaultFabricNameLabel";
-            this.defaultFabricNameLabel.Size = new System.Drawing.Size(53, 19);
+            this.defaultFabricNameLabel.Size = new System.Drawing.Size(111, 19);
             this.defaultFabricNameLabel.TabIndex = 3;
-            this.defaultFabricNameLabel.Text = "Default";
+            this.defaultFabricNameLabel.Text = "Standard fabric";
             // 
             // fabricNameLabel
             // 
@@ -6731,7 +6751,6 @@
             this.tentControlPage.ResumeLayout(false);
             this.tentControlPage.PerformLayout();
             this.fabricDescriptionCard.ResumeLayout(false);
-            this.fabricDescriptionCard.PerformLayout();
             this.recommendedFabricCard.ResumeLayout(false);
             this.recommendedFabricCard.PerformLayout();
             this.weatherWeekTentControlCard.ResumeLayout(false);
