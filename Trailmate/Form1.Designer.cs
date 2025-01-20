@@ -32,9 +32,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.TabMaster = new MaterialSkin.Controls.MaterialTabControl();
             this.homePage = new System.Windows.Forms.TabPage();
-            this.blockCard1 = new MaterialSkin.Controls.MaterialCard();
-            this.blockButton = new MaterialSkin.Controls.MaterialButton();
-            this.blockLabel = new MaterialSkin.Controls.MaterialLabel();
             this.forrestPictureCard = new MaterialSkin.Controls.MaterialCard();
             this.forrestPictureBox = new System.Windows.Forms.PictureBox();
             this.lightsHomePictureBox2 = new System.Windows.Forms.PictureBox();
@@ -103,6 +100,9 @@
             this.temperatureTodayLabel = new MaterialSkin.Controls.MaterialLabel();
             this.tempTodayPictureBox = new System.Windows.Forms.PictureBox();
             this.homeLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.blockCard1 = new MaterialSkin.Controls.MaterialCard();
+            this.blockButton = new MaterialSkin.Controls.MaterialButton();
+            this.blockLabel = new MaterialSkin.Controls.MaterialLabel();
             this.setupPage = new System.Windows.Forms.TabPage();
             this.finalSetupCard = new MaterialSkin.Controls.MaterialCard();
             this.finalizeButton = new MaterialSkin.Controls.MaterialButton();
@@ -193,19 +193,7 @@
             this.weekTentControlLabel = new MaterialSkin.Controls.MaterialLabel();
             this.WeatherTentControlLabel = new MaterialSkin.Controls.MaterialLabel();
             this.weatherWeekTentControlPictureBoc = new System.Windows.Forms.PictureBox();
-            this.tentControlCardTopLeft = new MaterialSkin.Controls.MaterialCard();
-            this.mostUsedPictureBox3 = new System.Windows.Forms.PictureBox();
-            this.mostUsedPictureBox2 = new System.Windows.Forms.PictureBox();
-            this.mostUsedPictureBox1 = new System.Windows.Forms.PictureBox();
-            this.mostUsedLabel = new MaterialSkin.Controls.MaterialLabel();
             this.tentControlCardBottomLeft = new MaterialSkin.Controls.MaterialCard();
-            this.previewTentControlLabel = new MaterialSkin.Controls.MaterialLabel();
-            this.saveChangesTentControlButton = new MaterialSkin.Controls.MaterialButton();
-            this.dragAndDropLabel = new MaterialSkin.Controls.MaterialLabel();
-            this.tentControlTentPreviewPictureBox = new System.Windows.Forms.PictureBox();
-            this.fabricsListInsideCard = new MaterialSkin.Controls.MaterialCard();
-            this.materialLabel34 = new MaterialSkin.Controls.MaterialLabel();
-            this.fabricsListCard = new MaterialSkin.Controls.MaterialCard();
             this.fabricsListPanel = new System.Windows.Forms.Panel();
             this.fabric6PictureBox = new System.Windows.Forms.PictureBox();
             this.fabric5PictureBox = new System.Windows.Forms.PictureBox();
@@ -213,6 +201,13 @@
             this.fabric3PictureBox = new System.Windows.Forms.PictureBox();
             this.fabric2PictureBox = new System.Windows.Forms.PictureBox();
             this.fabric1PictureBox = new System.Windows.Forms.PictureBox();
+            this.previewTentControlLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.saveChangesTentControlButton = new MaterialSkin.Controls.MaterialButton();
+            this.dragAndDropLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.tentControlTentPreviewPictureBox = new System.Windows.Forms.PictureBox();
+            this.fabricsListInsideCard = new MaterialSkin.Controls.MaterialCard();
+            this.materialLabel34 = new MaterialSkin.Controls.MaterialLabel();
+            this.fabricsListCard = new MaterialSkin.Controls.MaterialCard();
             this.fabricNameCard = new MaterialSkin.Controls.MaterialCard();
             this.defaultFabricNameLabel = new MaterialSkin.Controls.MaterialLabel();
             this.fabricNameLabel = new MaterialSkin.Controls.MaterialLabel();
@@ -466,9 +461,22 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.timer3 = new System.Windows.Forms.Timer(this.components);
+            this.suggestionPanel = new System.Windows.Forms.Panel();
+            this.changeFabricCard = new MaterialSkin.Controls.MaterialCard();
+            this.suggestionLabel1 = new MaterialSkin.Controls.MaterialLabel();
+            this.gotoTentControlButton = new MaterialSkin.Controls.MaterialButton();
+            this.chatCard = new MaterialSkin.Controls.MaterialCard();
+            this.chatPanel = new System.Windows.Forms.Panel();
+            this.orderLateLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.orderWrongLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.orderCancelButton = new MaterialSkin.Controls.MaterialLabel();
+            this.chatPointer = new MaterialSkin.Controls.MaterialLabel();
+            this.chatInfoLabel = new MaterialSkin.Controls.MaterialLabel();
+            this.response1 = new MaterialSkin.Controls.MaterialLabel();
+            this.timer4 = new System.Windows.Forms.Timer(this.components);
+            this.closeChat = new System.Windows.Forms.PictureBox();
             this.TabMaster.SuspendLayout();
             this.homePage.SuspendLayout();
-            this.blockCard1.SuspendLayout();
             this.forrestPictureCard.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.forrestPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lightsHomePictureBox2)).BeginInit();
@@ -497,6 +505,7 @@
             this.temperatureTodayPanel.SuspendLayout();
             this.todaysDateCard.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tempTodayPictureBox)).BeginInit();
+            this.blockCard1.SuspendLayout();
             this.setupPage.SuspendLayout();
             this.finalSetupCard.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.stake4)).BeginInit();
@@ -516,14 +525,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.weatherTentControlIcon2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.weatherTentControlIcon1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.weatherWeekTentControlPictureBoc)).BeginInit();
-            this.tentControlCardTopLeft.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.mostUsedPictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mostUsedPictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mostUsedPictureBox1)).BeginInit();
             this.tentControlCardBottomLeft.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.tentControlTentPreviewPictureBox)).BeginInit();
-            this.fabricsListInsideCard.SuspendLayout();
-            this.fabricsListCard.SuspendLayout();
             this.fabricsListPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.fabric6PictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fabric5PictureBox)).BeginInit();
@@ -531,6 +533,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.fabric3PictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fabric2PictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fabric1PictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tentControlTentPreviewPictureBox)).BeginInit();
+            this.fabricsListInsideCard.SuspendLayout();
             this.fabricNameCard.SuspendLayout();
             this.lightControlPage.SuspendLayout();
             this.lightsVisualizationCard.SuspendLayout();
@@ -616,6 +620,11 @@
             this.concertCard.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.concertNotifPictureBox)).BeginInit();
             this.upcomingEventsCard.SuspendLayout();
+            this.suggestionPanel.SuspendLayout();
+            this.changeFabricCard.SuspendLayout();
+            this.chatCard.SuspendLayout();
+            this.chatPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.closeChat)).BeginInit();
             this.SuspendLayout();
             // 
             // TabMaster
@@ -665,55 +674,6 @@
             this.homePage.TabIndex = 1;
             this.homePage.Text = "Home";
             this.homePage.UseVisualStyleBackColor = true;
-            // 
-            // blockCard1
-            // 
-            this.blockCard1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.blockCard1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.blockCard1.Controls.Add(this.blockButton);
-            this.blockCard1.Controls.Add(this.blockLabel);
-            this.blockCard1.Depth = 0;
-            this.blockCard1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.blockCard1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.blockCard1.Location = new System.Drawing.Point(0, 0);
-            this.blockCard1.Margin = new System.Windows.Forms.Padding(14);
-            this.blockCard1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.blockCard1.Name = "blockCard1";
-            this.blockCard1.Padding = new System.Windows.Forms.Padding(14);
-            this.blockCard1.Size = new System.Drawing.Size(936, 491);
-            this.blockCard1.TabIndex = 13;
-            // 
-            // blockButton
-            // 
-            this.blockButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.blockButton.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.blockButton.Depth = 0;
-            this.blockButton.HighEmphasis = true;
-            this.blockButton.Icon = null;
-            this.blockButton.Location = new System.Drawing.Point(386, 220);
-            this.blockButton.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.blockButton.MouseState = MaterialSkin.MouseState.HOVER;
-            this.blockButton.Name = "blockButton";
-            this.blockButton.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.blockButton.Size = new System.Drawing.Size(132, 36);
-            this.blockButton.TabIndex = 1;
-            this.blockButton.Text = "Take me there";
-            this.blockButton.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.blockButton.UseAccentColor = false;
-            this.blockButton.UseVisualStyleBackColor = true;
-            this.blockButton.Click += new System.EventHandler(this.blockButton_Click);
-            // 
-            // blockLabel
-            // 
-            this.blockLabel.Depth = 0;
-            this.blockLabel.Font = new System.Drawing.Font("Roboto", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.blockLabel.FontType = MaterialSkin.MaterialSkinManager.fontType.H5;
-            this.blockLabel.Location = new System.Drawing.Point(158, 171);
-            this.blockLabel.MouseState = MaterialSkin.MouseState.HOVER;
-            this.blockLabel.Name = "blockLabel";
-            this.blockLabel.Size = new System.Drawing.Size(634, 59);
-            this.blockLabel.TabIndex = 0;
-            this.blockLabel.Text = "Please setup your camp to access the rest of the features";
             // 
             // forrestPictureCard
             // 
@@ -1090,6 +1050,7 @@
             // todaysSuggestionsHomeCard
             // 
             this.todaysSuggestionsHomeCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.todaysSuggestionsHomeCard.Controls.Add(this.suggestionPanel);
             this.todaysSuggestionsHomeCard.Controls.Add(this.TodaysSuggestionsHomeLabel);
             this.todaysSuggestionsHomeCard.Depth = 0;
             this.todaysSuggestionsHomeCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
@@ -1331,7 +1292,7 @@
             // 
             // weatherWeekPictureBox3
             // 
-            this.weatherWeekPictureBox3.Image = global::Trailmate.Properties.Resources.icons8_stormy_weather_26;
+            this.weatherWeekPictureBox3.Image = global::Trailmate.Properties.Resources.icons8_clouds_26;
             this.weatherWeekPictureBox3.Location = new System.Drawing.Point(92, 64);
             this.weatherWeekPictureBox3.Name = "weatherWeekPictureBox3";
             this.weatherWeekPictureBox3.Size = new System.Drawing.Size(30, 28);
@@ -1376,7 +1337,7 @@
             // 
             // weatherWeekPictureBox1
             // 
-            this.weatherWeekPictureBox1.Image = global::Trailmate.Properties.Resources.icons8_clouds_26;
+            this.weatherWeekPictureBox1.Image = global::Trailmate.Properties.Resources.icons8_stormy_weather_26;
             this.weatherWeekPictureBox1.Location = new System.Drawing.Point(20, 64);
             this.weatherWeekPictureBox1.Name = "weatherWeekPictureBox1";
             this.weatherWeekPictureBox1.Size = new System.Drawing.Size(30, 28);
@@ -1591,6 +1552,55 @@
             this.homeLabel.Size = new System.Drawing.Size(66, 29);
             this.homeLabel.TabIndex = 0;
             this.homeLabel.Text = "Home";
+            // 
+            // blockCard1
+            // 
+            this.blockCard1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.blockCard1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.blockCard1.Controls.Add(this.blockButton);
+            this.blockCard1.Controls.Add(this.blockLabel);
+            this.blockCard1.Depth = 0;
+            this.blockCard1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.blockCard1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.blockCard1.Location = new System.Drawing.Point(0, 0);
+            this.blockCard1.Margin = new System.Windows.Forms.Padding(14);
+            this.blockCard1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.blockCard1.Name = "blockCard1";
+            this.blockCard1.Padding = new System.Windows.Forms.Padding(14);
+            this.blockCard1.Size = new System.Drawing.Size(936, 491);
+            this.blockCard1.TabIndex = 13;
+            // 
+            // blockButton
+            // 
+            this.blockButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.blockButton.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.blockButton.Depth = 0;
+            this.blockButton.HighEmphasis = true;
+            this.blockButton.Icon = null;
+            this.blockButton.Location = new System.Drawing.Point(386, 220);
+            this.blockButton.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.blockButton.MouseState = MaterialSkin.MouseState.HOVER;
+            this.blockButton.Name = "blockButton";
+            this.blockButton.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.blockButton.Size = new System.Drawing.Size(132, 36);
+            this.blockButton.TabIndex = 1;
+            this.blockButton.Text = "Take me there";
+            this.blockButton.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.blockButton.UseAccentColor = false;
+            this.blockButton.UseVisualStyleBackColor = true;
+            this.blockButton.Click += new System.EventHandler(this.blockButton_Click);
+            // 
+            // blockLabel
+            // 
+            this.blockLabel.Depth = 0;
+            this.blockLabel.Font = new System.Drawing.Font("Roboto", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.blockLabel.FontType = MaterialSkin.MaterialSkinManager.fontType.H5;
+            this.blockLabel.Location = new System.Drawing.Point(158, 171);
+            this.blockLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.blockLabel.Name = "blockLabel";
+            this.blockLabel.Size = new System.Drawing.Size(634, 59);
+            this.blockLabel.TabIndex = 0;
+            this.blockLabel.Text = "Please setup your camp to access the rest of the features";
             // 
             // setupPage
             // 
@@ -2417,7 +2427,6 @@
             this.tentControlPage.Controls.Add(this.fabricDescriptionCard);
             this.tentControlPage.Controls.Add(this.recommendedFabricCard);
             this.tentControlPage.Controls.Add(this.weatherWeekTentControlCard);
-            this.tentControlPage.Controls.Add(this.tentControlCardTopLeft);
             this.tentControlPage.Controls.Add(this.tentControlCardBottomLeft);
             this.tentControlPage.Controls.Add(this.fabricNameCard);
             this.tentControlPage.Controls.Add(this.tentControlLabel);
@@ -2502,6 +2511,7 @@
             this.seePreviewTentControlButton.Text = "See Preview";
             this.seePreviewTentControlButton.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.seePreviewTentControlButton.UseAccentColor = false;
+            this.seePreviewTentControlButton.Click += new System.EventHandler(this.seePreviewTentControlButton_Click);
             // 
             // enforcedRecommendedFabricLabel
             // 
@@ -2745,7 +2755,7 @@
             // 
             // weatherTentControlIcon3
             // 
-            this.weatherTentControlIcon3.Image = global::Trailmate.Properties.Resources.icons8_stormy_weather_26;
+            this.weatherTentControlIcon3.Image = global::Trailmate.Properties.Resources.icons8_clouds_26;
             this.weatherTentControlIcon3.Location = new System.Drawing.Point(92, 64);
             this.weatherTentControlIcon3.Name = "weatherTentControlIcon3";
             this.weatherTentControlIcon3.Size = new System.Drawing.Size(30, 28);
@@ -2790,7 +2800,7 @@
             // 
             // weatherTentControlIcon1
             // 
-            this.weatherTentControlIcon1.Image = global::Trailmate.Properties.Resources.icons8_clouds_26;
+            this.weatherTentControlIcon1.Image = global::Trailmate.Properties.Resources.icons8_stormy_weather_26;
             this.weatherTentControlIcon1.Location = new System.Drawing.Point(20, 64);
             this.weatherTentControlIcon1.Name = "weatherTentControlIcon1";
             this.weatherTentControlIcon1.Size = new System.Drawing.Size(30, 28);
@@ -2832,64 +2842,11 @@
             this.weatherWeekTentControlPictureBoc.TabIndex = 0;
             this.weatherWeekTentControlPictureBoc.TabStop = false;
             // 
-            // tentControlCardTopLeft
-            // 
-            this.tentControlCardTopLeft.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.tentControlCardTopLeft.Controls.Add(this.mostUsedPictureBox3);
-            this.tentControlCardTopLeft.Controls.Add(this.mostUsedPictureBox2);
-            this.tentControlCardTopLeft.Controls.Add(this.mostUsedPictureBox1);
-            this.tentControlCardTopLeft.Controls.Add(this.mostUsedLabel);
-            this.tentControlCardTopLeft.Depth = 0;
-            this.tentControlCardTopLeft.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.tentControlCardTopLeft.Location = new System.Drawing.Point(14, 58);
-            this.tentControlCardTopLeft.Margin = new System.Windows.Forms.Padding(14);
-            this.tentControlCardTopLeft.MouseState = MaterialSkin.MouseState.HOVER;
-            this.tentControlCardTopLeft.Name = "tentControlCardTopLeft";
-            this.tentControlCardTopLeft.Padding = new System.Windows.Forms.Padding(14);
-            this.tentControlCardTopLeft.Size = new System.Drawing.Size(551, 61);
-            this.tentControlCardTopLeft.TabIndex = 2;
-            // 
-            // mostUsedPictureBox3
-            // 
-            this.mostUsedPictureBox3.Location = new System.Drawing.Point(271, 12);
-            this.mostUsedPictureBox3.Name = "mostUsedPictureBox3";
-            this.mostUsedPictureBox3.Size = new System.Drawing.Size(45, 40);
-            this.mostUsedPictureBox3.TabIndex = 2;
-            this.mostUsedPictureBox3.TabStop = false;
-            // 
-            // mostUsedPictureBox2
-            // 
-            this.mostUsedPictureBox2.Location = new System.Drawing.Point(202, 12);
-            this.mostUsedPictureBox2.Name = "mostUsedPictureBox2";
-            this.mostUsedPictureBox2.Size = new System.Drawing.Size(45, 40);
-            this.mostUsedPictureBox2.TabIndex = 1;
-            this.mostUsedPictureBox2.TabStop = false;
-            // 
-            // mostUsedPictureBox1
-            // 
-            this.mostUsedPictureBox1.Location = new System.Drawing.Point(134, 12);
-            this.mostUsedPictureBox1.Name = "mostUsedPictureBox1";
-            this.mostUsedPictureBox1.Size = new System.Drawing.Size(45, 40);
-            this.mostUsedPictureBox1.TabIndex = 0;
-            this.mostUsedPictureBox1.TabStop = false;
-            // 
-            // mostUsedLabel
-            // 
-            this.mostUsedLabel.AutoSize = true;
-            this.mostUsedLabel.Depth = 0;
-            this.mostUsedLabel.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.mostUsedLabel.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
-            this.mostUsedLabel.Location = new System.Drawing.Point(17, 17);
-            this.mostUsedLabel.MouseState = MaterialSkin.MouseState.HOVER;
-            this.mostUsedLabel.Name = "mostUsedLabel";
-            this.mostUsedLabel.Size = new System.Drawing.Size(102, 24);
-            this.mostUsedLabel.TabIndex = 0;
-            this.mostUsedLabel.Text = "Most Used:";
-            // 
             // tentControlCardBottomLeft
             // 
             this.tentControlCardBottomLeft.AllowDrop = true;
             this.tentControlCardBottomLeft.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.tentControlCardBottomLeft.Controls.Add(this.fabricsListPanel);
             this.tentControlCardBottomLeft.Controls.Add(this.previewTentControlLabel);
             this.tentControlCardBottomLeft.Controls.Add(this.saveChangesTentControlButton);
             this.tentControlCardBottomLeft.Controls.Add(this.dragAndDropLabel);
@@ -2898,112 +2855,13 @@
             this.tentControlCardBottomLeft.Controls.Add(this.fabricsListCard);
             this.tentControlCardBottomLeft.Depth = 0;
             this.tentControlCardBottomLeft.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.tentControlCardBottomLeft.Location = new System.Drawing.Point(14, 127);
+            this.tentControlCardBottomLeft.Location = new System.Drawing.Point(14, 58);
             this.tentControlCardBottomLeft.Margin = new System.Windows.Forms.Padding(14);
             this.tentControlCardBottomLeft.MouseState = MaterialSkin.MouseState.HOVER;
             this.tentControlCardBottomLeft.Name = "tentControlCardBottomLeft";
             this.tentControlCardBottomLeft.Padding = new System.Windows.Forms.Padding(14);
-            this.tentControlCardBottomLeft.Size = new System.Drawing.Size(551, 354);
+            this.tentControlCardBottomLeft.Size = new System.Drawing.Size(551, 423);
             this.tentControlCardBottomLeft.TabIndex = 1;
-            // 
-            // previewTentControlLabel
-            // 
-            this.previewTentControlLabel.AutoSize = true;
-            this.previewTentControlLabel.Depth = 0;
-            this.previewTentControlLabel.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.previewTentControlLabel.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
-            this.previewTentControlLabel.Location = new System.Drawing.Point(17, 6);
-            this.previewTentControlLabel.MouseState = MaterialSkin.MouseState.HOVER;
-            this.previewTentControlLabel.Name = "previewTentControlLabel";
-            this.previewTentControlLabel.Size = new System.Drawing.Size(78, 24);
-            this.previewTentControlLabel.TabIndex = 6;
-            this.previewTentControlLabel.Text = "Preview:";
-            // 
-            // saveChangesTentControlButton
-            // 
-            this.saveChangesTentControlButton.AutoSize = false;
-            this.saveChangesTentControlButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.saveChangesTentControlButton.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.saveChangesTentControlButton.Depth = 0;
-            this.saveChangesTentControlButton.HighEmphasis = true;
-            this.saveChangesTentControlButton.Icon = null;
-            this.saveChangesTentControlButton.Location = new System.Drawing.Point(280, 321);
-            this.saveChangesTentControlButton.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.saveChangesTentControlButton.MouseState = MaterialSkin.MouseState.HOVER;
-            this.saveChangesTentControlButton.Name = "saveChangesTentControlButton";
-            this.saveChangesTentControlButton.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.saveChangesTentControlButton.Size = new System.Drawing.Size(112, 27);
-            this.saveChangesTentControlButton.TabIndex = 5;
-            this.saveChangesTentControlButton.Text = "save changes";
-            this.saveChangesTentControlButton.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.saveChangesTentControlButton.UseAccentColor = false;
-            this.saveChangesTentControlButton.UseVisualStyleBackColor = true;
-            // 
-            // dragAndDropLabel
-            // 
-            this.dragAndDropLabel.AutoSize = true;
-            this.dragAndDropLabel.Depth = 0;
-            this.dragAndDropLabel.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            this.dragAndDropLabel.FontType = MaterialSkin.MaterialSkinManager.fontType.SubtleEmphasis;
-            this.dragAndDropLabel.Location = new System.Drawing.Point(111, 14);
-            this.dragAndDropLabel.MouseState = MaterialSkin.MouseState.HOVER;
-            this.dragAndDropLabel.Name = "dragAndDropLabel";
-            this.dragAndDropLabel.Size = new System.Drawing.Size(241, 14);
-            this.dragAndDropLabel.TabIndex = 3;
-            this.dragAndDropLabel.Text = "Drag and drop the fabric of your choice here.";
-            // 
-            // tentControlTentPreviewPictureBox
-            // 
-            this.tentControlTentPreviewPictureBox.Image = global::Trailmate.Properties.Resources.tent;
-            this.tentControlTentPreviewPictureBox.Location = new System.Drawing.Point(9, 33);
-            this.tentControlTentPreviewPictureBox.Name = "tentControlTentPreviewPictureBox";
-            this.tentControlTentPreviewPictureBox.Size = new System.Drawing.Size(398, 286);
-            this.tentControlTentPreviewPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.tentControlTentPreviewPictureBox.TabIndex = 2;
-            this.tentControlTentPreviewPictureBox.TabStop = false;
-            this.tentControlTentPreviewPictureBox.DragDrop += new System.Windows.Forms.DragEventHandler(this.tentControlTentPreviewPictureBox_DragDrop);
-            this.tentControlTentPreviewPictureBox.DragEnter += new System.Windows.Forms.DragEventHandler(this.tentControlTentPreviewPictureBox_DragEnter);
-            // 
-            // fabricsListInsideCard
-            // 
-            this.fabricsListInsideCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.fabricsListInsideCard.Controls.Add(this.materialLabel34);
-            this.fabricsListInsideCard.Depth = 0;
-            this.fabricsListInsideCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.fabricsListInsideCard.Location = new System.Drawing.Point(409, 10);
-            this.fabricsListInsideCard.Margin = new System.Windows.Forms.Padding(14);
-            this.fabricsListInsideCard.MouseState = MaterialSkin.MouseState.HOVER;
-            this.fabricsListInsideCard.Name = "fabricsListInsideCard";
-            this.fabricsListInsideCard.Padding = new System.Windows.Forms.Padding(14);
-            this.fabricsListInsideCard.Size = new System.Drawing.Size(123, 44);
-            this.fabricsListInsideCard.TabIndex = 1;
-            // 
-            // materialLabel34
-            // 
-            this.materialLabel34.AutoSize = true;
-            this.materialLabel34.Depth = 0;
-            this.materialLabel34.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel34.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
-            this.materialLabel34.Location = new System.Drawing.Point(4, 10);
-            this.materialLabel34.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel34.Name = "materialLabel34";
-            this.materialLabel34.Size = new System.Drawing.Size(109, 24);
-            this.materialLabel34.TabIndex = 1;
-            this.materialLabel34.Text = "Fabrics List:";
-            // 
-            // fabricsListCard
-            // 
-            this.fabricsListCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.fabricsListCard.Controls.Add(this.fabricsListPanel);
-            this.fabricsListCard.Depth = 0;
-            this.fabricsListCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.fabricsListCard.Location = new System.Drawing.Point(409, 10);
-            this.fabricsListCard.Margin = new System.Windows.Forms.Padding(14);
-            this.fabricsListCard.MouseState = MaterialSkin.MouseState.HOVER;
-            this.fabricsListCard.Name = "fabricsListCard";
-            this.fabricsListCard.Padding = new System.Windows.Forms.Padding(14);
-            this.fabricsListCard.Size = new System.Drawing.Size(123, 330);
-            this.fabricsListCard.TabIndex = 0;
             // 
             // fabricsListPanel
             // 
@@ -3014,9 +2872,9 @@
             this.fabricsListPanel.Controls.Add(this.fabric3PictureBox);
             this.fabricsListPanel.Controls.Add(this.fabric2PictureBox);
             this.fabricsListPanel.Controls.Add(this.fabric1PictureBox);
-            this.fabricsListPanel.Location = new System.Drawing.Point(0, 44);
+            this.fabricsListPanel.Location = new System.Drawing.Point(409, 54);
             this.fabricsListPanel.Name = "fabricsListPanel";
-            this.fabricsListPanel.Size = new System.Drawing.Size(123, 286);
+            this.fabricsListPanel.Size = new System.Drawing.Size(123, 319);
             this.fabricsListPanel.TabIndex = 2;
             // 
             // fabric6PictureBox
@@ -3082,6 +2940,105 @@
             this.fabric1PictureBox.TabIndex = 1;
             this.fabric1PictureBox.TabStop = false;
             this.fabric1PictureBox.MouseDown += new System.Windows.Forms.MouseEventHandler(this.onFabric_mouseDown);
+            // 
+            // previewTentControlLabel
+            // 
+            this.previewTentControlLabel.AutoSize = true;
+            this.previewTentControlLabel.Depth = 0;
+            this.previewTentControlLabel.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.previewTentControlLabel.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.previewTentControlLabel.Location = new System.Drawing.Point(17, 6);
+            this.previewTentControlLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.previewTentControlLabel.Name = "previewTentControlLabel";
+            this.previewTentControlLabel.Size = new System.Drawing.Size(78, 24);
+            this.previewTentControlLabel.TabIndex = 6;
+            this.previewTentControlLabel.Text = "Preview:";
+            // 
+            // saveChangesTentControlButton
+            // 
+            this.saveChangesTentControlButton.AutoSize = false;
+            this.saveChangesTentControlButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.saveChangesTentControlButton.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.saveChangesTentControlButton.Depth = 0;
+            this.saveChangesTentControlButton.HighEmphasis = true;
+            this.saveChangesTentControlButton.Icon = null;
+            this.saveChangesTentControlButton.Location = new System.Drawing.Point(18, 385);
+            this.saveChangesTentControlButton.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.saveChangesTentControlButton.MouseState = MaterialSkin.MouseState.HOVER;
+            this.saveChangesTentControlButton.Name = "saveChangesTentControlButton";
+            this.saveChangesTentControlButton.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.saveChangesTentControlButton.Size = new System.Drawing.Size(112, 27);
+            this.saveChangesTentControlButton.TabIndex = 5;
+            this.saveChangesTentControlButton.Text = "save changes";
+            this.saveChangesTentControlButton.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.saveChangesTentControlButton.UseAccentColor = false;
+            this.saveChangesTentControlButton.UseVisualStyleBackColor = true;
+            this.saveChangesTentControlButton.Click += new System.EventHandler(this.saveChangesTentControlButton_Click);
+            // 
+            // dragAndDropLabel
+            // 
+            this.dragAndDropLabel.AutoSize = true;
+            this.dragAndDropLabel.Depth = 0;
+            this.dragAndDropLabel.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.dragAndDropLabel.FontType = MaterialSkin.MaterialSkinManager.fontType.SubtleEmphasis;
+            this.dragAndDropLabel.Location = new System.Drawing.Point(111, 14);
+            this.dragAndDropLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.dragAndDropLabel.Name = "dragAndDropLabel";
+            this.dragAndDropLabel.Size = new System.Drawing.Size(241, 14);
+            this.dragAndDropLabel.TabIndex = 3;
+            this.dragAndDropLabel.Text = "Drag and drop the fabric of your choice here.";
+            // 
+            // tentControlTentPreviewPictureBox
+            // 
+            this.tentControlTentPreviewPictureBox.Image = global::Trailmate.Properties.Resources.tent;
+            this.tentControlTentPreviewPictureBox.Location = new System.Drawing.Point(0, 33);
+            this.tentControlTentPreviewPictureBox.Name = "tentControlTentPreviewPictureBox";
+            this.tentControlTentPreviewPictureBox.Size = new System.Drawing.Size(407, 340);
+            this.tentControlTentPreviewPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.tentControlTentPreviewPictureBox.TabIndex = 2;
+            this.tentControlTentPreviewPictureBox.TabStop = false;
+            this.tentControlTentPreviewPictureBox.DragDrop += new System.Windows.Forms.DragEventHandler(this.tentControlTentPreviewPictureBox_DragDrop);
+            this.tentControlTentPreviewPictureBox.DragEnter += new System.Windows.Forms.DragEventHandler(this.tentControlTentPreviewPictureBox_DragEnter);
+            // 
+            // fabricsListInsideCard
+            // 
+            this.fabricsListInsideCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.fabricsListInsideCard.Controls.Add(this.materialLabel34);
+            this.fabricsListInsideCard.Depth = 0;
+            this.fabricsListInsideCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.fabricsListInsideCard.Location = new System.Drawing.Point(409, 10);
+            this.fabricsListInsideCard.Margin = new System.Windows.Forms.Padding(14);
+            this.fabricsListInsideCard.MouseState = MaterialSkin.MouseState.HOVER;
+            this.fabricsListInsideCard.Name = "fabricsListInsideCard";
+            this.fabricsListInsideCard.Padding = new System.Windows.Forms.Padding(14);
+            this.fabricsListInsideCard.Size = new System.Drawing.Size(123, 44);
+            this.fabricsListInsideCard.TabIndex = 1;
+            // 
+            // materialLabel34
+            // 
+            this.materialLabel34.AutoSize = true;
+            this.materialLabel34.Depth = 0;
+            this.materialLabel34.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel34.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.materialLabel34.Location = new System.Drawing.Point(4, 10);
+            this.materialLabel34.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel34.Name = "materialLabel34";
+            this.materialLabel34.Size = new System.Drawing.Size(109, 24);
+            this.materialLabel34.TabIndex = 1;
+            this.materialLabel34.Text = "Fabrics List:";
+            // 
+            // fabricsListCard
+            // 
+            this.fabricsListCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.fabricsListCard.Depth = 0;
+            this.fabricsListCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.fabricsListCard.Location = new System.Drawing.Point(409, 10);
+            this.fabricsListCard.Margin = new System.Windows.Forms.Padding(14);
+            this.fabricsListCard.MouseState = MaterialSkin.MouseState.HOVER;
+            this.fabricsListCard.Name = "fabricsListCard";
+            this.fabricsListCard.Padding = new System.Windows.Forms.Padding(14);
+            this.fabricsListCard.Size = new System.Drawing.Size(123, 363);
+            this.fabricsListCard.TabIndex = 0;
             // 
             // fabricNameCard
             // 
@@ -3569,15 +3526,16 @@
             // 
             // orderPage
             // 
+            this.orderPage.Controls.Add(this.chatCard);
             this.orderPage.Controls.Add(this.foodPanel);
             this.orderPage.Controls.Add(this.drinksPanel);
             this.orderPage.Controls.Add(this.coffeePanel);
             this.orderPage.Controls.Add(this.foodLabel);
-            this.orderPage.Controls.Add(this.orderPlacedCard);
             this.orderPage.Controls.Add(this.drinksLabel);
             this.orderPage.Controls.Add(this.coffeeLabel);
             this.orderPage.Controls.Add(this.questionsCard);
             this.orderPage.Controls.Add(this.cartCard);
+            this.orderPage.Controls.Add(this.orderPlacedCard);
             this.orderPage.ImageKey = "icons8-restaurant-26.png";
             this.orderPage.Location = new System.Drawing.Point(4, 31);
             this.orderPage.Margin = new System.Windows.Forms.Padding(2);
@@ -4516,6 +4474,7 @@
             this.materialButton1.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.materialButton1.UseAccentColor = false;
             this.materialButton1.UseVisualStyleBackColor = true;
+            this.materialButton1.Click += new System.EventHandler(this.materialButton1_Click);
             // 
             // materialLabel5
             // 
@@ -4582,7 +4541,7 @@
             this.discardChangesButton.NoAccentTextColor = System.Drawing.Color.Empty;
             this.discardChangesButton.Size = new System.Drawing.Size(107, 36);
             this.discardChangesButton.TabIndex = 3;
-            this.discardChangesButton.Text = "discard changes";
+            this.discardChangesButton.Text = "Clear Cart";
             this.discardChangesButton.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.discardChangesButton.UseAccentColor = false;
             this.discardChangesButton.UseVisualStyleBackColor = true;
@@ -6688,6 +6647,191 @@
             // 
             this.timer3.Tick += new System.EventHandler(this.timer3_Tick);
             // 
+            // suggestionPanel
+            // 
+            this.suggestionPanel.AutoScroll = true;
+            this.suggestionPanel.Controls.Add(this.changeFabricCard);
+            this.suggestionPanel.Location = new System.Drawing.Point(17, 41);
+            this.suggestionPanel.Name = "suggestionPanel";
+            this.suggestionPanel.Size = new System.Drawing.Size(244, 116);
+            this.suggestionPanel.TabIndex = 1;
+            // 
+            // changeFabricCard
+            // 
+            this.changeFabricCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.changeFabricCard.Controls.Add(this.gotoTentControlButton);
+            this.changeFabricCard.Controls.Add(this.suggestionLabel1);
+            this.changeFabricCard.Depth = 0;
+            this.changeFabricCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.changeFabricCard.Location = new System.Drawing.Point(0, 0);
+            this.changeFabricCard.Margin = new System.Windows.Forms.Padding(14);
+            this.changeFabricCard.MouseState = MaterialSkin.MouseState.HOVER;
+            this.changeFabricCard.Name = "changeFabricCard";
+            this.changeFabricCard.Padding = new System.Windows.Forms.Padding(14);
+            this.changeFabricCard.Size = new System.Drawing.Size(243, 91);
+            this.changeFabricCard.TabIndex = 0;
+            // 
+            // suggestionLabel1
+            // 
+            this.suggestionLabel1.Depth = 0;
+            this.suggestionLabel1.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.suggestionLabel1.Location = new System.Drawing.Point(0, 5);
+            this.suggestionLabel1.Margin = new System.Windows.Forms.Padding(3, 5, 3, 0);
+            this.suggestionLabel1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.suggestionLabel1.Name = "suggestionLabel1";
+            this.suggestionLabel1.Size = new System.Drawing.Size(238, 37);
+            this.suggestionLabel1.TabIndex = 0;
+            this.suggestionLabel1.Text = "Bad weather detected, changing the fabric is recommeded.";
+            // 
+            // gotoTentControlButton
+            // 
+            this.gotoTentControlButton.AutoSize = false;
+            this.gotoTentControlButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.gotoTentControlButton.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.gotoTentControlButton.Depth = 0;
+            this.gotoTentControlButton.HighEmphasis = true;
+            this.gotoTentControlButton.Icon = null;
+            this.gotoTentControlButton.Location = new System.Drawing.Point(86, 49);
+            this.gotoTentControlButton.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.gotoTentControlButton.MouseState = MaterialSkin.MouseState.HOVER;
+            this.gotoTentControlButton.Name = "gotoTentControlButton";
+            this.gotoTentControlButton.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.gotoTentControlButton.Size = new System.Drawing.Size(79, 28);
+            this.gotoTentControlButton.TabIndex = 1;
+            this.gotoTentControlButton.Text = "SEE MORE";
+            this.gotoTentControlButton.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.gotoTentControlButton.UseAccentColor = false;
+            this.gotoTentControlButton.UseVisualStyleBackColor = true;
+            this.gotoTentControlButton.Click += new System.EventHandler(this.gotoTentControlButton_Click);
+            // 
+            // chatCard
+            // 
+            this.chatCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.chatCard.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.chatCard.Controls.Add(this.orderCancelButton);
+            this.chatCard.Controls.Add(this.orderWrongLabel);
+            this.chatCard.Controls.Add(this.orderLateLabel);
+            this.chatCard.Controls.Add(this.chatPanel);
+            this.chatCard.Depth = 0;
+            this.chatCard.Dock = System.Windows.Forms.DockStyle.Left;
+            this.chatCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.chatCard.Location = new System.Drawing.Point(0, 0);
+            this.chatCard.Margin = new System.Windows.Forms.Padding(14);
+            this.chatCard.MouseState = MaterialSkin.MouseState.HOVER;
+            this.chatCard.Name = "chatCard";
+            this.chatCard.Padding = new System.Windows.Forms.Padding(14);
+            this.chatCard.Size = new System.Drawing.Size(630, 491);
+            this.chatCard.TabIndex = 9;
+            this.chatCard.Visible = false;
+            // 
+            // chatPanel
+            // 
+            this.chatPanel.Controls.Add(this.closeChat);
+            this.chatPanel.Controls.Add(this.response1);
+            this.chatPanel.Controls.Add(this.chatInfoLabel);
+            this.chatPanel.Controls.Add(this.chatPointer);
+            this.chatPanel.Location = new System.Drawing.Point(16, 14);
+            this.chatPanel.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.chatPanel.Name = "chatPanel";
+            this.chatPanel.Size = new System.Drawing.Size(594, 360);
+            this.chatPanel.TabIndex = 1;
+            // 
+            // orderLateLabel
+            // 
+            this.orderLateLabel.AutoSize = true;
+            this.orderLateLabel.Depth = 0;
+            this.orderLateLabel.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.orderLateLabel.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.orderLateLabel.Location = new System.Drawing.Point(15, 382);
+            this.orderLateLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.orderLateLabel.Name = "orderLateLabel";
+            this.orderLateLabel.Size = new System.Drawing.Size(140, 24);
+            this.orderLateLabel.TabIndex = 2;
+            this.orderLateLabel.Text = "My order is late";
+            this.orderLateLabel.Click += new System.EventHandler(this.orderLateLabel_Click);
+            // 
+            // orderWrongLabel
+            // 
+            this.orderWrongLabel.AutoSize = true;
+            this.orderWrongLabel.Depth = 0;
+            this.orderWrongLabel.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.orderWrongLabel.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.orderWrongLabel.Location = new System.Drawing.Point(15, 416);
+            this.orderWrongLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.orderWrongLabel.Name = "orderWrongLabel";
+            this.orderWrongLabel.Size = new System.Drawing.Size(161, 24);
+            this.orderWrongLabel.TabIndex = 3;
+            this.orderWrongLabel.Text = "My order is wrong";
+            this.orderWrongLabel.Click += new System.EventHandler(this.orderWrongLabel_Click);
+            // 
+            // orderCancelButton
+            // 
+            this.orderCancelButton.AutoSize = true;
+            this.orderCancelButton.Depth = 0;
+            this.orderCancelButton.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.orderCancelButton.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.orderCancelButton.Location = new System.Drawing.Point(15, 451);
+            this.orderCancelButton.MouseState = MaterialSkin.MouseState.HOVER;
+            this.orderCancelButton.Name = "orderCancelButton";
+            this.orderCancelButton.Size = new System.Drawing.Size(226, 24);
+            this.orderCancelButton.TabIndex = 4;
+            this.orderCancelButton.Text = "I want to cancel my order";
+            this.orderCancelButton.Click += new System.EventHandler(this.orderCancelButton_Click);
+            // 
+            // chatPointer
+            // 
+            this.chatPointer.AutoSize = true;
+            this.chatPointer.Depth = 0;
+            this.chatPointer.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.chatPointer.Location = new System.Drawing.Point(27, 92);
+            this.chatPointer.MouseState = MaterialSkin.MouseState.HOVER;
+            this.chatPointer.Name = "chatPointer";
+            this.chatPointer.Size = new System.Drawing.Size(92, 19);
+            this.chatPointer.TabIndex = 0;
+            this.chatPointer.Text = "pointer(i=27)";
+            this.chatPointer.Visible = false;
+            // 
+            // chatInfoLabel
+            // 
+            this.chatInfoLabel.AutoSize = true;
+            this.chatInfoLabel.Depth = 0;
+            this.chatInfoLabel.Font = new System.Drawing.Font("Roboto", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.chatInfoLabel.FontType = MaterialSkin.MaterialSkinManager.fontType.H5;
+            this.chatInfoLabel.Location = new System.Drawing.Point(15, 13);
+            this.chatInfoLabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.chatInfoLabel.Name = "chatInfoLabel";
+            this.chatInfoLabel.Size = new System.Drawing.Size(243, 29);
+            this.chatInfoLabel.TabIndex = 1;
+            this.chatInfoLabel.Text = "TrailMate support chat";
+            // 
+            // response1
+            // 
+            this.response1.Depth = 0;
+            this.response1.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.response1.Location = new System.Drawing.Point(27, 61);
+            this.response1.Margin = new System.Windows.Forms.Padding(3);
+            this.response1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.response1.Name = "response1";
+            this.response1.Size = new System.Drawing.Size(267, 23);
+            this.response1.TabIndex = 2;
+            this.response1.Text = "Hello! how may we assist you today?";
+            // 
+            // timer4
+            // 
+            this.timer4.Interval = 2000;
+            this.timer4.Tick += new System.EventHandler(this.timer4_Tick);
+            // 
+            // closeChat
+            // 
+            this.closeChat.Image = global::Trailmate.Properties.Resources.icons8_warning_26;
+            this.closeChat.Location = new System.Drawing.Point(548, 10);
+            this.closeChat.Name = "closeChat";
+            this.closeChat.Size = new System.Drawing.Size(32, 32);
+            this.closeChat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.closeChat.TabIndex = 3;
+            this.closeChat.TabStop = false;
+            this.closeChat.Click += new System.EventHandler(this.closeChat_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -6702,8 +6846,6 @@
             this.TabMaster.ResumeLayout(false);
             this.homePage.ResumeLayout(false);
             this.homePage.PerformLayout();
-            this.blockCard1.ResumeLayout(false);
-            this.blockCard1.PerformLayout();
             this.forrestPictureCard.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.forrestPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lightsHomePictureBox2)).EndInit();
@@ -6739,6 +6881,8 @@
             this.temperatureTodayPanel.ResumeLayout(false);
             this.todaysDateCard.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.tempTodayPictureBox)).EndInit();
+            this.blockCard1.ResumeLayout(false);
+            this.blockCard1.PerformLayout();
             this.setupPage.ResumeLayout(false);
             this.finalSetupCard.ResumeLayout(false);
             this.finalSetupCard.PerformLayout();
@@ -6763,17 +6907,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.weatherTentControlIcon2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.weatherTentControlIcon1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.weatherWeekTentControlPictureBoc)).EndInit();
-            this.tentControlCardTopLeft.ResumeLayout(false);
-            this.tentControlCardTopLeft.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.mostUsedPictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mostUsedPictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mostUsedPictureBox1)).EndInit();
             this.tentControlCardBottomLeft.ResumeLayout(false);
             this.tentControlCardBottomLeft.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.tentControlTentPreviewPictureBox)).EndInit();
-            this.fabricsListInsideCard.ResumeLayout(false);
-            this.fabricsListInsideCard.PerformLayout();
-            this.fabricsListCard.ResumeLayout(false);
             this.fabricsListPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.fabric6PictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fabric5PictureBox)).EndInit();
@@ -6781,6 +6916,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.fabric3PictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fabric2PictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fabric1PictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tentControlTentPreviewPictureBox)).EndInit();
+            this.fabricsListInsideCard.ResumeLayout(false);
+            this.fabricsListInsideCard.PerformLayout();
             this.fabricNameCard.ResumeLayout(false);
             this.fabricNameCard.PerformLayout();
             this.lightControlPage.ResumeLayout(false);
@@ -6913,6 +7051,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.concertNotifPictureBox)).EndInit();
             this.upcomingEventsCard.ResumeLayout(false);
             this.upcomingEventsCard.PerformLayout();
+            this.suggestionPanel.ResumeLayout(false);
+            this.changeFabricCard.ResumeLayout(false);
+            this.chatCard.ResumeLayout(false);
+            this.chatCard.PerformLayout();
+            this.chatPanel.ResumeLayout(false);
+            this.chatPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.closeChat)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -7184,12 +7329,7 @@
         private MaterialSkin.Controls.MaterialLabel weekTentControlLabel;
         private MaterialSkin.Controls.MaterialLabel WeatherTentControlLabel;
         private System.Windows.Forms.PictureBox weatherWeekTentControlPictureBoc;
-        private MaterialSkin.Controls.MaterialCard tentControlCardTopLeft;
         private MaterialSkin.Controls.MaterialCard tentControlCardBottomLeft;
-        private System.Windows.Forms.PictureBox mostUsedPictureBox3;
-        private System.Windows.Forms.PictureBox mostUsedPictureBox2;
-        private System.Windows.Forms.PictureBox mostUsedPictureBox1;
-        private MaterialSkin.Controls.MaterialLabel mostUsedLabel;
         private MaterialSkin.Controls.MaterialCard fabricsListCard;
         private MaterialSkin.Controls.MaterialCard fabricsListInsideCard;
         private MaterialSkin.Controls.MaterialLabel materialLabel34;
@@ -7355,6 +7495,20 @@
         private System.Windows.Forms.Label color3;
         private System.Windows.Forms.Timer timer2;
         private System.Windows.Forms.Timer timer3;
+        private System.Windows.Forms.Panel suggestionPanel;
+        private MaterialSkin.Controls.MaterialCard changeFabricCard;
+        private MaterialSkin.Controls.MaterialLabel suggestionLabel1;
+        private MaterialSkin.Controls.MaterialButton gotoTentControlButton;
+        private MaterialSkin.Controls.MaterialCard chatCard;
+        private System.Windows.Forms.Panel chatPanel;
+        private MaterialSkin.Controls.MaterialLabel orderCancelButton;
+        private MaterialSkin.Controls.MaterialLabel orderWrongLabel;
+        private MaterialSkin.Controls.MaterialLabel orderLateLabel;
+        private MaterialSkin.Controls.MaterialLabel chatInfoLabel;
+        private MaterialSkin.Controls.MaterialLabel chatPointer;
+        private MaterialSkin.Controls.MaterialLabel response1;
+        private System.Windows.Forms.Timer timer4;
+        private System.Windows.Forms.PictureBox closeChat;
     }
 }
 

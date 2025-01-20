@@ -1,26 +1,14 @@
-﻿using GMap.NET.MapProviders;
-using GMap.NET;
+﻿using GMap.NET;
 using GMap.NET.WindowsForms;
+using GMap.NET.WindowsForms.Markers;
 using MaterialSkin;
 using MaterialSkin.Controls;
-using System.Runtime.InteropServices;
-using System.Windows.Forms;
-using GMap.NET.WindowsForms.Markers;
-using Trailmate.Classes;
 using System;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.ProgressBar;
-using System.Reflection;
-using System.Drawing;
-using System.Collections;
 using System.Collections.Generic;
-using System.Data.Entity.Core.Metadata.Edm;
+using System.Drawing;
 using System.Linq;
-using static GMap.NET.Entity.OpenStreetMapGraphHopperGeocodeEntity;
-using System.Runtime.Remoting.Contexts;
-using System.Data.Entity;
-using MaterialSkin.Properties;
-using System.Diagnostics;
+using System.Windows.Forms;
+using Trailmate.Classes;
 
 namespace Trailmate
 {
@@ -66,8 +54,11 @@ namespace Trailmate
         int rainbowIndex = 0;
 
         Fabric loadedFabric;
-        bool mouseDownHold;
-        List<Fabric> fabrics = new List<Fabric>();
+        Fabric enforced;
+
+        List<Control> chatSession = new List<Control>();
+        System.Drawing.Point initialPointerPos;
+        bool chatting;
 
         public Form1()
         {
@@ -144,14 +135,152 @@ namespace Trailmate
             Fabric standard = new Fabric("Standard fabric", "This fabric is the most versatile fabric.", Properties.Resources.tent, fabric1PictureBox);
             Fabric insulating = new Fabric("Insulating fabric", "This fabric is best suitable for cold weather, as the special nanofibers keep the heat in and the cold out", Properties.Resources.tent_hot, fabric2PictureBox);
             Fabric breezy = new Fabric("Breezy fabric", "This fabric is best suitable for hot weather, as it allows the air to flow in the tent", Properties.Resources.tent_breezy, fabric3PictureBox);
-            Fabric enforced = new Fabric("Enforced fabric", "This fabric is suitable for hazardous phenomena as it protects your tent.", Properties.Resources.tent_enforced, fabric4PictureBox);
-            
-            fabrics.Add(standard);
-            fabrics.Add(insulating);
-            fabrics.Add(breezy);
-            fabrics.Add(enforced);
+            enforced = new Fabric("Enforced fabric", "This fabric is suitable for hazardous phenomena as it protects your tent.", Properties.Resources.tent_enforced, fabric4PictureBox);
 
             tentControlTentPreviewPictureBox.AllowDrop = true;
+            initialPointerPos = chatPointer.Location;
+        }
+
+        private void orderCancelButton_Click(object sender, EventArgs e)
+        {
+            if (chatting) return;
+
+            chatting = true;
+            MaterialLabel complaint = new MaterialLabel();
+            complaint.Text = "I want to cancel my order";
+            complaint.AutoSize = false;
+            complaint.Size = new Size(260, 110);
+            complaint.Location = new System.Drawing.Point(420, chatPointer.Location.Y);
+
+            chatPointer.Location = new System.Drawing.Point(chatPointer.Location.X, chatPointer.Location.Y + 27);
+            chatPanel.Controls.Add(complaint);
+
+            chatSession.Add(complaint);
+
+            MaterialLabel complaintAnwser = new MaterialLabel();
+            complaintAnwser.Text = "Right away! i will notify the store!";
+            complaintAnwser.AutoSize = false;
+            complaintAnwser.Size = new Size(360, 110);
+            complaintAnwser.Location = chatPointer.Location;
+            chatPointer.Location = new System.Drawing.Point(chatPointer.Location.X, chatPointer.Location.Y + 27);
+
+            timer4.Tag = complaintAnwser;
+            timer4.Enabled = true;
+
+            chatSession.Add(complaintAnwser);
+        }
+
+        private void orderLateLabel_Click(object sender, EventArgs e)
+        {
+            if (chatting) return;
+
+            chatting = true;
+            MaterialLabel complaint = new MaterialLabel();
+            complaint.Text = "My order is late";
+            complaint.AutoSize = false;
+            complaint.Size = new Size(260,110);
+            complaint.Location = new System.Drawing.Point(420, chatPointer.Location.Y);
+
+            chatPointer.Location = new System.Drawing.Point(chatPointer.Location.X, chatPointer.Location.Y + 27);
+            chatPanel.Controls.Add(complaint);
+
+            chatSession.Add(complaint);
+
+            MaterialLabel complaintAnwser = new MaterialLabel();
+            complaintAnwser.Text = "We will check with the store and notify you as soon as possible!";
+            complaintAnwser.AutoSize = false;
+            complaintAnwser.Size = new Size(360, 110);
+            complaintAnwser.Location = chatPointer.Location;
+            chatPointer.Location = new System.Drawing.Point(chatPointer.Location.X, chatPointer.Location.Y + 27);
+
+            timer4.Tag = complaintAnwser;
+            timer4.Enabled = true;
+
+            chatSession.Add(complaintAnwser);
+        }
+
+
+        private void orderWrongLabel_Click(object sender, EventArgs e)
+        {
+            if (chatting) return;
+
+            chatting = true;
+            MaterialLabel complaint = new MaterialLabel();
+            complaint.Text = "My order is wrong";
+            complaint.AutoSize = false;
+            complaint.Size = new Size(260, 110);
+            complaint.Location = new System.Drawing.Point(420, chatPointer.Location.Y);
+
+            chatPointer.Location = new System.Drawing.Point(chatPointer.Location.X, chatPointer.Location.Y + 27);
+            chatPanel.Controls.Add(complaint);
+
+            chatSession.Add(complaint);
+
+            MaterialLabel complaintAnwser = new MaterialLabel();
+            complaintAnwser.Text = "We are sorry for the inconvenience! I will notify the store to send a new order right away";
+            complaintAnwser.AutoSize = false;
+            complaintAnwser.Size = new Size(360, 110);
+            complaintAnwser.Location = chatPointer.Location;
+            chatPointer.Location = new System.Drawing.Point(chatPointer.Location.X, chatPointer.Location.Y + 27);
+
+            timer4.Tag = complaintAnwser;
+            timer4.Enabled = true;
+
+            chatSession.Add(complaintAnwser);
+        }
+
+
+        private void closeChat_Click(object sender, EventArgs e)
+        {
+            resetChat();
+            chatCard.Visible = false;
+        }
+
+        private void materialButton1_Click(object sender, EventArgs e)
+        {
+            chatCard.Visible = true;
+            chatCard.BringToFront();
+        }
+
+        private void timer4_Tick(object sender, EventArgs e)
+        {
+            MaterialLabel tag = timer4.Tag as MaterialLabel;
+            chatPanel.Controls.Add(tag);
+
+            timer4.Enabled = false;
+        }
+
+        void resetChat()
+        {
+            foreach (var item in chatSession)
+            {
+                chatPanel.Controls.Remove(item);
+            }
+
+            chatSession.Clear();
+            chatting = false;
+            chatPointer.Location = initialPointerPos;
+        }
+
+        private void saveChangesTentControlButton_Click(object sender, EventArgs e)
+        {
+            if (loadedFabric.name != "Enforced fabric")
+            {
+                changeFabricCard.Visible = true;
+            } else { 
+                changeFabricCard.Visible = false; 
+            }
+        }
+
+        private void seePreviewTentControlButton_Click(object sender, EventArgs e)
+        {
+            loadedFabric = enforced;
+
+            tentControlTentPreviewPictureBox.Image = loadedFabric.img;
+            defaultFabricNameLabel.Text = loadedFabric.name;
+            defaultFabricDescriptionLabel.Text = loadedFabric.description;
+
+            changeFabricCard.Visible = false;
         }
 
         private void onFabric_mouseDown(object sender, MouseEventArgs e)
@@ -183,28 +312,6 @@ namespace Trailmate
                 tentControlTentPreviewPictureBox.Image = loadedFabric.img;
                 defaultFabricNameLabel.Text = loadedFabric.name;
                 defaultFabricDescriptionLabel.Text = loadedFabric.description;
-                loadedFabric.usedCounter++;
-
-                updateFavorites();
-            }
-        }
-
-        void updateFavorites()
-        {
-            if (loadedFabric != null)
-            {
-                Fabric no1 = null;
-
-                foreach (Fabric item in fabrics)
-                {
-                    if(item.usedCounter >= no1.usedCounter)
-                    {
-                        no1 = item;
-                    }
-                }
-
-                mostUsedPictureBox1.Tag = no1;
-                //unfinished
             }
         }
 
@@ -631,6 +738,11 @@ namespace Trailmate
         private void orderNowHomeButton_Click(object sender, EventArgs e)
         {
             TabMaster.SelectTab(4);
+        }
+
+        private void gotoTentControlButton_Click(object sender, EventArgs e)
+        {
+            TabMaster.SelectTab(2);
         }
 
         private void energySeeMoreButton_Click(object sender, EventArgs e)

@@ -12,7 +12,6 @@ namespace Trailmate.Classes
     {
         public string name { get; private set; }
         public string description { get; private set; }
-        public int usedCounter { get; set; }
 
         public Bitmap img { get; private set; }
 
