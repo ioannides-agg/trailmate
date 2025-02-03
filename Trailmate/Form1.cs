@@ -60,6 +60,8 @@ namespace Trailmate
         System.Drawing.Point initialPointerPos;
         bool chatting;
 
+        bool solarPanelOn;
+
         public Form1()
         {
             InitializeComponent();
@@ -89,9 +91,9 @@ namespace Trailmate
             FoodItem Fries = new FoodItem("French fries", 5, frenchFriesAddButton);
 
             Event celineConcert = new Event(eventType.Concert, "Celine Dion", "9:00 pm", "2 hours", "At the central stage of the camping, near the cafe", concertInfoButton, concertGoingButton, eventGoingCheck1);
-            Event dayTrip = new Event(eventType.Trip, "Trip at ...", "9:30 am", "7 hours", "At the camping lobby", dayTripInfoButton, imGoingDayTripButton, eventGoingCheck2);
-            Event workshop = new Event(eventType.Workshop, "Programming workshop", "5:00 pm", "3 hours", "At the exhibitions hall, behind the cafe", workshopInfoButton, workshopImGoingButton, eventGoingCheck3);
-            Event hikeTour = new Event(eventType.Hike, "Hiking tour around the camp", "8:00 am", "3 hours", "At the camping lobby", hikeTourInfoButton, hikeTourImGoingButton, eventGoingCheck4);
+            Event dayTrip = new Event(eventType.Trip, "Trip at village", "9:30 am", "7 hours", "At the camping lobby", dayTripInfoButton, imGoingDayTripButton, eventGoingCheck2);
+            Event workshop = new Event(eventType.Workshop, "Wooden tools workshop", "5:00 pm", "3 hours", "At the exhibitions hall, behind the cafe", workshopInfoButton, workshopImGoingButton, eventGoingCheck3);
+            Event hikeTour = new Event(eventType.Hike, "Hiking Tour", "8:00 am", "3 hours", "At the camping lobby", hikeTourInfoButton, hikeTourImGoingButton, eventGoingCheck4);
 
             CampMarker Campsite1 = new CampMarker(new PointLatLng(38.196180, 23.736182), "Camp Site 1: 38.196180, 23.736182",
                 "320m", "Smooth", "Relatively flat", "1530 kg/m^3", "47%");
@@ -139,6 +141,18 @@ namespace Trailmate
 
             tentControlTentPreviewPictureBox.AllowDrop = true;
             initialPointerPos = chatPointer.Location;
+        }
+
+        private void solarButton_Click(object sender, EventArgs e)
+        {
+            solarPanelOn = !solarPanelOn;
+
+            if (solarPanelOn) {
+                solarButton.Text = "Disable";
+            } else
+            {
+                solarButton.Text = "Enable";
+            }
         }
 
         private void orderCancelButton_Click(object sender, EventArgs e)
@@ -609,13 +623,24 @@ namespace Trailmate
             timer1.Interval = initialInterval;
             update_tickrate();
 
-            if (Battery.Value >= 0)
-            {
-                Battery.Value -= 1;
-            }
-            else
-            {
-                timer1.Enabled = false;
+            if (solarPanelOn) {
+                if(Battery.Value < 100)
+                {
+                    Battery.Value += 1;
+                } 
+                else
+                {
+                    timer1.Enabled = false;
+                }
+            } else { 
+                if (Battery.Value >= 1)
+                {
+                    Battery.Value -= 1;
+                }
+                else
+                {
+                    timer1.Enabled = false;
+                }
             }
         }
 
@@ -705,32 +730,32 @@ namespace Trailmate
             switch (energySaving - energyConsumption)
             {
                 case -1:
-                    timer1.Interval = timer1.Interval - 1000;
+                    timer1.Interval = timer1.Interval - (1000 * (!solarPanelOn? 1 : 0));
                     break;
 
                 case -2:
-                    timer1.Interval = timer1.Interval - 1500;
+                    timer1.Interval = timer1.Interval - (1500 * (!solarPanelOn ? 1 : 0));
                     break;
 
                 case -3:
-                    timer1.Interval = timer1.Interval - 2000;
+                    timer1.Interval = timer1.Interval - (2000 * (!solarPanelOn ? 1 : 0));
                     break;
                 case -4:
-                    timer1.Interval = timer1.Interval - 2250;
+                    timer1.Interval = timer1.Interval - (2250 * (!solarPanelOn ? 1 : 0));
                     break;
                 case 0:
                     timer1.Interval = initialInterval;
                     break;
                 case 1:
-                    timer1.Interval = timer1.Interval + 1000;
+                    timer1.Interval = timer1.Interval + (1000 * (!solarPanelOn ? 1 : 0));
                     break;
 
                 case 2:
-                    timer1.Interval = timer1.Interval + 1500;
+                    timer1.Interval = timer1.Interval + (1500 * (!solarPanelOn ? 1 : 0));
                     break;
 
                 case 3:
-                    timer1.Interval = timer1.Interval + 2000;
+                    timer1.Interval = timer1.Interval + (2000 * (!solarPanelOn ? 1 : 0));
                     break;
             }
         }

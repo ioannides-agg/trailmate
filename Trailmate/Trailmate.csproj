@@ -328,6 +328,12 @@
   <ItemGroup>
     <None Include="Resources\sunny-day.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\solar-panel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\solar-panel %281%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
