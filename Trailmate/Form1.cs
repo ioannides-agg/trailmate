@@ -75,25 +75,25 @@ namespace Trailmate
             Map = new map(setupPage);
             initialInterval = timer1.Interval;
 
-            FoodItem Latte = new FoodItem("Latte", 4.5, latteAddButton);
-            FoodItem Cappuccino = new FoodItem("Cappuccino", 4, cappuccinoAddButton);
-            FoodItem Espresso = new FoodItem("Espresso", 3.5, espressoAddButton);
-            FoodItem Americano = new FoodItem("Americano", 4.5, americanoAddButton);
+            new FoodItem("Latte", 4.5, latteAddButton);
+            new FoodItem("Cappuccino", 4, cappuccinoAddButton);
+            new FoodItem("Espresso", 3.5, espressoAddButton);
+            new FoodItem("Americano", 4.5, americanoAddButton);
 
-            FoodItem Water = new FoodItem("Water", 0.5, waterAddButton);
-            FoodItem Lemonade = new FoodItem("Lemonade", 2.5, lemonadeAddButton);
-            FoodItem Orangade = new FoodItem("Orangade", 2.5, orangadeAddButton);
-            FoodItem Cocktail = new FoodItem("Cocktail", 10.5, cocktailAddButton);
+            new FoodItem("Water", 0.5, waterAddButton);
+            new FoodItem("Lemonade", 2.5, lemonadeAddButton);
+            new FoodItem("Orangade", 2.5, orangadeAddButton);
+            new FoodItem("Cocktail", 10.5, cocktailAddButton);
 
-            FoodItem Burger = new FoodItem("Burger", 13, burgerAddButton);
-            FoodItem Pizza = new FoodItem("Pizza", 12, pizzaAddButton);
-            FoodItem Sandwich = new FoodItem("Sandwich", 6.5, sandwichAddButton);
-            FoodItem Fries = new FoodItem("French fries", 5, frenchFriesAddButton);
+            new FoodItem("Burger", 13, burgerAddButton);
+            new FoodItem("Pizza", 12, pizzaAddButton);
+            new FoodItem("Sandwich", 6.5, sandwichAddButton);
+            new FoodItem("French fries", 5, frenchFriesAddButton);
 
-            Event celineConcert = new Event(eventType.Concert, "Celine Dion", "9:00 pm", "2 hours", "At the central stage of the camping, near the cafe", concertInfoButton, concertGoingButton, eventGoingCheck1);
-            Event dayTrip = new Event(eventType.Trip, "Trip at village", "9:30 am", "7 hours", "At the camping lobby", dayTripInfoButton, imGoingDayTripButton, eventGoingCheck2);
-            Event workshop = new Event(eventType.Workshop, "Wooden tools workshop", "5:00 pm", "3 hours", "At the exhibitions hall, behind the cafe", workshopInfoButton, workshopImGoingButton, eventGoingCheck3);
-            Event hikeTour = new Event(eventType.Hike, "Hiking Tour", "8:00 am", "3 hours", "At the camping lobby", hikeTourInfoButton, hikeTourImGoingButton, eventGoingCheck4);
+            new Event(eventType.Concert, "Celine Dion", "9:00 pm", "2 hours", "At the central stage of the camping, near the cafe", concertInfoButton, concertGoingButton, eventGoingCheck1);
+            new Event(eventType.Trip, "Trip at village", "9:30 am", "7 hours", "At the camping lobby", dayTripInfoButton, imGoingDayTripButton, eventGoingCheck2);
+            new Event(eventType.Workshop, "Wooden tools workshop", "5:00 pm", "3 hours", "At the exhibitions hall, behind the cafe", workshopInfoButton, workshopImGoingButton, eventGoingCheck3);
+            new Event(eventType.Hike, "Hiking Tour", "8:00 am", "3 hours", "At the camping lobby", hikeTourInfoButton, hikeTourImGoingButton, eventGoingCheck4);
 
             CampMarker Campsite1 = new CampMarker(new PointLatLng(38.196180, 23.736182), "Camp Site 1: 38.196180, 23.736182",
                 "320m", "Smooth", "Relatively flat", "1530 kg/m^3", "47%");
@@ -127,16 +127,16 @@ namespace Trailmate
             ExploreMap.setCamp();
             mapExploreCard.Controls.Add(ExploreMap.mapControl);
 
-            TouristSpot ForestRestaurant = new TouristSpot(new PointLatLng(38.198473, 23.735281), "Forest restaurant", "550m away", "4.5", "Open", forestRestaurantExploreLabel);
-            TouristSpot HikeTrail = new TouristSpot(new PointLatLng(38.194426, 23.738682), "Hike trail", "760m away", "3.9", "Open", hikeTrailExploreLabel);
-            TouristSpot Temple = new TouristSpot(new PointLatLng(38.198077, 23.743521), "Buddhist Temple", "1.4m away", "4.6", "Open", buddhistTempleExploreLabel);
-            TouristSpot Bar = new TouristSpot(new PointLatLng(38.195354, 23.739808), "Bar", "430m away", "4.9", "Open", BarExploreLabel);
+            new TouristSpot(new PointLatLng(38.198473, 23.735281), "Forest restaurant", "550m away", "4.5", "Open", forestRestaurantExploreLabel);
+            new TouristSpot(new PointLatLng(38.194426, 23.738682), "Hike trail", "760m away", "3.9", "Open", hikeTrailExploreLabel);
+            new TouristSpot(new PointLatLng(38.198077, 23.743521), "Buddhist Temple", "1.4m away", "4.6", "Open", buddhistTempleExploreLabel);
+            new TouristSpot(new PointLatLng(38.195354, 23.739808), "Bar", "430m away", "4.9", "Open", BarExploreLabel);
 
             changeColor(Color.Black);
 
-            Fabric standard = new Fabric("Standard fabric", "This fabric is the most versatile fabric.", Properties.Resources.tent, fabric1PictureBox);
-            Fabric insulating = new Fabric("Insulating fabric", "This fabric is best suitable for cold weather, as the special nanofibers keep the heat in and the cold out", Properties.Resources.tent_hot, fabric2PictureBox);
-            Fabric breezy = new Fabric("Breezy fabric", "This fabric is best suitable for hot weather, as it allows the air to flow in the tent", Properties.Resources.tent_breezy, fabric3PictureBox);
+            new Fabric("Standard fabric", "This fabric is the most versatile fabric.", Properties.Resources.tent, fabric1PictureBox);
+            new Fabric("Insulating fabric", "This fabric is best suitable for cold weather, as the special nanofibers keep the heat in and the cold out", Properties.Resources.tent_hot, fabric2PictureBox);
+            new Fabric("Breezy fabric", "This fabric is best suitable for hot weather, as it allows the air to flow in the tent", Properties.Resources.tent_breezy, fabric3PictureBox);
             enforced = new Fabric("Enforced fabric", "This fabric is suitable for hazardous phenomena as it protects your tent.", Properties.Resources.tent_enforced, fabric4PictureBox);
 
             tentControlTentPreviewPictureBox.AllowDrop = true;
